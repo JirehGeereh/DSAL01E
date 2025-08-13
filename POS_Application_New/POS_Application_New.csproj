@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfastmealB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfastmealA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\familymealB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doublevaluemealA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doublevaluemealAA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\friendmealA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfastmealA %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastameal101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\familycombomealA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenmealA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lunchvaluemeal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lunchvaluemealB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfastmealB%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pancakevaluemealA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenmeal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doublepalabocmeal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doublepalabocmeal1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
