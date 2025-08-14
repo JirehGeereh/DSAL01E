@@ -144,5 +144,10 @@ namespace POS_Application_New
             // Code for closing the execution of the Windows Form Application
             this.Close();
         }
+
+        private void Activity1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
