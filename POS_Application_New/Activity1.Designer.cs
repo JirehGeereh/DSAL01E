@@ -1,6 +1,6 @@
 ﻿namespace POS_Application_New
 {
-    partial class Form1
+    partial class Activity1
     {
         /// <summary>
         /// Required designer variable.
