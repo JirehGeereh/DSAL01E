@@ -96,5 +96,10 @@ namespace POS_Application_New
         {
 
         }
+
+        private void Activity2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

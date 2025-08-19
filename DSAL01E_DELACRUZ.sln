@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAL01E_DELACRUZ", "POS_Application_New\DSAL01E_DELACRUZ.csproj", "{2A6152D9-A945-4332-AC18-E1E74E364FF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KIOSKS", "KIOSKS\KIOSKS.csproj", "{749EC9AA-5662-42FD-AA5A-D60B19B36A1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2A6152D9-A945-4332-AC18-E1E74E364FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A6152D9-A945-4332-AC18-E1E74E364FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A6152D9-A945-4332-AC18-E1E74E364FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749EC9AA-5662-42FD-AA5A-D60B19B36A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749EC9AA-5662-42FD-AA5A-D60B19B36A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749EC9AA-5662-42FD-AA5A-D60B19B36A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749EC9AA-5662-42FD-AA5A-D60B19B36A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
