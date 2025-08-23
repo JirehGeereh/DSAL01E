@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAL01E_DELACRUZ", "POS_Application_New\DSAL01E_DELACRUZ.csproj", "{2A6152D9-A945-4332-AC18-E1E74E364FF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACTIVITY1", "POS_Application_New\ACTIVITY1.csproj", "{2A6152D9-A945-4332-AC18-E1E74E364FF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KIOSKS", "KIOSKS\KIOSKS.csproj", "{749EC9AA-5662-42FD-AA5A-D60B19B36A1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACTIVITY2", "KIOSKS\ACTIVITY2.csproj", "{749EC9AA-5662-42FD-AA5A-D60B19B36A1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
