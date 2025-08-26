@@ -68,9 +68,10 @@
             // 
             // new_btn
             // 
-            this.new_btn.Location = new System.Drawing.Point(670, 564);
+            this.new_btn.Location = new System.Drawing.Point(1005, 868);
+            this.new_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.new_btn.Name = "new_btn";
-            this.new_btn.Size = new System.Drawing.Size(87, 32);
+            this.new_btn.Size = new System.Drawing.Size(130, 49);
             this.new_btn.TabIndex = 15;
             this.new_btn.Text = "New";
             this.new_btn.UseVisualStyleBackColor = true;
@@ -78,9 +79,10 @@
             // 
             // exit_btn
             // 
-            this.exit_btn.Location = new System.Drawing.Point(762, 564);
+            this.exit_btn.Location = new System.Drawing.Point(1143, 868);
+            this.exit_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.exit_btn.Name = "exit_btn";
-            this.exit_btn.Size = new System.Drawing.Size(87, 32);
+            this.exit_btn.Size = new System.Drawing.Size(130, 49);
             this.exit_btn.TabIndex = 16;
             this.exit_btn.Text = "Exit";
             this.exit_btn.UseVisualStyleBackColor = true;
@@ -89,44 +91,49 @@
             // itemnamelabel
             // 
             this.itemnamelabel.AutoSize = true;
-            this.itemnamelabel.Location = new System.Drawing.Point(43, 537);
+            this.itemnamelabel.Location = new System.Drawing.Point(64, 826);
+            this.itemnamelabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.itemnamelabel.Name = "itemnamelabel";
-            this.itemnamelabel.Size = new System.Drawing.Size(61, 13);
+            this.itemnamelabel.Size = new System.Drawing.Size(91, 20);
             this.itemnamelabel.TabIndex = 17;
             this.itemnamelabel.Text = "Item Name:";
             this.itemnamelabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // itemnameTextbox
             // 
-            this.itemnameTextbox.Location = new System.Drawing.Point(110, 534);
+            this.itemnameTextbox.Location = new System.Drawing.Point(165, 822);
+            this.itemnameTextbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.itemnameTextbox.Name = "itemnameTextbox";
-            this.itemnameTextbox.Size = new System.Drawing.Size(242, 20);
+            this.itemnameTextbox.Size = new System.Drawing.Size(361, 26);
             this.itemnameTextbox.TabIndex = 18;
             // 
             // pricelabel
             // 
             this.pricelabel.AutoSize = true;
-            this.pricelabel.Location = new System.Drawing.Point(368, 537);
+            this.pricelabel.Location = new System.Drawing.Point(552, 826);
+            this.pricelabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pricelabel.Name = "pricelabel";
-            this.pricelabel.Size = new System.Drawing.Size(34, 13);
+            this.pricelabel.Size = new System.Drawing.Size(48, 20);
             this.pricelabel.TabIndex = 19;
             this.pricelabel.Text = "Price:";
             this.pricelabel.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // priceTxtbox
             // 
-            this.priceTxtbox.Location = new System.Drawing.Point(408, 534);
+            this.priceTxtbox.Location = new System.Drawing.Point(612, 822);
+            this.priceTxtbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.priceTxtbox.Name = "priceTxtbox";
-            this.priceTxtbox.Size = new System.Drawing.Size(100, 20);
+            this.priceTxtbox.Size = new System.Drawing.Size(148, 26);
             this.priceTxtbox.TabIndex = 20;
             // 
             // pictureBox11
             // 
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox11.Image = global::POS_Application_New.Properties.Resources.doublepalabocmeal1;
-            this.pictureBox11.Location = new System.Drawing.Point(670, 347);
+            this.pictureBox11.Location = new System.Drawing.Point(1005, 534);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox11.Size = new System.Drawing.Size(226, 231);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 14;
             this.pictureBox11.TabStop = false;
@@ -136,9 +143,10 @@
             // 
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox12.Image = global::POS_Application_New.Properties.Resources.chickenmeal2;
-            this.pictureBox12.Location = new System.Drawing.Point(514, 347);
+            this.pictureBox12.Location = new System.Drawing.Point(771, 534);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox12.Size = new System.Drawing.Size(226, 231);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 13;
             this.pictureBox12.TabStop = false;
@@ -148,9 +156,10 @@
             // 
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox13.Image = global::POS_Application_New.Properties.Resources.pancakevaluemealA;
-            this.pictureBox13.Location = new System.Drawing.Point(358, 347);
+            this.pictureBox13.Location = new System.Drawing.Point(537, 534);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox13.Size = new System.Drawing.Size(226, 231);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 12;
             this.pictureBox13.TabStop = false;
@@ -160,9 +169,10 @@
             // 
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox14.Image = global::POS_Application_New.Properties.Resources.breakfastmealB_1_;
-            this.pictureBox14.Location = new System.Drawing.Point(202, 347);
+            this.pictureBox14.Location = new System.Drawing.Point(303, 534);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox14.Size = new System.Drawing.Size(226, 231);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 11;
             this.pictureBox14.TabStop = false;
@@ -172,9 +182,10 @@
             // 
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox15.Image = global::POS_Application_New.Properties.Resources.lunchvaluemealB;
-            this.pictureBox15.Location = new System.Drawing.Point(46, 347);
+            this.pictureBox15.Location = new System.Drawing.Point(69, 534);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox15.Size = new System.Drawing.Size(226, 231);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 10;
             this.pictureBox15.TabStop = false;
@@ -184,9 +195,10 @@
             // 
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox6.Image = global::POS_Application_New.Properties.Resources.breakfastmealA__1_;
-            this.pictureBox6.Location = new System.Drawing.Point(670, 191);
+            this.pictureBox6.Location = new System.Drawing.Point(1005, 294);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox6.Size = new System.Drawing.Size(226, 231);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 9;
             this.pictureBox6.TabStop = false;
@@ -196,9 +208,10 @@
             // 
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox7.Image = global::POS_Application_New.Properties.Resources.pastameal101;
-            this.pictureBox7.Location = new System.Drawing.Point(514, 191);
+            this.pictureBox7.Location = new System.Drawing.Point(771, 294);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox7.Size = new System.Drawing.Size(226, 231);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 8;
             this.pictureBox7.TabStop = false;
@@ -208,9 +221,10 @@
             // 
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox8.Image = global::POS_Application_New.Properties.Resources.familycombomealA;
-            this.pictureBox8.Location = new System.Drawing.Point(358, 191);
+            this.pictureBox8.Location = new System.Drawing.Point(537, 294);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox8.Size = new System.Drawing.Size(226, 231);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
@@ -220,9 +234,10 @@
             // 
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox9.Image = global::POS_Application_New.Properties.Resources.chickenmealA;
-            this.pictureBox9.Location = new System.Drawing.Point(202, 191);
+            this.pictureBox9.Location = new System.Drawing.Point(303, 294);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox9.Size = new System.Drawing.Size(226, 231);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 6;
             this.pictureBox9.TabStop = false;
@@ -232,9 +247,10 @@
             // 
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox10.Image = global::POS_Application_New.Properties.Resources.lunchvaluemeal1;
-            this.pictureBox10.Location = new System.Drawing.Point(46, 191);
+            this.pictureBox10.Location = new System.Drawing.Point(69, 294);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox10.Size = new System.Drawing.Size(226, 231);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 5;
             this.pictureBox10.TabStop = false;
@@ -244,9 +260,10 @@
             // 
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox5.Image = global::POS_Application_New.Properties.Resources.breakfastmealA;
-            this.pictureBox5.Location = new System.Drawing.Point(670, 35);
+            this.pictureBox5.Location = new System.Drawing.Point(1005, 54);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox5.Size = new System.Drawing.Size(226, 231);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
@@ -256,9 +273,10 @@
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox4.Image = global::POS_Application_New.Properties.Resources.familymealB;
-            this.pictureBox4.Location = new System.Drawing.Point(514, 35);
+            this.pictureBox4.Location = new System.Drawing.Point(771, 54);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox4.Size = new System.Drawing.Size(226, 231);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -268,9 +286,10 @@
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox3.Image = global::POS_Application_New.Properties.Resources.doublevaluemealAA;
-            this.pictureBox3.Location = new System.Drawing.Point(358, 35);
+            this.pictureBox3.Location = new System.Drawing.Point(537, 54);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox3.Size = new System.Drawing.Size(226, 231);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -280,9 +299,10 @@
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Image = global::POS_Application_New.Properties.Resources.friendmealA;
-            this.pictureBox2.Location = new System.Drawing.Point(202, 35);
+            this.pictureBox2.Location = new System.Drawing.Point(303, 54);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox2.Size = new System.Drawing.Size(226, 231);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -292,9 +312,10 @@
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::POS_Application_New.Properties.Resources.breakfastmealB;
-            this.pictureBox1.Location = new System.Drawing.Point(46, 35);
+            this.pictureBox1.Location = new System.Drawing.Point(69, 54);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(151, 151);
+            this.pictureBox1.Size = new System.Drawing.Size(226, 231);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -302,9 +323,9 @@
             // 
             // Activity1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(860, 606);
+            this.ClientSize = new System.Drawing.Size(1290, 932);
             this.Controls.Add(this.priceTxtbox);
             this.Controls.Add(this.pricelabel);
             this.Controls.Add(this.itemnameTextbox);
@@ -326,8 +347,9 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Activity1";
-            this.Text = "Form1";
+            this.Text = "Example2";
             this.Load += new System.EventHandler(this.Activity1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();

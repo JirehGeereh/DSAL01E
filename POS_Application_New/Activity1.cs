@@ -80,7 +80,7 @@ namespace POS_Application_New
         {
             // Code for inserting or assigning a value to the Text property of a TextBox
             itemnameTextbox.Text = "Family Combo Meal A";
-            priceTxtbox.Text = "999.90";
+            priceTxtbox.Text = "99.90";
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -93,7 +93,7 @@ namespace POS_Application_New
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             // Code for inserting or assigning a value to the Text property of a TextBox
-            itemnameTextbox.Text = "Breakfast Meal A";
+            itemnameTextbox.Text = "Breakfast Meal B";
             priceTxtbox.Text = "91.30";
         }
 
