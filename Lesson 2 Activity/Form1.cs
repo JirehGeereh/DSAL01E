@@ -118,5 +118,15 @@ namespace Lesson_2_Activity
                 studimage.Image = Image.FromFile(dlg.FileName);
 
         }
+
+        private void totalmiscellanousfeetxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void totalmiscellanousfeetxtbox_disp_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
