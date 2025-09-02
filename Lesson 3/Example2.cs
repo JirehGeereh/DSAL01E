@@ -32,6 +32,7 @@ namespace Lesson_3
             change_txtbox.Enabled = false;
             totaldiscountedamount_txtbox.Enabled = false;
             totaldiscountgiven_txtbox.Enabled = false;
+            discountamount_txtbox.Enabled = false;
         }
 
         private void itemnane_txtbox_TextChanged(object sender, EventArgs e)
@@ -155,7 +156,7 @@ namespace Lesson_3
 
             // Convert string data from textboxes to numeric and place it as value of the variable
             qty = Convert.ToInt32(qty_txtbox.Text);
-            price = Convert.ToInt32(price_txtbox.Text);
+            price = Convert.ToDouble(price_txtbox.Text);
 
             // Create a formula needed for computation
             discount_amount = (qty * price) * 0.30;
@@ -179,7 +180,7 @@ namespace Lesson_3
 
             // Convert string data from textboxes to numeric and place it as value of the variable
             qty = Convert.ToInt32(qty_txtbox.Text);
-            price = Convert.ToInt32(price_txtbox.Text);
+            price = Convert.ToDouble(price_txtbox.Text);
 
             // Create a formula needed for computation
             discount_amount = (qty * price) * 0.10;
@@ -203,7 +204,7 @@ namespace Lesson_3
 
             // Convert string data from textboxes to numeric and place it as value of the variable
             qty = Convert.ToInt32(qty_txtbox.Text);
-            price = Convert.ToInt32(price_txtbox.Text);
+            price = Convert.ToDouble(price_txtbox.Text);
 
             // Create a formula needed for computation
             discount_amount = (qty * price) * 0.15;
@@ -227,7 +228,7 @@ namespace Lesson_3
 
             // Convert string data from textboxes to numeric and place it as value of the variable
             qty = Convert.ToInt32(qty_txtbox.Text);
-            price = Convert.ToInt32(price_txtbox.Text);
+            price = Convert.ToDouble(price_txtbox.Text);
 
             // Create a formula needed for computation
             discount_amount = (qty * price) * 0;
@@ -246,8 +247,13 @@ namespace Lesson_3
         private void calculatebtn_Click(object sender, EventArgs e)
         {
             // Decration of variables with data types
-            int qty;
-            double discount_amount, discounted_amount, cash_rendered, change;
+            int qty, qty_total;
+            double discount_amount, discounted_amount, cash_rendered, discounted_total, discount_total_given, change;
+
+            qty_total = 0;
+            discount_total_given = 0;
+            discounted_total = 0;
+
             qty = Convert.ToInt32(qty_txtbox.Text);
             discount_amount = Convert.ToDouble(discountamount_txtbox.Text);
             discounted_amount = Convert.ToDouble(discountedamount_txtbox.Text);
@@ -266,6 +272,11 @@ namespace Lesson_3
             change_txtbox.Text = change.ToString("n");
             cashrendered_txtbox.Text = cash_rendered.ToString("n");
 
+
+        }
+
+        private void qty_txtbox_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

@@ -213,6 +213,7 @@
             // 
             // change_txtbox
             // 
+            this.change_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.change_txtbox.Location = new System.Drawing.Point(239, 46);
             this.change_txtbox.Margin = new System.Windows.Forms.Padding(2);
             this.change_txtbox.Multiline = true;
@@ -222,6 +223,7 @@
             // 
             // cashrendered_txtbox
             // 
+            this.cashrendered_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cashrendered_txtbox.Location = new System.Drawing.Point(14, 46);
             this.cashrendered_txtbox.Margin = new System.Windows.Forms.Padding(2);
             this.cashrendered_txtbox.Multiline = true;
@@ -639,6 +641,7 @@
             this.qty_txtbox.Name = "qty_txtbox";
             this.qty_txtbox.Size = new System.Drawing.Size(140, 20);
             this.qty_txtbox.TabIndex = 113;
+            this.qty_txtbox.TextChanged += new System.EventHandler(this.qty_txtbox_TextChanged);
             // 
             // itemname_txtbox
             // 
