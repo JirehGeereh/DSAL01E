@@ -156,6 +156,7 @@
             this.exitbtn.TabIndex = 120;
             this.exitbtn.Text = "EXIT";
             this.exitbtn.UseVisualStyleBackColor = true;
+            this.exitbtn.Click += new System.EventHandler(this.exitbtn_Click);
             // 
             // totaldiscountedamount_txtbox
             // 
@@ -588,6 +589,7 @@
             this.cancelbtn.TabIndex = 119;
             this.cancelbtn.Text = "CANCEL";
             this.cancelbtn.UseVisualStyleBackColor = true;
+            this.cancelbtn.Click += new System.EventHandler(this.cancelbtn_Click);
             // 
             // newbtn
             // 
@@ -598,6 +600,7 @@
             this.newbtn.TabIndex = 118;
             this.newbtn.Text = "NEW";
             this.newbtn.UseVisualStyleBackColor = true;
+            this.newbtn.Click += new System.EventHandler(this.newbtn_Click);
             // 
             // calculatebtn
             // 

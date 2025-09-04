@@ -29,6 +29,7 @@ namespace Lesson_2_Activity
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // Disable textboxes to prevent user-error inputs
             totaltuitionandfeetxtbox_disp.Enabled = false;
             totalnumberofunitstxtbox_disp.Enabled = false;   
             totalotherschoolfeestxtbox_disp.Enabled = false; 
@@ -44,7 +45,7 @@ namespace Lesson_2_Activity
             totalmiscellanousfeetxtbox.Enabled = false;
             totaltuitionandfeetxtbox.Enabled = false;
 
-
+            // Add Programs to Programs Combobox
             programscombobox.Items.Add("Aeronautical Engineering");
             programscombobox.Items.Add("Civil Engineering");
             programscombobox.Items.Add("Computer Engineering");
@@ -62,6 +63,7 @@ namespace Lesson_2_Activity
 
         private void button4_Click(object sender, EventArgs e)
         {
+            // Clears the relevant textboxes
             studentnametxtbox.Clear();
             studentnumbertxtbox.Clear();
             yearleveltxtbox.Clear();
@@ -74,24 +76,13 @@ namespace Lesson_2_Activity
             timetxtbox.Clear();
             daytxtbox.Clear();
             labfeetxtbox.Clear();
-            totaltuitionfeetxtbox.Clear();
-            totalmiscellanousfeetxtbox.Clear();
             ciscolabtxtbox.Clear();
             exambooklettxtbox.Clear();
-            totaltuitionandfeetxtbox.Clear();
-
-            totaltuitionfeetxtbox_disp.Clear();
-            totalmiscellanousfeetxtbox_disp.Clear();
-            ciscolabtxtbox_disp.Clear();
-            computerlabtxtbox_disp.Clear();
-            exambooklettxtbox_disp.Clear();
-            totalotherschoolfeestxtbox_disp.Clear();
-            totalnumberofunitstxtbox_disp.Clear();
-            totaltuitionfeetxtbox_disp.Clear();
         }
+
+        // Global Variables
         int total_units, credit_units;
-        double exam_booklet, cisco_lab, computer_laboratory, total_miscellanous_fee;
-        double computer_laboratory_accu, cisco_lab_accu, exam_booklet_accu;
+        double exam_booklet, cisco_lab, computer_laboratory, total_miscellanous_fee, computer_laboratory_accu, cisco_lab_accu, exam_booklet_accu;
         private void button3_Click(object sender, EventArgs e)
         {
             // Declaration of variables with data types for tuition fee calculation
@@ -108,23 +99,24 @@ namespace Lesson_2_Activity
 
             total_units += credit_units;
 
+            total_miscellanous_fee += exam_booklet + cisco_lab + computer_laboratory;
+
             computer_laboratory_accu += computer_laboratory;
             cisco_lab_accu += cisco_lab;
             exam_booklet_accu += exam_booklet;
-
-            total_miscellanous_fee += exam_booklet + cisco_lab + computer_laboratory;
 
             // Converting string data form textboxes to numeric and place it as value of the variable
             creditunitstxtbox.Text = credit_units.ToString();
             totalnumberofunitstxtbox.Text = total_units.ToString();
             totalmiscellanousfeetxtbox.Text = total_miscellanous_fee.ToString();
             
-            totalmiscellanousfeetxtbox_disp.Text = total_miscellanous_fee.ToString();
+            totalmiscellanousfeetxtbox_disp.Text = total_miscellanous_fee.ToString("n");
 
-            computerlabtxtbox_disp.Text = computer_laboratory_accu.ToString();
-            ciscolabtxtbox_disp.Text = cisco_lab_accu.ToString();
-            exambooklettxtbox_disp.Text = exam_booklet_accu.ToString();
+            computerlabtxtbox_disp.Text = computer_laboratory_accu.ToString("n");
+            ciscolabtxtbox_disp.Text = cisco_lab_accu.ToString("n");
+            exambooklettxtbox_disp.Text = exam_booklet_accu.ToString("n");
 
+            // Add to listbox the entered data from textboxes
             coursenumberlistbox.Items.Add(coursenumbertxtbox.Text);
             coursecodelistbox.Items.Add(coursecodetxtbox.Text);
             coursedesclistbox.Items.Add(coursedesctxtbox.Text);
@@ -135,15 +127,9 @@ namespace Lesson_2_Activity
             daylistbox.Items.Add(daytxtbox.Text);
 
             totaltuitionfeetxtbox_disp.Text = totaltuitionfeetxtbox.Text;
-            totalmiscellanousfeetxtbox_disp.Text = totalmiscellanousfeetxtbox.Text;
-            computerlabtxtbox_disp.Text = labfeetxtbox.Text;
-            ciscolabtxtbox_disp.Text = ciscolabtxtbox.Text; 
-            exambooklettxtbox_disp.Text = exambooklettxtbox.Text;   
+            totalmiscellanousfeetxtbox_disp.Text = totalmiscellanousfeetxtbox.Text; 
             totalnumberofunitstxtbox_disp.Text = totalnumberofunitstxtbox.Text;
             totaltuitionandfeetxtbox_disp.Text = totaltuitionandfeetxtbox.Text;
-
-
-
         }
 
         private void browsebutton_Click(object sender, EventArgs e)
@@ -153,6 +139,7 @@ namespace Lesson_2_Activity
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Opens file dialog to select picture to be uploaded
             OpenFileDialog dlg = new OpenFileDialog();
             if (dlg.ShowDialog() == DialogResult.OK)
                 studimage.Image = Image.FromFile(dlg.FileName);
@@ -168,6 +155,7 @@ namespace Lesson_2_Activity
         {
 
         }
+        // Global Variable
         double tuitionfeeperunit;
         private void calculatetuitionfee_btn_Click(object sender, EventArgs e)
         {
@@ -186,6 +174,7 @@ namespace Lesson_2_Activity
             totaltuitionfeetxtbox_disp.Text = total_tuition_fee.ToString("n");
             totaltuitionandfeetxtbox_disp.Text = total_tuition_and_fee.ToString("n");
             totaltuitionandfeetxtbox.Text = total_tuition_and_fee.ToString("n");
+            totalotherschoolfeestxtbox_disp.Text = total_miscellanous_fee.ToString("n");
         }
     }
 }

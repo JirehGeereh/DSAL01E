@@ -236,23 +236,21 @@ namespace Lesson_3
 
             // Converting numeric data to string and display it inside the textboxes
             discountamount_txtbox.Text = discount_amount.ToString("n");
-            discountedamount_txtbox.Text = discounted_amount.ToString("n");
+            discountedamount_txtbox.Text = discount_amount.ToString("n");
 
             // Codes for unchecking the other radio buttons in the interface once with disc. card method is executed
             seniorcitizen_radbtn.Checked = false;
             employeedisc_radbtn.Checked = false;
             withdisccard_radbtn.Checked = false;
         }
-
+        int qty_total;
+        double discount_total_given, discounted_total;
         private void calculatebtn_Click(object sender, EventArgs e)
         {
             // Decration of variables with data types
-            int qty, qty_total;
-            double discount_amount, discounted_amount, cash_rendered, discounted_total, discount_total_given, change;
+            int qty;
+            double discount_amount, discounted_amount, cash_rendered, change;
 
-            qty_total = 0;
-            discount_total_given = 0;
-            discounted_total = 0;
 
             qty = Convert.ToInt32(qty_txtbox.Text);
             discount_amount = Convert.ToDouble(discountamount_txtbox.Text);
@@ -278,6 +276,36 @@ namespace Lesson_3
         private void qty_txtbox_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void newbtn_Click(object sender, EventArgs e)
+        {
+            itemname_txtbox.Clear();
+            qty_txtbox.Clear();
+            price_txtbox.Clear();
+            discountamount_txtbox.Clear();
+            discountedamount_txtbox.Clear();
+            cashrendered_txtbox.Clear();
+            change_txtbox.Clear(); 
+        }
+
+        private void cancelbtn_Click(object sender, EventArgs e)
+        {
+            itemname_txtbox.Clear();
+            qty_txtbox.Clear();
+            price_txtbox.Clear();
+            discountamount_txtbox.Clear();
+            discountedamount_txtbox.Clear();
+            totalqty_txtbox.Clear();
+            totaldiscountgiven_txtbox.Clear();
+            totaldiscountedamount_txtbox.Clear();
+            cashrendered_txtbox.Clear();
+            change_txtbox.Clear();
+        }
+
+        private void exitbtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
