@@ -16,7 +16,7 @@ namespace Lesson_2_Activity
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Prelims_Quiz_1());
         }
     }
 }

@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lesson_3
+namespace Lesson_2
 {
     internal static class Program
     {
@@ -16,7 +13,7 @@ namespace Lesson_3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Example_2());
+            Application.Run(new Lesson_2_Activity());
         }
     }
 }
