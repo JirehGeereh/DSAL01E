@@ -866,7 +866,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.studimage);
             this.Name = "Prelims_Quiz_1";
-            this.Text = "Lesson 2 Activity";
+            this.Text = "Prelims_Quiz_1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.studimage)).EndInit();
             this.ResumeLayout(false);

@@ -149,10 +149,9 @@
             // 
             // exitbtn
             // 
-            this.exitbtn.Location = new System.Drawing.Point(378, 141);
-            this.exitbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.exitbtn.Location = new System.Drawing.Point(567, 217);
             this.exitbtn.Name = "exitbtn";
-            this.exitbtn.Size = new System.Drawing.Size(86, 29);
+            this.exitbtn.Size = new System.Drawing.Size(129, 45);
             this.exitbtn.TabIndex = 120;
             this.exitbtn.Text = "EXIT";
             this.exitbtn.UseVisualStyleBackColor = true;
@@ -160,86 +159,77 @@
             // 
             // totaldiscountedamount_txtbox
             // 
-            this.totaldiscountedamount_txtbox.Location = new System.Drawing.Point(147, 83);
-            this.totaldiscountedamount_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.totaldiscountedamount_txtbox.Location = new System.Drawing.Point(220, 128);
             this.totaldiscountedamount_txtbox.Name = "totaldiscountedamount_txtbox";
-            this.totaldiscountedamount_txtbox.Size = new System.Drawing.Size(318, 20);
+            this.totaldiscountedamount_txtbox.Size = new System.Drawing.Size(475, 26);
             this.totaldiscountedamount_txtbox.TabIndex = 125;
             // 
             // totaldiscountgiven_txtbox
             // 
-            this.totaldiscountgiven_txtbox.Location = new System.Drawing.Point(147, 51);
-            this.totaldiscountgiven_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.totaldiscountgiven_txtbox.Location = new System.Drawing.Point(220, 78);
             this.totaldiscountgiven_txtbox.Name = "totaldiscountgiven_txtbox";
-            this.totaldiscountgiven_txtbox.Size = new System.Drawing.Size(318, 20);
+            this.totaldiscountgiven_txtbox.Size = new System.Drawing.Size(475, 26);
             this.totaldiscountgiven_txtbox.TabIndex = 124;
             // 
             // totalqty_txtbox
             // 
-            this.totalqty_txtbox.Location = new System.Drawing.Point(147, 18);
-            this.totalqty_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.totalqty_txtbox.Location = new System.Drawing.Point(220, 28);
             this.totalqty_txtbox.Name = "totalqty_txtbox";
-            this.totalqty_txtbox.Size = new System.Drawing.Size(318, 20);
+            this.totalqty_txtbox.Size = new System.Drawing.Size(475, 26);
             this.totalqty_txtbox.TabIndex = 121;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 84);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(20, 129);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(130, 13);
+            this.label9.Size = new System.Drawing.Size(193, 20);
             this.label9.TabIndex = 123;
             this.label9.Text = "Total Discounted Amount:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(13, 52);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(20, 80);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(110, 13);
+            this.label8.Size = new System.Drawing.Size(160, 20);
             this.label8.TabIndex = 122;
             this.label8.Text = "Total Discount Given:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(13, 20);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(20, 31);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 13);
+            this.label7.Size = new System.Drawing.Size(111, 20);
             this.label7.TabIndex = 121;
             this.label7.Text = "Total Quantity:";
             // 
             // change_txtbox
             // 
             this.change_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.change_txtbox.Location = new System.Drawing.Point(239, 46);
-            this.change_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.change_txtbox.Location = new System.Drawing.Point(358, 71);
             this.change_txtbox.Multiline = true;
             this.change_txtbox.Name = "change_txtbox";
-            this.change_txtbox.Size = new System.Drawing.Size(224, 83);
+            this.change_txtbox.Size = new System.Drawing.Size(334, 126);
             this.change_txtbox.TabIndex = 124;
             // 
             // cashrendered_txtbox
             // 
             this.cashrendered_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cashrendered_txtbox.Location = new System.Drawing.Point(14, 46);
-            this.cashrendered_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.cashrendered_txtbox.Location = new System.Drawing.Point(21, 71);
             this.cashrendered_txtbox.Multiline = true;
             this.cashrendered_txtbox.Name = "cashrendered_txtbox";
-            this.cashrendered_txtbox.Size = new System.Drawing.Size(224, 83);
+            this.cashrendered_txtbox.Size = new System.Drawing.Size(334, 126);
             this.cashrendered_txtbox.TabIndex = 123;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(293, 14);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(440, 22);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(120, 29);
+            this.label11.Size = new System.Drawing.Size(181, 40);
             this.label11.TabIndex = 122;
             this.label11.Text = "CHANGE:";
             // 
@@ -247,50 +237,45 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(14, 14);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(21, 22);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(224, 29);
+            this.label10.Size = new System.Drawing.Size(339, 40);
             this.label10.TabIndex = 121;
             this.label10.Text = "CASH RENDERED:";
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(429, 70);
-            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label34.Location = new System.Drawing.Point(644, 108);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(69, 13);
+            this.label34.Size = new System.Drawing.Size(100, 20);
             this.label34.TabIndex = 162;
             this.label34.Text = "Terminal #12";
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(275, 70);
-            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label33.Location = new System.Drawing.Point(412, 108);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(96, 13);
+            this.label33.Size = new System.Drawing.Size(143, 20);
             this.label33.TabIndex = 161;
             this.label33.Text = "By: Jireh Dela Cruz";
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(16, 70);
-            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label32.Location = new System.Drawing.Point(24, 108);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(48, 13);
+            this.label32.Size = new System.Drawing.Size(70, 20);
             this.label32.TabIndex = 143;
             this.label32.Text = "Label 12";
             // 
             // btn_one
             // 
             this.btn_one.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_one.Location = new System.Drawing.Point(419, 632);
-            this.btn_one.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_one.Location = new System.Drawing.Point(628, 972);
             this.btn_one.Name = "btn_one";
-            this.btn_one.Size = new System.Drawing.Size(77, 34);
+            this.btn_one.Size = new System.Drawing.Size(116, 52);
             this.btn_one.TabIndex = 160;
             this.btn_one.Text = "1";
             this.btn_one.UseVisualStyleBackColor = true;
@@ -298,18 +283,16 @@
             // dotbtn
             // 
             this.dotbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dotbtn.Location = new System.Drawing.Point(341, 632);
-            this.dotbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.dotbtn.Location = new System.Drawing.Point(512, 972);
             this.dotbtn.Name = "dotbtn";
-            this.dotbtn.Size = new System.Drawing.Size(77, 34);
+            this.dotbtn.Size = new System.Drawing.Size(116, 52);
             this.dotbtn.TabIndex = 159;
             this.dotbtn.Text = ".";
             this.dotbtn.UseVisualStyleBackColor = true;
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(552, 313);
-            this.button19.Margin = new System.Windows.Forms.Padding(2);
+            this.button19.Location = new System.Drawing.Point(828, 482);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(0, 0);
             this.button19.TabIndex = 158;
@@ -319,10 +302,9 @@
             // btn_five
             // 
             this.btn_five.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_five.Location = new System.Drawing.Point(419, 597);
-            this.btn_five.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_five.Location = new System.Drawing.Point(628, 918);
             this.btn_five.Name = "btn_five";
-            this.btn_five.Size = new System.Drawing.Size(77, 34);
+            this.btn_five.Size = new System.Drawing.Size(116, 52);
             this.btn_five.TabIndex = 157;
             this.btn_five.Text = "5";
             this.btn_five.UseVisualStyleBackColor = true;
@@ -330,10 +312,9 @@
             // btn_four
             // 
             this.btn_four.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_four.Location = new System.Drawing.Point(341, 597);
-            this.btn_four.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_four.Location = new System.Drawing.Point(512, 918);
             this.btn_four.Name = "btn_four";
-            this.btn_four.Size = new System.Drawing.Size(77, 34);
+            this.btn_four.Size = new System.Drawing.Size(116, 52);
             this.btn_four.TabIndex = 156;
             this.btn_four.Text = "4";
             this.btn_four.UseVisualStyleBackColor = true;
@@ -341,10 +322,9 @@
             // btn_three
             // 
             this.btn_three.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_three.Location = new System.Drawing.Point(263, 597);
-            this.btn_three.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_three.Location = new System.Drawing.Point(394, 918);
             this.btn_three.Name = "btn_three";
-            this.btn_three.Size = new System.Drawing.Size(77, 34);
+            this.btn_three.Size = new System.Drawing.Size(116, 52);
             this.btn_three.TabIndex = 155;
             this.btn_three.Text = "3";
             this.btn_three.UseVisualStyleBackColor = true;
@@ -352,10 +332,9 @@
             // btn_nine
             // 
             this.btn_nine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_nine.Location = new System.Drawing.Point(419, 562);
-            this.btn_nine.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_nine.Location = new System.Drawing.Point(628, 865);
             this.btn_nine.Name = "btn_nine";
-            this.btn_nine.Size = new System.Drawing.Size(77, 34);
+            this.btn_nine.Size = new System.Drawing.Size(116, 52);
             this.btn_nine.TabIndex = 154;
             this.btn_nine.Text = "9";
             this.btn_nine.UseVisualStyleBackColor = true;
@@ -363,10 +342,9 @@
             // btn_eight
             // 
             this.btn_eight.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_eight.Location = new System.Drawing.Point(341, 562);
-            this.btn_eight.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_eight.Location = new System.Drawing.Point(512, 865);
             this.btn_eight.Name = "btn_eight";
-            this.btn_eight.Size = new System.Drawing.Size(77, 34);
+            this.btn_eight.Size = new System.Drawing.Size(116, 52);
             this.btn_eight.TabIndex = 153;
             this.btn_eight.Text = "8";
             this.btn_eight.UseVisualStyleBackColor = true;
@@ -374,10 +352,9 @@
             // btn_seven
             // 
             this.btn_seven.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_seven.Location = new System.Drawing.Point(263, 562);
-            this.btn_seven.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_seven.Location = new System.Drawing.Point(394, 865);
             this.btn_seven.Name = "btn_seven";
-            this.btn_seven.Size = new System.Drawing.Size(77, 34);
+            this.btn_seven.Size = new System.Drawing.Size(116, 52);
             this.btn_seven.TabIndex = 152;
             this.btn_seven.Text = "7";
             this.btn_seven.UseVisualStyleBackColor = true;
@@ -385,10 +362,9 @@
             // btn_zero
             // 
             this.btn_zero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_zero.Location = new System.Drawing.Point(185, 632);
-            this.btn_zero.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_zero.Location = new System.Drawing.Point(278, 972);
             this.btn_zero.Name = "btn_zero";
-            this.btn_zero.Size = new System.Drawing.Size(155, 34);
+            this.btn_zero.Size = new System.Drawing.Size(232, 52);
             this.btn_zero.TabIndex = 151;
             this.btn_zero.Text = "0";
             this.btn_zero.UseVisualStyleBackColor = true;
@@ -396,10 +372,9 @@
             // btn_two
             // 
             this.btn_two.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_two.Location = new System.Drawing.Point(185, 597);
-            this.btn_two.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_two.Location = new System.Drawing.Point(278, 918);
             this.btn_two.Name = "btn_two";
-            this.btn_two.Size = new System.Drawing.Size(77, 34);
+            this.btn_two.Size = new System.Drawing.Size(116, 52);
             this.btn_two.TabIndex = 150;
             this.btn_two.Text = "2";
             this.btn_two.UseVisualStyleBackColor = true;
@@ -407,10 +382,9 @@
             // btn_six
             // 
             this.btn_six.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_six.Location = new System.Drawing.Point(185, 562);
-            this.btn_six.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_six.Location = new System.Drawing.Point(278, 865);
             this.btn_six.Name = "btn_six";
-            this.btn_six.Size = new System.Drawing.Size(77, 34);
+            this.btn_six.Size = new System.Drawing.Size(116, 52);
             this.btn_six.TabIndex = 149;
             this.btn_six.Text = "6";
             this.btn_six.UseVisualStyleBackColor = true;
@@ -418,10 +392,9 @@
             // addbtn
             // 
             this.addbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addbtn.Location = new System.Drawing.Point(419, 527);
-            this.addbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.addbtn.Location = new System.Drawing.Point(628, 811);
             this.addbtn.Name = "addbtn";
-            this.addbtn.Size = new System.Drawing.Size(77, 34);
+            this.addbtn.Size = new System.Drawing.Size(116, 52);
             this.addbtn.TabIndex = 148;
             this.addbtn.Text = "+";
             this.addbtn.UseVisualStyleBackColor = true;
@@ -429,10 +402,9 @@
             // subtractbtn
             // 
             this.subtractbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subtractbtn.Location = new System.Drawing.Point(341, 527);
-            this.subtractbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.subtractbtn.Location = new System.Drawing.Point(512, 811);
             this.subtractbtn.Name = "subtractbtn";
-            this.subtractbtn.Size = new System.Drawing.Size(77, 34);
+            this.subtractbtn.Size = new System.Drawing.Size(116, 52);
             this.subtractbtn.TabIndex = 147;
             this.subtractbtn.Text = "-";
             this.subtractbtn.UseVisualStyleBackColor = true;
@@ -440,10 +412,9 @@
             // multiplybtn
             // 
             this.multiplybtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.multiplybtn.Location = new System.Drawing.Point(263, 527);
-            this.multiplybtn.Margin = new System.Windows.Forms.Padding(2);
+            this.multiplybtn.Location = new System.Drawing.Point(394, 811);
             this.multiplybtn.Name = "multiplybtn";
-            this.multiplybtn.Size = new System.Drawing.Size(77, 34);
+            this.multiplybtn.Size = new System.Drawing.Size(116, 52);
             this.multiplybtn.TabIndex = 146;
             this.multiplybtn.Text = "*";
             this.multiplybtn.UseVisualStyleBackColor = true;
@@ -451,10 +422,9 @@
             // dividebtn
             // 
             this.dividebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dividebtn.Location = new System.Drawing.Point(185, 527);
-            this.dividebtn.Margin = new System.Windows.Forms.Padding(2);
+            this.dividebtn.Location = new System.Drawing.Point(278, 811);
             this.dividebtn.Name = "dividebtn";
-            this.dividebtn.Size = new System.Drawing.Size(77, 34);
+            this.dividebtn.Size = new System.Drawing.Size(116, 52);
             this.dividebtn.TabIndex = 145;
             this.dividebtn.Text = "/";
             this.dividebtn.UseVisualStyleBackColor = true;
@@ -464,10 +434,9 @@
             this.enterbtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.enterbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enterbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.enterbtn.Location = new System.Drawing.Point(19, 527);
-            this.enterbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.enterbtn.Location = new System.Drawing.Point(28, 811);
             this.enterbtn.Name = "enterbtn";
-            this.enterbtn.Size = new System.Drawing.Size(165, 139);
+            this.enterbtn.Size = new System.Drawing.Size(248, 214);
             this.enterbtn.TabIndex = 144;
             this.enterbtn.Text = "ENTER";
             this.enterbtn.UseVisualStyleBackColor = false;
@@ -478,11 +447,9 @@
             this.groupBox4.Controls.Add(this.cashrendered_txtbox);
             this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Controls.Add(this.label10);
-            this.groupBox4.Location = new System.Drawing.Point(19, 387);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Location = new System.Drawing.Point(28, 595);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(477, 135);
+            this.groupBox4.Size = new System.Drawing.Size(716, 208);
             this.groupBox4.TabIndex = 142;
             this.groupBox4.TabStop = false;
             // 
@@ -495,11 +462,9 @@
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(19, 272);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Location = new System.Drawing.Point(28, 418);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(477, 111);
+            this.groupBox3.Size = new System.Drawing.Size(716, 171);
             this.groupBox3.TabIndex = 141;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Summary";
@@ -524,20 +489,19 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.quantity_lbl);
             this.groupBox2.Controls.Add(this.name_of_an_item_lbl);
-            this.groupBox2.Location = new System.Drawing.Point(19, 85);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Location = new System.Drawing.Point(28, 131);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(477, 183);
+            this.groupBox2.Size = new System.Drawing.Size(716, 282);
             this.groupBox2.TabIndex = 140;
             this.groupBox2.TabStop = false;
             // 
             // nodiscount_radbtn
             // 
             this.nodiscount_radbtn.AutoSize = true;
-            this.nodiscount_radbtn.Location = new System.Drawing.Point(275, 147);
+            this.nodiscount_radbtn.Location = new System.Drawing.Point(412, 226);
+            this.nodiscount_radbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nodiscount_radbtn.Name = "nodiscount_radbtn";
-            this.nodiscount_radbtn.Size = new System.Drawing.Size(84, 17);
+            this.nodiscount_radbtn.Size = new System.Drawing.Size(121, 24);
             this.nodiscount_radbtn.TabIndex = 124;
             this.nodiscount_radbtn.TabStop = true;
             this.nodiscount_radbtn.Text = "No Discount";
@@ -547,9 +511,10 @@
             // employeedisc_radbtn
             // 
             this.employeedisc_radbtn.AutoSize = true;
-            this.employeedisc_radbtn.Location = new System.Drawing.Point(275, 115);
+            this.employeedisc_radbtn.Location = new System.Drawing.Point(412, 177);
+            this.employeedisc_radbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.employeedisc_radbtn.Name = "employeedisc_radbtn";
-            this.employeedisc_radbtn.Size = new System.Drawing.Size(98, 17);
+            this.employeedisc_radbtn.Size = new System.Drawing.Size(143, 24);
             this.employeedisc_radbtn.TabIndex = 123;
             this.employeedisc_radbtn.TabStop = true;
             this.employeedisc_radbtn.Text = "Employee Disc.";
@@ -559,9 +524,10 @@
             // withdisccard_radbtn
             // 
             this.withdisccard_radbtn.AutoSize = true;
-            this.withdisccard_radbtn.Location = new System.Drawing.Point(275, 83);
+            this.withdisccard_radbtn.Location = new System.Drawing.Point(412, 128);
+            this.withdisccard_radbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.withdisccard_radbtn.Name = "withdisccard_radbtn";
-            this.withdisccard_radbtn.Size = new System.Drawing.Size(99, 17);
+            this.withdisccard_radbtn.Size = new System.Drawing.Size(143, 24);
             this.withdisccard_radbtn.TabIndex = 122;
             this.withdisccard_radbtn.TabStop = true;
             this.withdisccard_radbtn.Text = "With Disc. Card";
@@ -571,9 +537,10 @@
             // seniorcitizen_radbtn
             // 
             this.seniorcitizen_radbtn.AutoSize = true;
-            this.seniorcitizen_radbtn.Location = new System.Drawing.Point(275, 51);
+            this.seniorcitizen_radbtn.Location = new System.Drawing.Point(412, 78);
+            this.seniorcitizen_radbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.seniorcitizen_radbtn.Name = "seniorcitizen_radbtn";
-            this.seniorcitizen_radbtn.Size = new System.Drawing.Size(89, 17);
+            this.seniorcitizen_radbtn.Size = new System.Drawing.Size(132, 24);
             this.seniorcitizen_radbtn.TabIndex = 121;
             this.seniorcitizen_radbtn.TabStop = true;
             this.seniorcitizen_radbtn.Text = "Senior Citizen";
@@ -582,10 +549,9 @@
             // 
             // cancelbtn
             // 
-            this.cancelbtn.Location = new System.Drawing.Point(378, 109);
-            this.cancelbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.cancelbtn.Location = new System.Drawing.Point(567, 168);
             this.cancelbtn.Name = "cancelbtn";
-            this.cancelbtn.Size = new System.Drawing.Size(86, 29);
+            this.cancelbtn.Size = new System.Drawing.Size(129, 45);
             this.cancelbtn.TabIndex = 119;
             this.cancelbtn.Text = "CANCEL";
             this.cancelbtn.UseVisualStyleBackColor = true;
@@ -593,10 +559,9 @@
             // 
             // newbtn
             // 
-            this.newbtn.Location = new System.Drawing.Point(378, 77);
-            this.newbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.newbtn.Location = new System.Drawing.Point(567, 118);
             this.newbtn.Name = "newbtn";
-            this.newbtn.Size = new System.Drawing.Size(86, 29);
+            this.newbtn.Size = new System.Drawing.Size(129, 45);
             this.newbtn.TabIndex = 118;
             this.newbtn.Text = "NEW";
             this.newbtn.UseVisualStyleBackColor = true;
@@ -604,10 +569,9 @@
             // 
             // calculatebtn
             // 
-            this.calculatebtn.Location = new System.Drawing.Point(378, 45);
-            this.calculatebtn.Margin = new System.Windows.Forms.Padding(2);
+            this.calculatebtn.Location = new System.Drawing.Point(567, 69);
             this.calculatebtn.Name = "calculatebtn";
-            this.calculatebtn.Size = new System.Drawing.Size(86, 29);
+            this.calculatebtn.Size = new System.Drawing.Size(129, 45);
             this.calculatebtn.TabIndex = 117;
             this.calculatebtn.Text = "CALCULATE";
             this.calculatebtn.UseVisualStyleBackColor = true;
@@ -615,93 +579,83 @@
             // 
             // discountedamount_txtbox
             // 
-            this.discountedamount_txtbox.Location = new System.Drawing.Point(121, 145);
-            this.discountedamount_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.discountedamount_txtbox.Location = new System.Drawing.Point(182, 223);
             this.discountedamount_txtbox.Name = "discountedamount_txtbox";
-            this.discountedamount_txtbox.Size = new System.Drawing.Size(140, 20);
+            this.discountedamount_txtbox.Size = new System.Drawing.Size(208, 26);
             this.discountedamount_txtbox.TabIndex = 116;
             // 
             // discountamount_txtbox
             // 
-            this.discountamount_txtbox.Location = new System.Drawing.Point(121, 113);
-            this.discountamount_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.discountamount_txtbox.Location = new System.Drawing.Point(182, 174);
             this.discountamount_txtbox.Name = "discountamount_txtbox";
-            this.discountamount_txtbox.Size = new System.Drawing.Size(140, 20);
+            this.discountamount_txtbox.Size = new System.Drawing.Size(208, 26);
             this.discountamount_txtbox.TabIndex = 115;
             // 
             // price_txtbox
             // 
-            this.price_txtbox.Location = new System.Drawing.Point(121, 81);
-            this.price_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.price_txtbox.Location = new System.Drawing.Point(182, 125);
             this.price_txtbox.Name = "price_txtbox";
-            this.price_txtbox.Size = new System.Drawing.Size(140, 20);
+            this.price_txtbox.Size = new System.Drawing.Size(208, 26);
             this.price_txtbox.TabIndex = 114;
             // 
             // qty_txtbox
             // 
-            this.qty_txtbox.Location = new System.Drawing.Point(121, 49);
-            this.qty_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.qty_txtbox.Location = new System.Drawing.Point(182, 75);
             this.qty_txtbox.Name = "qty_txtbox";
-            this.qty_txtbox.Size = new System.Drawing.Size(140, 20);
+            this.qty_txtbox.Size = new System.Drawing.Size(208, 26);
             this.qty_txtbox.TabIndex = 113;
             this.qty_txtbox.TextChanged += new System.EventHandler(this.qty_txtbox_TextChanged);
             // 
             // itemname_txtbox
             // 
-            this.itemname_txtbox.Location = new System.Drawing.Point(121, 18);
-            this.itemname_txtbox.Margin = new System.Windows.Forms.Padding(2);
+            this.itemname_txtbox.Location = new System.Drawing.Point(182, 28);
             this.itemname_txtbox.Name = "itemname_txtbox";
-            this.itemname_txtbox.Size = new System.Drawing.Size(345, 20);
+            this.itemname_txtbox.Size = new System.Drawing.Size(516, 26);
             this.itemname_txtbox.TabIndex = 112;
             this.itemname_txtbox.TextChanged += new System.EventHandler(this.itemnane_txtbox_TextChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 148);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(20, 228);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 13);
+            this.label6.Size = new System.Drawing.Size(154, 20);
             this.label6.TabIndex = 111;
             this.label6.Text = "Discounted Amount:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 116);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(20, 178);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 13);
+            this.label5.Size = new System.Drawing.Size(136, 20);
             this.label5.TabIndex = 110;
             this.label5.Text = "Discount Amount:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 84);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(20, 129);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 13);
+            this.label4.Size = new System.Drawing.Size(48, 20);
             this.label4.TabIndex = 109;
             this.label4.Text = "Price:";
             // 
             // quantity_lbl
             // 
             this.quantity_lbl.AutoSize = true;
-            this.quantity_lbl.Location = new System.Drawing.Point(13, 52);
-            this.quantity_lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.quantity_lbl.Location = new System.Drawing.Point(20, 80);
             this.quantity_lbl.Name = "quantity_lbl";
-            this.quantity_lbl.Size = new System.Drawing.Size(49, 13);
+            this.quantity_lbl.Size = new System.Drawing.Size(72, 20);
             this.quantity_lbl.TabIndex = 108;
             this.quantity_lbl.Text = "Quantity:";
             // 
             // name_of_an_item_lbl
             // 
             this.name_of_an_item_lbl.AutoSize = true;
-            this.name_of_an_item_lbl.Location = new System.Drawing.Point(13, 20);
-            this.name_of_an_item_lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.name_of_an_item_lbl.Location = new System.Drawing.Point(20, 31);
             this.name_of_an_item_lbl.Name = "name_of_an_item_lbl";
-            this.name_of_an_item_lbl.Size = new System.Drawing.Size(88, 13);
+            this.name_of_an_item_lbl.Size = new System.Drawing.Size(131, 20);
             this.name_of_an_item_lbl.TabIndex = 107;
             this.name_of_an_item_lbl.Text = "Name of an Item:";
             // 
@@ -709,190 +663,171 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Algerian", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 27);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(26, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(481, 30);
+            this.label1.Size = new System.Drawing.Size(714, 45);
             this.label1.TabIndex = 139;
             this.label1.Text = "GEEREH FOODS INC. POINT OF SALE";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(551, 608);
-            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label27.Location = new System.Drawing.Point(826, 935);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(71, 13);
+            this.label27.Size = new System.Drawing.Size(106, 20);
             this.label27.TabIndex = 155;
             this.label27.Text = "Zinger Burger";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(401, 608);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label28.Location = new System.Drawing.Point(602, 935);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(120, 13);
+            this.label28.Size = new System.Drawing.Size(177, 20);
             this.label28.TabIndex = 154;
             this.label28.Text = "Chicken Spaghetti Meal";
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(287, 608);
-            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label29.Location = new System.Drawing.Point(430, 935);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(94, 13);
+            this.label29.Size = new System.Drawing.Size(138, 20);
             this.label29.TabIndex = 153;
             this.label29.Text = "Zinger Steak Meal";
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(170, 608);
-            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label30.Location = new System.Drawing.Point(255, 935);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(81, 13);
+            this.label30.Size = new System.Drawing.Size(117, 20);
             this.label30.TabIndex = 152;
             this.label30.Text = "Rice Bowl Meal";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(45, 608);
-            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label31.Location = new System.Drawing.Point(68, 935);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(70, 13);
+            this.label31.Size = new System.Drawing.Size(103, 20);
             this.label31.TabIndex = 151;
             this.label31.Text = "Pasta Meal A";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(531, 455);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Location = new System.Drawing.Point(796, 700);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(116, 13);
+            this.label22.Size = new System.Drawing.Size(169, 20);
             this.label22.TabIndex = 150;
             this.label22.Text = "Pancake Value Meal A";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(410, 455);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label23.Location = new System.Drawing.Point(615, 700);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(103, 13);
+            this.label23.Size = new System.Drawing.Size(151, 20);
             this.label23.TabIndex = 149;
             this.label23.Text = "Lunch Value Meal B";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(283, 455);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Location = new System.Drawing.Point(424, 700);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(103, 13);
+            this.label24.Size = new System.Drawing.Size(151, 20);
             this.label24.TabIndex = 148;
             this.label24.Text = "Lunch Value Meal A";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(163, 455);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Location = new System.Drawing.Point(244, 700);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(89, 13);
+            this.label25.Size = new System.Drawing.Size(130, 20);
             this.label25.TabIndex = 147;
             this.label25.Text = "Jolly Meal Savers";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(26, 455);
-            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Location = new System.Drawing.Point(39, 700);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(108, 13);
+            this.label26.Size = new System.Drawing.Size(162, 20);
             this.label26.TabIndex = 146;
             this.label26.Text = "Family Combo Meal B";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(533, 302);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Location = new System.Drawing.Point(800, 465);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(108, 13);
+            this.label17.Size = new System.Drawing.Size(162, 20);
             this.label17.TabIndex = 145;
             this.label17.Text = "Family Combo Meal A";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(407, 302);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Location = new System.Drawing.Point(610, 465);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(107, 13);
+            this.label18.Size = new System.Drawing.Size(158, 20);
             this.label18.TabIndex = 144;
             this.label18.Text = "Double Value Meal B";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(281, 302);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Location = new System.Drawing.Point(422, 465);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(107, 13);
+            this.label19.Size = new System.Drawing.Size(158, 20);
             this.label19.TabIndex = 143;
             this.label19.Text = "Double Value Meal A";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(159, 302);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Location = new System.Drawing.Point(238, 465);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(97, 13);
+            this.label20.Size = new System.Drawing.Size(143, 20);
             this.label20.TabIndex = 142;
             this.label20.Text = "Double Pasta Meal";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(37, 302);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Location = new System.Drawing.Point(56, 465);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(82, 13);
+            this.label21.Size = new System.Drawing.Size(119, 20);
             this.label21.TabIndex = 141;
             this.label21.Text = "Chicken Meal B";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(543, 150);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Location = new System.Drawing.Point(814, 231);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(82, 13);
+            this.label16.Size = new System.Drawing.Size(119, 20);
             this.label16.TabIndex = 140;
             this.label16.Text = "Chicken Meal A";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(417, 150);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Location = new System.Drawing.Point(626, 231);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(89, 13);
+            this.label15.Size = new System.Drawing.Size(132, 20);
             this.label15.TabIndex = 139;
             this.label15.Text = "Breakfast Meal D";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(290, 150);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Location = new System.Drawing.Point(435, 231);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(88, 13);
+            this.label14.Size = new System.Drawing.Size(131, 20);
             this.label14.TabIndex = 138;
             this.label14.Text = "Breakfast Meal C";
             // 
@@ -938,9 +873,11 @@
             this.groupBox1.Controls.Add(this.Breakfast_Meal_C_picbox);
             this.groupBox1.Controls.Add(this.Breakfast_Meal_B_picbox);
             this.groupBox1.Controls.Add(this.Breakfast_Meal_A_picbox);
-            this.groupBox1.Location = new System.Drawing.Point(509, 11);
+            this.groupBox1.Location = new System.Drawing.Point(764, 17);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(660, 655);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(990, 1008);
             this.groupBox1.TabIndex = 138;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Items Display";
@@ -949,9 +886,10 @@
             // 
             this.Zinger_Burger_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Zinger_Burger_picbox.Image = global::Lesson_3.Properties.Resources.Zinger_Burger;
-            this.Zinger_Burger_picbox.Location = new System.Drawing.Point(527, 484);
+            this.Zinger_Burger_picbox.Location = new System.Drawing.Point(790, 745);
+            this.Zinger_Burger_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Zinger_Burger_picbox.Name = "Zinger_Burger_picbox";
-            this.Zinger_Burger_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Zinger_Burger_picbox.Size = new System.Drawing.Size(179, 184);
             this.Zinger_Burger_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Zinger_Burger_picbox.TabIndex = 137;
             this.Zinger_Burger_picbox.TabStop = false;
@@ -961,9 +899,10 @@
             // 
             this.Chicken_Spaghetti_Meal_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Chicken_Spaghetti_Meal_picbox.Image = global::Lesson_3.Properties.Resources.Chicken_Spaghetti_Meal;
-            this.Chicken_Spaghetti_Meal_picbox.Location = new System.Drawing.Point(400, 484);
+            this.Chicken_Spaghetti_Meal_picbox.Location = new System.Drawing.Point(600, 745);
+            this.Chicken_Spaghetti_Meal_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Chicken_Spaghetti_Meal_picbox.Name = "Chicken_Spaghetti_Meal_picbox";
-            this.Chicken_Spaghetti_Meal_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Chicken_Spaghetti_Meal_picbox.Size = new System.Drawing.Size(179, 184);
             this.Chicken_Spaghetti_Meal_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Chicken_Spaghetti_Meal_picbox.TabIndex = 136;
             this.Chicken_Spaghetti_Meal_picbox.TabStop = false;
@@ -973,9 +912,10 @@
             // 
             this.Zinger_Steak_Meal_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Zinger_Steak_Meal_picbox.Image = global::Lesson_3.Properties.Resources.Ala_King_Zinger_Steak_Meal;
-            this.Zinger_Steak_Meal_picbox.Location = new System.Drawing.Point(273, 484);
+            this.Zinger_Steak_Meal_picbox.Location = new System.Drawing.Point(410, 745);
+            this.Zinger_Steak_Meal_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Zinger_Steak_Meal_picbox.Name = "Zinger_Steak_Meal_picbox";
-            this.Zinger_Steak_Meal_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Zinger_Steak_Meal_picbox.Size = new System.Drawing.Size(179, 184);
             this.Zinger_Steak_Meal_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Zinger_Steak_Meal_picbox.TabIndex = 135;
             this.Zinger_Steak_Meal_picbox.TabStop = false;
@@ -985,9 +925,10 @@
             // 
             this.Rice_Bowl_Meal_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Rice_Bowl_Meal_picbox.Image = global::Lesson_3.Properties.Resources.Ala_King_Rice_Bowl_Meal;
-            this.Rice_Bowl_Meal_picbox.Location = new System.Drawing.Point(147, 484);
+            this.Rice_Bowl_Meal_picbox.Location = new System.Drawing.Point(220, 745);
+            this.Rice_Bowl_Meal_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Rice_Bowl_Meal_picbox.Name = "Rice_Bowl_Meal_picbox";
-            this.Rice_Bowl_Meal_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Rice_Bowl_Meal_picbox.Size = new System.Drawing.Size(179, 184);
             this.Rice_Bowl_Meal_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Rice_Bowl_Meal_picbox.TabIndex = 134;
             this.Rice_Bowl_Meal_picbox.TabStop = false;
@@ -997,9 +938,10 @@
             // 
             this.Pasta_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Pasta_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.pastameal101;
-            this.Pasta_Meal_A_picbox.Location = new System.Drawing.Point(20, 484);
+            this.Pasta_Meal_A_picbox.Location = new System.Drawing.Point(30, 745);
+            this.Pasta_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Pasta_Meal_A_picbox.Name = "Pasta_Meal_A_picbox";
-            this.Pasta_Meal_A_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Pasta_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
             this.Pasta_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pasta_Meal_A_picbox.TabIndex = 133;
             this.Pasta_Meal_A_picbox.TabStop = false;
@@ -1009,9 +951,10 @@
             // 
             this.Pancake_Value_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Pancake_Value_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.pancakevaluemealA;
-            this.Pancake_Value_Meal_A_picbox.Location = new System.Drawing.Point(527, 332);
+            this.Pancake_Value_Meal_A_picbox.Location = new System.Drawing.Point(790, 511);
+            this.Pancake_Value_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Pancake_Value_Meal_A_picbox.Name = "Pancake_Value_Meal_A_picbox";
-            this.Pancake_Value_Meal_A_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Pancake_Value_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
             this.Pancake_Value_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pancake_Value_Meal_A_picbox.TabIndex = 132;
             this.Pancake_Value_Meal_A_picbox.TabStop = false;
@@ -1021,9 +964,10 @@
             // 
             this.Lunch_Value_Meal_B_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Lunch_Value_Meal_B_picbox.Image = global::Lesson_3.Properties.Resources.lunchvaluemealB;
-            this.Lunch_Value_Meal_B_picbox.Location = new System.Drawing.Point(400, 332);
+            this.Lunch_Value_Meal_B_picbox.Location = new System.Drawing.Point(600, 511);
+            this.Lunch_Value_Meal_B_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Lunch_Value_Meal_B_picbox.Name = "Lunch_Value_Meal_B_picbox";
-            this.Lunch_Value_Meal_B_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Lunch_Value_Meal_B_picbox.Size = new System.Drawing.Size(179, 184);
             this.Lunch_Value_Meal_B_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Lunch_Value_Meal_B_picbox.TabIndex = 131;
             this.Lunch_Value_Meal_B_picbox.TabStop = false;
@@ -1033,9 +977,10 @@
             // 
             this.Lunch_Value_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Lunch_Value_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.lunchvaluemeal1;
-            this.Lunch_Value_Meal_A_picbox.Location = new System.Drawing.Point(273, 332);
+            this.Lunch_Value_Meal_A_picbox.Location = new System.Drawing.Point(410, 511);
+            this.Lunch_Value_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Lunch_Value_Meal_A_picbox.Name = "Lunch_Value_Meal_A_picbox";
-            this.Lunch_Value_Meal_A_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Lunch_Value_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
             this.Lunch_Value_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Lunch_Value_Meal_A_picbox.TabIndex = 130;
             this.Lunch_Value_Meal_A_picbox.TabStop = false;
@@ -1045,9 +990,10 @@
             // 
             this.Jolly_Meal_Savers_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Jolly_Meal_Savers_picbox.Image = global::Lesson_3.Properties.Resources.friendmealA;
-            this.Jolly_Meal_Savers_picbox.Location = new System.Drawing.Point(147, 332);
+            this.Jolly_Meal_Savers_picbox.Location = new System.Drawing.Point(220, 511);
+            this.Jolly_Meal_Savers_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Jolly_Meal_Savers_picbox.Name = "Jolly_Meal_Savers_picbox";
-            this.Jolly_Meal_Savers_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Jolly_Meal_Savers_picbox.Size = new System.Drawing.Size(179, 184);
             this.Jolly_Meal_Savers_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Jolly_Meal_Savers_picbox.TabIndex = 129;
             this.Jolly_Meal_Savers_picbox.TabStop = false;
@@ -1057,9 +1003,10 @@
             // 
             this.Family_Combo_Meal_B.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Family_Combo_Meal_B.Image = global::Lesson_3.Properties.Resources.familymealB;
-            this.Family_Combo_Meal_B.Location = new System.Drawing.Point(20, 332);
+            this.Family_Combo_Meal_B.Location = new System.Drawing.Point(30, 511);
+            this.Family_Combo_Meal_B.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Family_Combo_Meal_B.Name = "Family_Combo_Meal_B";
-            this.Family_Combo_Meal_B.Size = new System.Drawing.Size(120, 120);
+            this.Family_Combo_Meal_B.Size = new System.Drawing.Size(179, 184);
             this.Family_Combo_Meal_B.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Family_Combo_Meal_B.TabIndex = 128;
             this.Family_Combo_Meal_B.TabStop = false;
@@ -1069,9 +1016,10 @@
             // 
             this.Family_Combo_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Family_Combo_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.familycombomealA;
-            this.Family_Combo_Meal_A_picbox.Location = new System.Drawing.Point(527, 179);
+            this.Family_Combo_Meal_A_picbox.Location = new System.Drawing.Point(790, 275);
+            this.Family_Combo_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Family_Combo_Meal_A_picbox.Name = "Family_Combo_Meal_A_picbox";
-            this.Family_Combo_Meal_A_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Family_Combo_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
             this.Family_Combo_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Family_Combo_Meal_A_picbox.TabIndex = 127;
             this.Family_Combo_Meal_A_picbox.TabStop = false;
@@ -1081,9 +1029,10 @@
             // 
             this.Double_Value_Meal_B_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Double_Value_Meal_B_picbox.Image = global::Lesson_3.Properties.Resources.doublevaluemealAA;
-            this.Double_Value_Meal_B_picbox.Location = new System.Drawing.Point(400, 179);
+            this.Double_Value_Meal_B_picbox.Location = new System.Drawing.Point(600, 275);
+            this.Double_Value_Meal_B_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Double_Value_Meal_B_picbox.Name = "Double_Value_Meal_B_picbox";
-            this.Double_Value_Meal_B_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Double_Value_Meal_B_picbox.Size = new System.Drawing.Size(179, 184);
             this.Double_Value_Meal_B_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Double_Value_Meal_B_picbox.TabIndex = 126;
             this.Double_Value_Meal_B_picbox.TabStop = false;
@@ -1093,9 +1042,10 @@
             // 
             this.Double_Value_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Double_Value_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.doublevaluemealA;
-            this.Double_Value_Meal_A_picbox.Location = new System.Drawing.Point(273, 179);
+            this.Double_Value_Meal_A_picbox.Location = new System.Drawing.Point(410, 275);
+            this.Double_Value_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Double_Value_Meal_A_picbox.Name = "Double_Value_Meal_A_picbox";
-            this.Double_Value_Meal_A_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Double_Value_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
             this.Double_Value_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Double_Value_Meal_A_picbox.TabIndex = 125;
             this.Double_Value_Meal_A_picbox.TabStop = false;
@@ -1104,9 +1054,10 @@
             // 
             this.Double_Pasta_Meal_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Double_Pasta_Meal_picbox.Image = global::Lesson_3.Properties.Resources.doublepalabocmeal;
-            this.Double_Pasta_Meal_picbox.Location = new System.Drawing.Point(147, 179);
+            this.Double_Pasta_Meal_picbox.Location = new System.Drawing.Point(220, 275);
+            this.Double_Pasta_Meal_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Double_Pasta_Meal_picbox.Name = "Double_Pasta_Meal_picbox";
-            this.Double_Pasta_Meal_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Double_Pasta_Meal_picbox.Size = new System.Drawing.Size(179, 184);
             this.Double_Pasta_Meal_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Double_Pasta_Meal_picbox.TabIndex = 124;
             this.Double_Pasta_Meal_picbox.TabStop = false;
@@ -1116,9 +1067,10 @@
             // 
             this.Chicken_Meal_B_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Chicken_Meal_B_picbox.Image = global::Lesson_3.Properties.Resources.chickenmeal2;
-            this.Chicken_Meal_B_picbox.Location = new System.Drawing.Point(20, 179);
+            this.Chicken_Meal_B_picbox.Location = new System.Drawing.Point(30, 275);
+            this.Chicken_Meal_B_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Chicken_Meal_B_picbox.Name = "Chicken_Meal_B_picbox";
-            this.Chicken_Meal_B_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Chicken_Meal_B_picbox.Size = new System.Drawing.Size(179, 184);
             this.Chicken_Meal_B_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Chicken_Meal_B_picbox.TabIndex = 123;
             this.Chicken_Meal_B_picbox.TabStop = false;
@@ -1127,20 +1079,18 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(163, 150);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Location = new System.Drawing.Point(244, 231);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(88, 13);
+            this.label13.Size = new System.Drawing.Size(131, 20);
             this.label13.TabIndex = 122;
             this.label13.Text = "Breakfast Meal B";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(37, 150);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(56, 231);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(88, 13);
+            this.label12.Size = new System.Drawing.Size(131, 20);
             this.label12.TabIndex = 121;
             this.label12.Text = "Breakfast Meal A\r\n";
             // 
@@ -1148,9 +1098,10 @@
             // 
             this.Chicken_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Chicken_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.chickenmealA;
-            this.Chicken_Meal_A_picbox.Location = new System.Drawing.Point(527, 26);
+            this.Chicken_Meal_A_picbox.Location = new System.Drawing.Point(790, 40);
+            this.Chicken_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Chicken_Meal_A_picbox.Name = "Chicken_Meal_A_picbox";
-            this.Chicken_Meal_A_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Chicken_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
             this.Chicken_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Chicken_Meal_A_picbox.TabIndex = 89;
             this.Chicken_Meal_A_picbox.TabStop = false;
@@ -1160,9 +1111,10 @@
             // 
             this.Breakfast_Meal_D_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Breakfast_Meal_D_picbox.Image = global::Lesson_3.Properties.Resources.breakfastmealB_1_;
-            this.Breakfast_Meal_D_picbox.Location = new System.Drawing.Point(400, 26);
+            this.Breakfast_Meal_D_picbox.Location = new System.Drawing.Point(600, 40);
+            this.Breakfast_Meal_D_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Breakfast_Meal_D_picbox.Name = "Breakfast_Meal_D_picbox";
-            this.Breakfast_Meal_D_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Breakfast_Meal_D_picbox.Size = new System.Drawing.Size(179, 184);
             this.Breakfast_Meal_D_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Breakfast_Meal_D_picbox.TabIndex = 88;
             this.Breakfast_Meal_D_picbox.TabStop = false;
@@ -1172,9 +1124,10 @@
             // 
             this.Breakfast_Meal_C_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Breakfast_Meal_C_picbox.Image = global::Lesson_3.Properties.Resources.breakfastmealA__1_;
-            this.Breakfast_Meal_C_picbox.Location = new System.Drawing.Point(273, 26);
+            this.Breakfast_Meal_C_picbox.Location = new System.Drawing.Point(410, 40);
+            this.Breakfast_Meal_C_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Breakfast_Meal_C_picbox.Name = "Breakfast_Meal_C_picbox";
-            this.Breakfast_Meal_C_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Breakfast_Meal_C_picbox.Size = new System.Drawing.Size(179, 184);
             this.Breakfast_Meal_C_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Breakfast_Meal_C_picbox.TabIndex = 87;
             this.Breakfast_Meal_C_picbox.TabStop = false;
@@ -1184,9 +1137,10 @@
             // 
             this.Breakfast_Meal_B_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Breakfast_Meal_B_picbox.Image = global::Lesson_3.Properties.Resources.breakfastmealB;
-            this.Breakfast_Meal_B_picbox.Location = new System.Drawing.Point(147, 26);
+            this.Breakfast_Meal_B_picbox.Location = new System.Drawing.Point(220, 40);
+            this.Breakfast_Meal_B_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Breakfast_Meal_B_picbox.Name = "Breakfast_Meal_B_picbox";
-            this.Breakfast_Meal_B_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Breakfast_Meal_B_picbox.Size = new System.Drawing.Size(179, 184);
             this.Breakfast_Meal_B_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Breakfast_Meal_B_picbox.TabIndex = 86;
             this.Breakfast_Meal_B_picbox.TabStop = false;
@@ -1196,20 +1150,21 @@
             // 
             this.Breakfast_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Breakfast_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.breakfastmealA;
-            this.Breakfast_Meal_A_picbox.Location = new System.Drawing.Point(20, 26);
+            this.Breakfast_Meal_A_picbox.Location = new System.Drawing.Point(30, 40);
+            this.Breakfast_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Breakfast_Meal_A_picbox.Name = "Breakfast_Meal_A_picbox";
-            this.Breakfast_Meal_A_picbox.Size = new System.Drawing.Size(120, 120);
+            this.Breakfast_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
             this.Breakfast_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Breakfast_Meal_A_picbox.TabIndex = 85;
             this.Breakfast_Meal_A_picbox.TabStop = false;
             this.Breakfast_Meal_A_picbox.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // Example2
+            // Example_2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1185, 677);
+            this.ClientSize = new System.Drawing.Size(1778, 1042);
             this.Controls.Add(this.label34);
             this.Controls.Add(this.label33);
             this.Controls.Add(this.label32);
@@ -1235,8 +1190,9 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Example2";
-            this.Text = "Example2";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "Example_2";
+            this.Text = "Example_2";
             this.Load += new System.EventHandler(this.Example2_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
