@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lesson_2_Activity
 {
-    public partial class Form1 : Form
+    public partial class Lesson2_Act : Form
     {
-        public Form1()
+        public Lesson2_Act()
         {
             InitializeComponent();
         }
@@ -37,13 +37,6 @@ namespace Lesson_2_Activity
             computerlabtxtbox_disp.Enabled = false;
             totalmiscellanousfeetxtbox_disp.Enabled = false;
             totaltuitionfeetxtbox_disp.Enabled = false;
-            creditunitstxtbox.Enabled = false;
-            totalnumberofunitstxtbox.Enabled = false;
-            totalnumberofunitstxtbox.Enabled = false;
-            totaltuitionfeetxtbox.Enabled = false;
-            totalmiscellanousfeetxtbox.Enabled = false;
-            totaltuitionandfeetxtbox.Enabled = false;
-
 
             programscombobox.Items.Add("Aeronautical Engineering");
             programscombobox.Items.Add("Civil Engineering");
@@ -73,6 +66,8 @@ namespace Lesson_2_Activity
             unitlabtxtbox.Clear();
             timetxtbox.Clear();
             daytxtbox.Clear();
+            creditunitstxtbox.Clear();
+            totalnumberofunitstxtbox.Clear();
             labfeetxtbox.Clear();
             totaltuitionfeetxtbox.Clear();
             totalmiscellanousfeetxtbox.Clear();
@@ -88,43 +83,11 @@ namespace Lesson_2_Activity
             totalotherschoolfeestxtbox_disp.Clear();
             totalnumberofunitstxtbox_disp.Clear();
             totaltuitionfeetxtbox_disp.Clear();
+            totaltuitionandfeetxtbox_disp.Clear();
         }
-        int total_units, credit_units;
-        double exam_booklet, cisco_lab, computer_laboratory, total_miscellanous_fee;
-        double computer_laboratory_accu, cisco_lab_accu, exam_booklet_accu;
+
         private void button3_Click(object sender, EventArgs e)
         {
-            // Declaration of variables with data types for tuition fee calculation
-            int lecture_units, lab_units;
-
-            lecture_units = Convert.ToInt32(unitlecturetxtbox.Text);
-            lab_units = Convert.ToInt32(unitlabtxtbox.Text);
-            exam_booklet = Convert.ToDouble(exambooklettxtbox.Text);
-            cisco_lab = Convert.ToDouble(ciscolabtxtbox.Text);
-            computer_laboratory = Convert.ToDouble(labfeetxtbox.Text);
-
-            // Codes to accumulate the value of the total number of units from one transaction to another.
-            credit_units = lecture_units + lab_units;
-
-            total_units += credit_units;
-
-            computer_laboratory_accu += computer_laboratory;
-            cisco_lab_accu += cisco_lab;
-            exam_booklet_accu += exam_booklet;
-
-            total_miscellanous_fee += exam_booklet + cisco_lab + computer_laboratory;
-
-            // Converting string data form textboxes to numeric and place it as value of the variable
-            creditunitstxtbox.Text = credit_units.ToString();
-            totalnumberofunitstxtbox.Text = total_units.ToString();
-            totalmiscellanousfeetxtbox.Text = total_miscellanous_fee.ToString();
-            
-            totalmiscellanousfeetxtbox_disp.Text = total_miscellanous_fee.ToString();
-
-            computerlabtxtbox_disp.Text = computer_laboratory_accu.ToString();
-            ciscolabtxtbox_disp.Text = cisco_lab_accu.ToString();
-            exambooklettxtbox_disp.Text = exam_booklet_accu.ToString();
-
             coursenumberlistbox.Items.Add(coursenumbertxtbox.Text);
             coursecodelistbox.Items.Add(coursecodetxtbox.Text);
             coursedesclistbox.Items.Add(coursedesctxtbox.Text);
@@ -141,8 +104,6 @@ namespace Lesson_2_Activity
             exambooklettxtbox_disp.Text = exambooklettxtbox.Text;   
             totalnumberofunitstxtbox_disp.Text = totalnumberofunitstxtbox.Text;
             totaltuitionandfeetxtbox_disp.Text = totaltuitionandfeetxtbox.Text;
-
-
 
         }
 
@@ -168,24 +129,23 @@ namespace Lesson_2_Activity
         {
 
         }
-        double tuitionfeeperunit;
-        private void calculatetuitionfee_btn_Click(object sender, EventArgs e)
+
+        private void removefromlist_btn_Click(object sender, EventArgs e)
         {
-            // Declaration of variables with data types for tuition fee calculation
-            double total_number_of_units, total_tuition_fee, total_tuition_and_fee;
+            coursenumberlistbox.Items.RemoveAt(coursenumberlistbox.SelectedIndex);
+            coursecodelistbox.Items.RemoveAt(coursecodelistbox.SelectedIndex);
+            coursedesclistbox.Items.RemoveAt(coursedesclistbox.SelectedIndex);
+            unitleclistbox.Items.RemoveAt(unitleclistbox.SelectedIndex);
+            unitlablistbox.Items.RemoveAt(unitlablistbox.SelectedIndex);
+            creditunitslistbox.Items.RemoveAt(creditunitslistbox.SelectedIndex);
+            timelistbox.Items.RemoveAt(timelistbox.SelectedIndex);
+            daylistbox.Items.RemoveAt(daylistbox.SelectedIndex);
 
-            tuitionfeeperunit = 1700.00;
-            total_number_of_units = Convert.ToDouble(totalnumberofunitstxtbox.Text);
+        }
 
-            // Formulas to calculate total tuition fee and total tuition and fee
-            total_tuition_fee = tuitionfeeperunit * total_number_of_units;
-            total_tuition_and_fee = total_tuition_fee + total_miscellanous_fee;
+        private void studentnametxtbox_TextChanged(object sender, EventArgs e)
+        {
 
-            // Converting string data form textboxes to numeric and place it as value of the variable
-            totaltuitionfeetxtbox.Text = total_tuition_fee.ToString("n");
-            totaltuitionfeetxtbox_disp.Text = total_tuition_fee.ToString("n");
-            totaltuitionandfeetxtbox_disp.Text = total_tuition_and_fee.ToString("n");
-            totaltuitionandfeetxtbox.Text = total_tuition_and_fee.ToString("n");
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Lesson_2_Activity
 {
-    partial class Form1
+    partial class Lesson2_Act
     {
         /// <summary>
         /// Required designer variable.
@@ -107,7 +107,6 @@
             this.programscombobox = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.calculatetuitionfee_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.studimage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -139,6 +138,7 @@
             this.studentnametxtbox.Name = "studentnametxtbox";
             this.studentnametxtbox.Size = new System.Drawing.Size(265, 20);
             this.studentnametxtbox.TabIndex = 3;
+            this.studentnametxtbox.TextChanged += new System.EventHandler(this.studentnametxtbox_TextChanged);
             // 
             // label2
             // 
@@ -844,24 +844,12 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 20);
             this.dateTimePicker1.TabIndex = 87;
             // 
-            // calculatetuitionfee_btn
-            // 
-            this.calculatetuitionfee_btn.Location = new System.Drawing.Point(575, 97);
-            this.calculatetuitionfee_btn.Margin = new System.Windows.Forms.Padding(2);
-            this.calculatetuitionfee_btn.Name = "calculatetuitionfee_btn";
-            this.calculatetuitionfee_btn.Size = new System.Drawing.Size(119, 27);
-            this.calculatetuitionfee_btn.TabIndex = 88;
-            this.calculatetuitionfee_btn.Text = "Calculate Tuition Fee";
-            this.calculatetuitionfee_btn.UseVisualStyleBackColor = true;
-            this.calculatetuitionfee_btn.Click += new System.EventHandler(this.calculatetuitionfee_btn_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(722, 690);
-            this.Controls.Add(this.calculatetuitionfee_btn);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.programscombobox);
@@ -1032,7 +1020,6 @@
         private System.Windows.Forms.ComboBox programscombobox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button calculatetuitionfee_btn;
     }
 }
 
