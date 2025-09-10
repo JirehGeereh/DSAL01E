@@ -76,6 +76,12 @@ namespace Lesson_3
             price_txtbox.Text = "300.30";
         }
 
+        private void Double_Value_Meal_A_picbox_Click(object sender, EventArgs e)
+        {
+            itemname_txtbox.Text = "Double Value Meal A";
+            price_txtbox.Text = "200.00";
+        }
+
         private void Double_Value_Meal_B_picbox_Click(object sender, EventArgs e)
         {
             itemname_txtbox.Text = "Double Value Meal B";
@@ -236,7 +242,7 @@ namespace Lesson_3
 
             // Converting numeric data to string and display it inside the textboxes
             discountamount_txtbox.Text = discount_amount.ToString("n");
-            discountedamount_txtbox.Text = discount_amount.ToString("n");
+            discountedamount_txtbox.Text = discounted_amount.ToString("n");
 
             // Codes for unchecking the other radio buttons in the interface once with disc. card method is executed
             seniorcitizen_radbtn.Checked = false;
@@ -301,6 +307,25 @@ namespace Lesson_3
             totaldiscountedamount_txtbox.Clear();
             cashrendered_txtbox.Clear();
             change_txtbox.Clear();
+        }
+
+        private void enterbtn_Click(object sender, EventArgs e)
+        {
+            // Codes for calling the other form connected to the current form.
+            Example_2_Prelims_Exam print = new Example_2_Prelims_Exam();
+
+            // Codes for displaying the contents of the textbox from this form to the other form.
+            print.itemname_txtbox.Text = this.itemname_txtbox.Text;
+            print.qty_txtbox.Text = this.qty_txtbox.Text;
+            print.price_txtbox.Text = this.price_txtbox.Text;
+            print.discountamount_txtbox.Text = this.discountamount_txtbox.Text;
+            print.discountedamount_txtbox.Text = this.discountedamount_txtbox.Text;
+            print.totalqty_txtbox.Text = this.totalqty_txtbox.Text;
+            print.totaldiscountgiven_txtbox.Text = this.totaldiscountgiven_txtbox.Text;
+            print.totaldiscountedamount_txtbox.Text = this.totaldiscountedamount_txtbox.Text;
+            print.change_txtbox.Text = this.change_txtbox.Text;
+
+            print.Show();
         }
 
         private void exitbtn_Click(object sender, EventArgs e)

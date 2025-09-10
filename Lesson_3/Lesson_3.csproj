@@ -58,6 +58,18 @@
     <Compile Include="Example_2.Designer.cs">
       <DependentUpon>Example_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Example_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example_3.Designer.cs">
+      <DependentUpon>Example_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example_2_Prelims_Exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example_2_Prelims_Exam.Designer.cs">
+      <DependentUpon>Example_2_Prelims_Exam.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Example_1.resx">
@@ -65,6 +77,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Example_2.resx">
       <DependentUpon>Example_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example_3.resx">
+      <DependentUpon>Example_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example_2_Prelims_Exam.resx">
+      <DependentUpon>Example_2_Prelims_Exam.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
