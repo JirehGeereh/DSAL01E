@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_2", "Lesson_2\Lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_3", "Lesson_3\Lesson_3.csproj", "{49EA7442-38B5-42D2-84B7-B8C16CCC0568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz", "Quiz\Quiz.csproj", "{A17BB505-5F65-4F5C-9CB0-C6B397848109}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz_Exam", "Quiz\Quiz_Exam.csproj", "{A17BB505-5F65-4F5C-9CB0-C6B397848109}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

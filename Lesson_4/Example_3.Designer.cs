@@ -45,22 +45,22 @@
             this.B_PlainRiceCheckBox = new System.Windows.Forms.CheckBox();
             this.B_JollyChickenCheckBox = new System.Windows.Forms.CheckBox();
             this.orderdetails_grpbox = new System.Windows.Forms.GroupBox();
-            this.change_txtbox = new System.Windows.Forms.TextBox();
-            this.change_lbl = new System.Windows.Forms.Label();
-            this.cashgiven_txtbox = new System.Windows.Forms.TextBox();
-            this.cashgiven_lbl = new System.Windows.Forms.Label();
-            this.totalqty_txtbox = new System.Windows.Forms.TextBox();
-            this.totalqty_lbl = new System.Windows.Forms.Label();
+            this.discountedamount_txtbox = new System.Windows.Forms.TextBox();
+            this.discountamount_txtbox = new System.Windows.Forms.TextBox();
+            this.price_txtbox = new System.Windows.Forms.TextBox();
+            this.qty_txtbox = new System.Windows.Forms.TextBox();
+            this.discountedamount_lbl = new System.Windows.Forms.Label();
+            this.discounamount_lbl = new System.Windows.Forms.Label();
+            this.price_label = new System.Windows.Forms.Label();
+            this.quantity_lbl = new System.Windows.Forms.Label();
             this.totalbills_txtbox = new System.Windows.Forms.TextBox();
             this.totalbills_lbl = new System.Windows.Forms.Label();
-            this.discountedamount_txtbox = new System.Windows.Forms.TextBox();
-            this.price_txtbox = new System.Windows.Forms.TextBox();
-            this.discountamount_txtbox = new System.Windows.Forms.TextBox();
-            this.quantity_lbl = new System.Windows.Forms.Label();
-            this.price_label = new System.Windows.Forms.Label();
-            this.qty_txtbox = new System.Windows.Forms.TextBox();
-            this.discounamount_lbl = new System.Windows.Forms.Label();
-            this.discountedamount_lbl = new System.Windows.Forms.Label();
+            this.totalqty_txtbox = new System.Windows.Forms.TextBox();
+            this.totalqty_lbl = new System.Windows.Forms.Label();
+            this.cashgiven_txtbox = new System.Windows.Forms.TextBox();
+            this.cashgiven_lbl = new System.Windows.Forms.Label();
+            this.change_lbl = new System.Windows.Forms.Label();
+            this.change_txtbox = new System.Windows.Forms.TextBox();
             this.display_listbox = new System.Windows.Forms.ListBox();
             this.orderimage_lbl = new System.Windows.Forms.Label();
             this.display_picbox = new System.Windows.Forms.PictureBox();
@@ -335,53 +335,70 @@
             this.orderdetails_grpbox.TabStop = false;
             this.orderdetails_grpbox.Text = "Order Details";
             // 
-            // change_txtbox
+            // discountedamount_txtbox
             // 
-            this.change_txtbox.Location = new System.Drawing.Point(169, 387);
-            this.change_txtbox.Name = "change_txtbox";
-            this.change_txtbox.Size = new System.Drawing.Size(226, 26);
-            this.change_txtbox.TabIndex = 160;
+            this.discountedamount_txtbox.Location = new System.Drawing.Point(169, 187);
+            this.discountedamount_txtbox.Name = "discountedamount_txtbox";
+            this.discountedamount_txtbox.Size = new System.Drawing.Size(226, 26);
+            this.discountedamount_txtbox.TabIndex = 152;
             // 
-            // change_lbl
+            // discountamount_txtbox
             // 
-            this.change_lbl.AutoSize = true;
-            this.change_lbl.Location = new System.Drawing.Point(9, 390);
-            this.change_lbl.Name = "change_lbl";
-            this.change_lbl.Size = new System.Drawing.Size(69, 20);
-            this.change_lbl.TabIndex = 159;
-            this.change_lbl.Text = "Change:";
+            this.discountamount_txtbox.Location = new System.Drawing.Point(169, 137);
+            this.discountamount_txtbox.Name = "discountamount_txtbox";
+            this.discountamount_txtbox.Size = new System.Drawing.Size(226, 26);
+            this.discountamount_txtbox.TabIndex = 151;
             // 
-            // cashgiven_txtbox
+            // price_txtbox
             // 
-            this.cashgiven_txtbox.Location = new System.Drawing.Point(169, 337);
-            this.cashgiven_txtbox.Name = "cashgiven_txtbox";
-            this.cashgiven_txtbox.Size = new System.Drawing.Size(226, 26);
-            this.cashgiven_txtbox.TabIndex = 158;
+            this.price_txtbox.Location = new System.Drawing.Point(169, 37);
+            this.price_txtbox.Name = "price_txtbox";
+            this.price_txtbox.Size = new System.Drawing.Size(226, 26);
+            this.price_txtbox.TabIndex = 150;
             // 
-            // cashgiven_lbl
+            // qty_txtbox
             // 
-            this.cashgiven_lbl.AutoSize = true;
-            this.cashgiven_lbl.Location = new System.Drawing.Point(9, 340);
-            this.cashgiven_lbl.Name = "cashgiven_lbl";
-            this.cashgiven_lbl.Size = new System.Drawing.Size(95, 20);
-            this.cashgiven_lbl.TabIndex = 157;
-            this.cashgiven_lbl.Text = "Cash Given:";
+            this.qty_txtbox.Location = new System.Drawing.Point(169, 87);
+            this.qty_txtbox.Name = "qty_txtbox";
+            this.qty_txtbox.Size = new System.Drawing.Size(226, 26);
+            this.qty_txtbox.TabIndex = 149;
+            this.qty_txtbox.TextChanged += new System.EventHandler(this.qty_txtbox_TextChanged);
             // 
-            // totalqty_txtbox
+            // discountedamount_lbl
             // 
-            this.totalqty_txtbox.Location = new System.Drawing.Point(169, 287);
-            this.totalqty_txtbox.Name = "totalqty_txtbox";
-            this.totalqty_txtbox.Size = new System.Drawing.Size(226, 26);
-            this.totalqty_txtbox.TabIndex = 156;
+            this.discountedamount_lbl.AutoSize = true;
+            this.discountedamount_lbl.Location = new System.Drawing.Point(9, 190);
+            this.discountedamount_lbl.Name = "discountedamount_lbl";
+            this.discountedamount_lbl.Size = new System.Drawing.Size(154, 20);
+            this.discountedamount_lbl.TabIndex = 148;
+            this.discountedamount_lbl.Text = "Discounted Amount:";
             // 
-            // totalqty_lbl
+            // discounamount_lbl
             // 
-            this.totalqty_lbl.AutoSize = true;
-            this.totalqty_lbl.Location = new System.Drawing.Point(9, 290);
-            this.totalqty_lbl.Name = "totalqty_lbl";
-            this.totalqty_lbl.Size = new System.Drawing.Size(111, 20);
-            this.totalqty_lbl.TabIndex = 155;
-            this.totalqty_lbl.Text = "Total Quantity:";
+            this.discounamount_lbl.AutoSize = true;
+            this.discounamount_lbl.Location = new System.Drawing.Point(9, 140);
+            this.discounamount_lbl.Name = "discounamount_lbl";
+            this.discounamount_lbl.Size = new System.Drawing.Size(136, 20);
+            this.discounamount_lbl.TabIndex = 147;
+            this.discounamount_lbl.Text = "Discount Amount:";
+            // 
+            // price_label
+            // 
+            this.price_label.AutoSize = true;
+            this.price_label.Location = new System.Drawing.Point(9, 40);
+            this.price_label.Name = "price_label";
+            this.price_label.Size = new System.Drawing.Size(48, 20);
+            this.price_label.TabIndex = 146;
+            this.price_label.Text = "Price:";
+            // 
+            // quantity_lbl
+            // 
+            this.quantity_lbl.AutoSize = true;
+            this.quantity_lbl.Location = new System.Drawing.Point(9, 90);
+            this.quantity_lbl.Name = "quantity_lbl";
+            this.quantity_lbl.Size = new System.Drawing.Size(72, 20);
+            this.quantity_lbl.TabIndex = 145;
+            this.quantity_lbl.Text = "Quantity:";
             // 
             // totalbills_txtbox
             // 
@@ -399,69 +416,53 @@
             this.totalbills_lbl.TabIndex = 153;
             this.totalbills_lbl.Text = "Total Bills:";
             // 
-            // discountedamount_txtbox
+            // totalqty_txtbox
             // 
-            this.discountedamount_txtbox.Location = new System.Drawing.Point(169, 187);
-            this.discountedamount_txtbox.Name = "discountedamount_txtbox";
-            this.discountedamount_txtbox.Size = new System.Drawing.Size(226, 26);
-            this.discountedamount_txtbox.TabIndex = 152;
+            this.totalqty_txtbox.Location = new System.Drawing.Point(169, 287);
+            this.totalqty_txtbox.Name = "totalqty_txtbox";
+            this.totalqty_txtbox.Size = new System.Drawing.Size(226, 26);
+            this.totalqty_txtbox.TabIndex = 156;
             // 
-            // price_txtbox
+            // totalqty_lbl
             // 
-            this.price_txtbox.Location = new System.Drawing.Point(169, 37);
-            this.price_txtbox.Name = "price_txtbox";
-            this.price_txtbox.Size = new System.Drawing.Size(226, 26);
-            this.price_txtbox.TabIndex = 150;
+            this.totalqty_lbl.AutoSize = true;
+            this.totalqty_lbl.Location = new System.Drawing.Point(9, 290);
+            this.totalqty_lbl.Name = "totalqty_lbl";
+            this.totalqty_lbl.Size = new System.Drawing.Size(111, 20);
+            this.totalqty_lbl.TabIndex = 155;
+            this.totalqty_lbl.Text = "Total Quantity:";
             // 
-            // discountamount_txtbox
+            // cashgiven_txtbox
             // 
-            this.discountamount_txtbox.Location = new System.Drawing.Point(169, 137);
-            this.discountamount_txtbox.Name = "discountamount_txtbox";
-            this.discountamount_txtbox.Size = new System.Drawing.Size(226, 26);
-            this.discountamount_txtbox.TabIndex = 151;
+            this.cashgiven_txtbox.Location = new System.Drawing.Point(169, 337);
+            this.cashgiven_txtbox.Name = "cashgiven_txtbox";
+            this.cashgiven_txtbox.Size = new System.Drawing.Size(226, 26);
+            this.cashgiven_txtbox.TabIndex = 158;
             // 
-            // quantity_lbl
+            // cashgiven_lbl
             // 
-            this.quantity_lbl.AutoSize = true;
-            this.quantity_lbl.Location = new System.Drawing.Point(9, 90);
-            this.quantity_lbl.Name = "quantity_lbl";
-            this.quantity_lbl.Size = new System.Drawing.Size(72, 20);
-            this.quantity_lbl.TabIndex = 145;
-            this.quantity_lbl.Text = "Quantity:";
+            this.cashgiven_lbl.AutoSize = true;
+            this.cashgiven_lbl.Location = new System.Drawing.Point(9, 340);
+            this.cashgiven_lbl.Name = "cashgiven_lbl";
+            this.cashgiven_lbl.Size = new System.Drawing.Size(95, 20);
+            this.cashgiven_lbl.TabIndex = 157;
+            this.cashgiven_lbl.Text = "Cash Given:";
             // 
-            // price_label
+            // change_lbl
             // 
-            this.price_label.AutoSize = true;
-            this.price_label.Location = new System.Drawing.Point(9, 40);
-            this.price_label.Name = "price_label";
-            this.price_label.Size = new System.Drawing.Size(48, 20);
-            this.price_label.TabIndex = 146;
-            this.price_label.Text = "Price:";
+            this.change_lbl.AutoSize = true;
+            this.change_lbl.Location = new System.Drawing.Point(9, 390);
+            this.change_lbl.Name = "change_lbl";
+            this.change_lbl.Size = new System.Drawing.Size(69, 20);
+            this.change_lbl.TabIndex = 159;
+            this.change_lbl.Text = "Change:";
             // 
-            // qty_txtbox
+            // change_txtbox
             // 
-            this.qty_txtbox.Location = new System.Drawing.Point(169, 87);
-            this.qty_txtbox.Name = "qty_txtbox";
-            this.qty_txtbox.Size = new System.Drawing.Size(226, 26);
-            this.qty_txtbox.TabIndex = 149;
-            // 
-            // discounamount_lbl
-            // 
-            this.discounamount_lbl.AutoSize = true;
-            this.discounamount_lbl.Location = new System.Drawing.Point(9, 140);
-            this.discounamount_lbl.Name = "discounamount_lbl";
-            this.discounamount_lbl.Size = new System.Drawing.Size(136, 20);
-            this.discounamount_lbl.TabIndex = 147;
-            this.discounamount_lbl.Text = "Discount Amount:";
-            // 
-            // discountedamount_lbl
-            // 
-            this.discountedamount_lbl.AutoSize = true;
-            this.discountedamount_lbl.Location = new System.Drawing.Point(9, 190);
-            this.discountedamount_lbl.Name = "discountedamount_lbl";
-            this.discountedamount_lbl.Size = new System.Drawing.Size(154, 20);
-            this.discountedamount_lbl.TabIndex = 148;
-            this.discountedamount_lbl.Text = "Discounted Amount:";
+            this.change_txtbox.Location = new System.Drawing.Point(169, 387);
+            this.change_txtbox.Name = "change_txtbox";
+            this.change_txtbox.Size = new System.Drawing.Size(226, 26);
+            this.change_txtbox.TabIndex = 160;
             // 
             // display_listbox
             // 
@@ -966,10 +967,11 @@
             // 
             this.calculatebills_btn.Location = new System.Drawing.Point(904, 1007);
             this.calculatebills_btn.Name = "calculatebills_btn";
-            this.calculatebills_btn.Size = new System.Drawing.Size(179, 50);
+            this.calculatebills_btn.Size = new System.Drawing.Size(179, 49);
             this.calculatebills_btn.TabIndex = 149;
             this.calculatebills_btn.Text = "CALCULATE BILLS";
             this.calculatebills_btn.UseVisualStyleBackColor = true;
+            this.calculatebills_btn.Click += new System.EventHandler(this.calculatebills_btn_Click);
             // 
             // printtransaction_btn
             // 
@@ -1028,7 +1030,6 @@
             this.Controls.Add(this.GeerehFoods_lbl);
             this.Name = "Example_3";
             this.Text = "Example_3";
-            this.Load += new System.EventHandler(this.Example_3_Load);
             this.foodbundlesa_grpbox.ResumeLayout(false);
             this.foodbundlesa_grpbox.PerformLayout();
             this.foodorderchoices_grpbox.ResumeLayout(false);
