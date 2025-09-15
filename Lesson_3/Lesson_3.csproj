@@ -179,5 +179,74 @@
   <ItemGroup>
     <None Include="Resources\Zinger Burger.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angus_beef_shawarma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creamy_spinach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creamy_spinach_americana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bacon_glazed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hawaiian_delight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza_bianca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scallop_and_shrimp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\special_pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\truffle_four_cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pepperoni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\truffle_greens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinach_and_mushroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinach_and_glazed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scallop_primo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hi_protein.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garlic_and_cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classic_cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\belly_buster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classic_beef_and_onion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manager_choice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FoodBundlesA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FoodBundlesB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultimage.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

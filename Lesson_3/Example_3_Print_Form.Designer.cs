@@ -28,18 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.GeerehFoods_lbl = new System.Windows.Forms.Label();
+            this.printdisplay_listbox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(12, 92);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(383, 344);
-            this.listBox1.TabIndex = 0;
             // 
             // GeerehFoods_lbl
             // 
@@ -52,13 +43,22 @@
             this.GeerehFoods_lbl.Text = "GEEREH FOOD ORDERING APPLICATION";
             this.GeerehFoods_lbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // printdisplay_listbox
+            // 
+            this.printdisplay_listbox.FormattingEnabled = true;
+            this.printdisplay_listbox.ItemHeight = 20;
+            this.printdisplay_listbox.Location = new System.Drawing.Point(12, 92);
+            this.printdisplay_listbox.Name = "printdisplay_listbox";
+            this.printdisplay_listbox.Size = new System.Drawing.Size(383, 344);
+            this.printdisplay_listbox.TabIndex = 0;
+            // 
             // Example_3_Print_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(407, 450);
             this.Controls.Add(this.GeerehFoods_lbl);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.printdisplay_listbox);
             this.Name = "Example_3_Print_Form";
             this.Text = "Example_3_Print_Form";
             this.ResumeLayout(false);
@@ -66,8 +66,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label GeerehFoods_lbl;
+        internal System.Windows.Forms.ListBox printdisplay_listbox;
     }
 }

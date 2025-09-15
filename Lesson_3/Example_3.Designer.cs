@@ -63,88 +63,89 @@
             this.discountedamount_lbl = new System.Windows.Forms.Label();
             this.display_listbox = new System.Windows.Forms.ListBox();
             this.orderimage_lbl = new System.Windows.Forms.Label();
-            this.display_picbox = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.Zinger_Burger_picbox = new System.Windows.Forms.PictureBox();
-            this.Chicken_Spaghetti_Meal_picbox = new System.Windows.Forms.PictureBox();
-            this.Zinger_Steak_Meal_picbox = new System.Windows.Forms.PictureBox();
-            this.Rice_Bowl_Meal_picbox = new System.Windows.Forms.PictureBox();
-            this.Pasta_Meal_A_picbox = new System.Windows.Forms.PictureBox();
-            this.Pancake_Value_Meal_A_picbox = new System.Windows.Forms.PictureBox();
-            this.Lunch_Value_Meal_B_picbox = new System.Windows.Forms.PictureBox();
-            this.Lunch_Value_Meal_A_picbox = new System.Windows.Forms.PictureBox();
-            this.Jolly_Meal_Savers_picbox = new System.Windows.Forms.PictureBox();
-            this.Family_Combo_Meal_B = new System.Windows.Forms.PictureBox();
-            this.Family_Combo_Meal_A_picbox = new System.Windows.Forms.PictureBox();
-            this.Double_Value_Meal_B_picbox = new System.Windows.Forms.PictureBox();
-            this.Double_Value_Meal_A_picbox = new System.Windows.Forms.PictureBox();
-            this.Double_Pasta_Meal_picbox = new System.Windows.Forms.PictureBox();
-            this.Chicken_Meal_B_picbox = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.Chicken_Meal_A_picbox = new System.Windows.Forms.PictureBox();
-            this.Breakfast_Meal_D_picbox = new System.Windows.Forms.PictureBox();
-            this.Breakfast_Meal_C_picbox = new System.Windows.Forms.PictureBox();
-            this.Breakfast_Meal_B_picbox = new System.Windows.Forms.PictureBox();
-            this.Breakfast_Meal_A_picbox = new System.Windows.Forms.PictureBox();
+            this.managerschoice_checkbox = new System.Windows.Forms.CheckBox();
+            this.classicbeefandonion_checkbox = new System.Windows.Forms.CheckBox();
+            this.bellybuster_checkbox = new System.Windows.Forms.CheckBox();
+            this.classiccheese_checkbox = new System.Windows.Forms.CheckBox();
+            this.garlicandcheese_checkbox = new System.Windows.Forms.CheckBox();
+            this.hiprotein_checkbox = new System.Windows.Forms.CheckBox();
+            this.scallopandprimo_checkbox = new System.Windows.Forms.CheckBox();
+            this.spinachandglazed_checkbox = new System.Windows.Forms.CheckBox();
+            this.spinachandmushroom_checkbox = new System.Windows.Forms.CheckBox();
+            this.trufflegreens_checkbox = new System.Windows.Forms.CheckBox();
+            this.pepperoni_checkbox = new System.Windows.Forms.CheckBox();
+            this.trufflefourcheese_checkbox = new System.Windows.Forms.CheckBox();
+            this.specialpizza_checkbox = new System.Windows.Forms.CheckBox();
+            this.scallopandshrimp_checkbox = new System.Windows.Forms.CheckBox();
+            this.pizzabianca_checkbox = new System.Windows.Forms.CheckBox();
+            this.hawaiiandelight_checkbox = new System.Windows.Forms.CheckBox();
+            this.baconglazed_checkbox = new System.Windows.Forms.CheckBox();
+            this.creamyspinachamericana_checkbox = new System.Windows.Forms.CheckBox();
+            this.creamyspinach_checkbox = new System.Windows.Forms.CheckBox();
+            this.angusbeefshawarma_checkbox = new System.Windows.Forms.CheckBox();
+            this.managerschoice_picbox = new System.Windows.Forms.PictureBox();
+            this.classicbeefandonion_picbox = new System.Windows.Forms.PictureBox();
+            this.bellybuster_picbox = new System.Windows.Forms.PictureBox();
+            this.classiccheese_picbox = new System.Windows.Forms.PictureBox();
+            this.garlicandcheese_picbox = new System.Windows.Forms.PictureBox();
+            this.hiprotein_picbox = new System.Windows.Forms.PictureBox();
+            this.scallopandprimo_picbox = new System.Windows.Forms.PictureBox();
+            this.spinachandglazed_picbox = new System.Windows.Forms.PictureBox();
+            this.spinachandmushroom_picbox = new System.Windows.Forms.PictureBox();
+            this.trufflegreens_picbox = new System.Windows.Forms.PictureBox();
+            this.pepperoni_picbox = new System.Windows.Forms.PictureBox();
+            this.trufflefourcheese_picbox = new System.Windows.Forms.PictureBox();
+            this.specialpizza_picbox = new System.Windows.Forms.PictureBox();
+            this.scallopandshrimp_picbox = new System.Windows.Forms.PictureBox();
+            this.pizzabianca_picbox = new System.Windows.Forms.PictureBox();
+            this.hawaiiandelight_picbox = new System.Windows.Forms.PictureBox();
+            this.baconglazed_picbox = new System.Windows.Forms.PictureBox();
+            this.creamyspinachamericana_picbox = new System.Windows.Forms.PictureBox();
+            this.creamyspinach_picbox = new System.Windows.Forms.PictureBox();
+            this.angusbeefshawarma_picbox = new System.Windows.Forms.PictureBox();
             this.calculatebills_btn = new System.Windows.Forms.Button();
             this.printtransaction_btn = new System.Windows.Forms.Button();
             this.removeorder_btn = new System.Windows.Forms.Button();
             this.new_btn = new System.Windows.Forms.Button();
             this.exit_btn = new System.Windows.Forms.Button();
+            this.display_picbox = new System.Windows.Forms.PictureBox();
             this.foodbundlesa_grpbox.SuspendLayout();
             this.foodorderchoices_grpbox.SuspendLayout();
             this.foodbundlesb_grpbox.SuspendLayout();
             this.orderdetails_grpbox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.display_picbox)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Zinger_Burger_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Chicken_Spaghetti_Meal_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Zinger_Steak_Meal_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Rice_Bowl_Meal_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pasta_Meal_A_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pancake_Value_Meal_A_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Lunch_Value_Meal_B_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Lunch_Value_Meal_A_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jolly_Meal_Savers_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Family_Combo_Meal_B)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Family_Combo_Meal_A_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Double_Value_Meal_B_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Double_Value_Meal_A_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Double_Pasta_Meal_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Chicken_Meal_B_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Chicken_Meal_A_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Breakfast_Meal_D_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Breakfast_Meal_C_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Breakfast_Meal_B_picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Breakfast_Meal_A_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerschoice_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classicbeefandonion_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bellybuster_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classiccheese_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.garlicandcheese_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hiprotein_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scallopandprimo_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinachandglazed_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinachandmushroom_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trufflegreens_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pepperoni_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trufflefourcheese_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.specialpizza_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scallopandshrimp_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pizzabianca_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hawaiiandelight_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.baconglazed_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.creamyspinachamericana_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.creamyspinach_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.angusbeefshawarma_picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.display_picbox)).BeginInit();
             this.SuspendLayout();
             // 
             // GeerehFoods_lbl
             // 
+            this.GeerehFoods_lbl.BackColor = System.Drawing.Color.WhiteSmoke;
             this.GeerehFoods_lbl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.GeerehFoods_lbl.Font = new System.Drawing.Font("Algerian", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GeerehFoods_lbl.Font = new System.Drawing.Font("Bebas Neue", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GeerehFoods_lbl.Location = new System.Drawing.Point(0, 0);
             this.GeerehFoods_lbl.Name = "GeerehFoods_lbl";
-            this.GeerehFoods_lbl.Size = new System.Drawing.Size(1883, 77);
+            this.GeerehFoods_lbl.Size = new System.Drawing.Size(2019, 91);
             this.GeerehFoods_lbl.TabIndex = 140;
             this.GeerehFoods_lbl.Text = "GEEREH FOOD ORDERING APPLICATION";
             this.GeerehFoods_lbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -234,6 +235,7 @@
             this.foodB_rdbtn.TabStop = true;
             this.foodB_rdbtn.Text = "Food Bundle B";
             this.foodB_rdbtn.UseVisualStyleBackColor = true;
+            this.foodB_rdbtn.CheckedChanged += new System.EventHandler(this.foodB_rdbtn_CheckedChanged);
             // 
             // foodA_rdbtn
             // 
@@ -245,6 +247,7 @@
             this.foodA_rdbtn.TabStop = true;
             this.foodA_rdbtn.Text = "Food Bundle A";
             this.foodA_rdbtn.UseVisualStyleBackColor = true;
+            this.foodA_rdbtn.CheckedChanged += new System.EventHandler(this.foodA_rdbtn_CheckedChanged);
             // 
             // foodbundlesb_grpbox
             // 
@@ -444,6 +447,7 @@
             this.qty_txtbox.Name = "qty_txtbox";
             this.qty_txtbox.Size = new System.Drawing.Size(226, 26);
             this.qty_txtbox.TabIndex = 149;
+            this.qty_txtbox.TextChanged += new System.EventHandler(this.qty_txtbox_TextChanged);
             // 
             // discounamount_lbl
             // 
@@ -481,6 +485,587 @@
             this.orderimage_lbl.TabIndex = 147;
             this.orderimage_lbl.Text = "Order Image:";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.managerschoice_checkbox);
+            this.groupBox1.Controls.Add(this.classicbeefandonion_checkbox);
+            this.groupBox1.Controls.Add(this.bellybuster_checkbox);
+            this.groupBox1.Controls.Add(this.classiccheese_checkbox);
+            this.groupBox1.Controls.Add(this.garlicandcheese_checkbox);
+            this.groupBox1.Controls.Add(this.hiprotein_checkbox);
+            this.groupBox1.Controls.Add(this.scallopandprimo_checkbox);
+            this.groupBox1.Controls.Add(this.spinachandglazed_checkbox);
+            this.groupBox1.Controls.Add(this.spinachandmushroom_checkbox);
+            this.groupBox1.Controls.Add(this.trufflegreens_checkbox);
+            this.groupBox1.Controls.Add(this.pepperoni_checkbox);
+            this.groupBox1.Controls.Add(this.trufflefourcheese_checkbox);
+            this.groupBox1.Controls.Add(this.specialpizza_checkbox);
+            this.groupBox1.Controls.Add(this.scallopandshrimp_checkbox);
+            this.groupBox1.Controls.Add(this.pizzabianca_checkbox);
+            this.groupBox1.Controls.Add(this.hawaiiandelight_checkbox);
+            this.groupBox1.Controls.Add(this.baconglazed_checkbox);
+            this.groupBox1.Controls.Add(this.creamyspinachamericana_checkbox);
+            this.groupBox1.Controls.Add(this.creamyspinach_checkbox);
+            this.groupBox1.Controls.Add(this.angusbeefshawarma_checkbox);
+            this.groupBox1.Controls.Add(this.managerschoice_picbox);
+            this.groupBox1.Controls.Add(this.classicbeefandonion_picbox);
+            this.groupBox1.Controls.Add(this.bellybuster_picbox);
+            this.groupBox1.Controls.Add(this.classiccheese_picbox);
+            this.groupBox1.Controls.Add(this.garlicandcheese_picbox);
+            this.groupBox1.Controls.Add(this.hiprotein_picbox);
+            this.groupBox1.Controls.Add(this.scallopandprimo_picbox);
+            this.groupBox1.Controls.Add(this.spinachandglazed_picbox);
+            this.groupBox1.Controls.Add(this.spinachandmushroom_picbox);
+            this.groupBox1.Controls.Add(this.trufflegreens_picbox);
+            this.groupBox1.Controls.Add(this.pepperoni_picbox);
+            this.groupBox1.Controls.Add(this.trufflefourcheese_picbox);
+            this.groupBox1.Controls.Add(this.specialpizza_picbox);
+            this.groupBox1.Controls.Add(this.scallopandshrimp_picbox);
+            this.groupBox1.Controls.Add(this.pizzabianca_picbox);
+            this.groupBox1.Controls.Add(this.hawaiiandelight_picbox);
+            this.groupBox1.Controls.Add(this.baconglazed_picbox);
+            this.groupBox1.Controls.Add(this.creamyspinachamericana_picbox);
+            this.groupBox1.Controls.Add(this.creamyspinach_picbox);
+            this.groupBox1.Controls.Add(this.angusbeefshawarma_picbox);
+            this.groupBox1.Location = new System.Drawing.Point(874, 80);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(1126, 924);
+            this.groupBox1.TabIndex = 148;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "     ";
+            // 
+            // managerschoice_checkbox
+            // 
+            this.managerschoice_checkbox.AutoSize = true;
+            this.managerschoice_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.managerschoice_checkbox.Location = new System.Drawing.Point(929, 891);
+            this.managerschoice_checkbox.Name = "managerschoice_checkbox";
+            this.managerschoice_checkbox.Size = new System.Drawing.Size(147, 21);
+            this.managerschoice_checkbox.TabIndex = 175;
+            this.managerschoice_checkbox.Text = "Manager\'s Choice";
+            this.managerschoice_checkbox.UseVisualStyleBackColor = true;
+            this.managerschoice_checkbox.CheckedChanged += new System.EventHandler(this.managerschoice_checkbox_CheckedChanged);
+            // 
+            // classicbeefandonion_checkbox
+            // 
+            this.classicbeefandonion_checkbox.AutoSize = true;
+            this.classicbeefandonion_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.classicbeefandonion_checkbox.Location = new System.Drawing.Point(692, 891);
+            this.classicbeefandonion_checkbox.Name = "classicbeefandonion_checkbox";
+            this.classicbeefandonion_checkbox.Size = new System.Drawing.Size(181, 21);
+            this.classicbeefandonion_checkbox.TabIndex = 174;
+            this.classicbeefandonion_checkbox.Text = "Classic Beef and Onion";
+            this.classicbeefandonion_checkbox.UseVisualStyleBackColor = true;
+            this.classicbeefandonion_checkbox.CheckedChanged += new System.EventHandler(this.classicbeefandonion_checkbox_CheckedChanged);
+            // 
+            // bellybuster_checkbox
+            // 
+            this.bellybuster_checkbox.AutoSize = true;
+            this.bellybuster_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bellybuster_checkbox.Location = new System.Drawing.Point(508, 891);
+            this.bellybuster_checkbox.Name = "bellybuster_checkbox";
+            this.bellybuster_checkbox.Size = new System.Drawing.Size(109, 21);
+            this.bellybuster_checkbox.TabIndex = 173;
+            this.bellybuster_checkbox.Text = "Belly Buster";
+            this.bellybuster_checkbox.UseVisualStyleBackColor = true;
+            this.bellybuster_checkbox.CheckedChanged += new System.EventHandler(this.bellybuster_checkbox_CheckedChanged);
+            // 
+            // classiccheese_checkbox
+            // 
+            this.classiccheese_checkbox.AutoSize = true;
+            this.classiccheese_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.classiccheese_checkbox.Location = new System.Drawing.Point(277, 891);
+            this.classiccheese_checkbox.Name = "classiccheese_checkbox";
+            this.classiccheese_checkbox.Size = new System.Drawing.Size(130, 21);
+            this.classiccheese_checkbox.TabIndex = 172;
+            this.classiccheese_checkbox.Text = "Classic Cheese";
+            this.classiccheese_checkbox.UseVisualStyleBackColor = true;
+            this.classiccheese_checkbox.CheckedChanged += new System.EventHandler(this.classiccheese_checkbox_CheckedChanged);
+            // 
+            // garlicandcheese_checkbox
+            // 
+            this.garlicandcheese_checkbox.AutoSize = true;
+            this.garlicandcheese_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.garlicandcheese_checkbox.Location = new System.Drawing.Point(48, 891);
+            this.garlicandcheese_checkbox.Name = "garlicandcheese_checkbox";
+            this.garlicandcheese_checkbox.Size = new System.Drawing.Size(151, 21);
+            this.garlicandcheese_checkbox.TabIndex = 171;
+            this.garlicandcheese_checkbox.Text = "Garlic and Cheese";
+            this.garlicandcheese_checkbox.UseVisualStyleBackColor = true;
+            this.garlicandcheese_checkbox.CheckedChanged += new System.EventHandler(this.garlicandcheese_checkbox_CheckedChanged);
+            // 
+            // hiprotein_checkbox
+            // 
+            this.hiprotein_checkbox.AutoSize = true;
+            this.hiprotein_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hiprotein_checkbox.Location = new System.Drawing.Point(954, 671);
+            this.hiprotein_checkbox.Name = "hiprotein_checkbox";
+            this.hiprotein_checkbox.Size = new System.Drawing.Size(96, 21);
+            this.hiprotein_checkbox.TabIndex = 170;
+            this.hiprotein_checkbox.Text = "Hi Protein";
+            this.hiprotein_checkbox.UseVisualStyleBackColor = true;
+            this.hiprotein_checkbox.CheckedChanged += new System.EventHandler(this.hiprotein_checkbox_CheckedChanged);
+            // 
+            // scallopandprimo_checkbox
+            // 
+            this.scallopandprimo_checkbox.AutoSize = true;
+            this.scallopandprimo_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scallopandprimo_checkbox.Location = new System.Drawing.Point(708, 671);
+            this.scallopandprimo_checkbox.Name = "scallopandprimo_checkbox";
+            this.scallopandprimo_checkbox.Size = new System.Drawing.Size(148, 21);
+            this.scallopandprimo_checkbox.TabIndex = 169;
+            this.scallopandprimo_checkbox.Text = "Scallop and Primo";
+            this.scallopandprimo_checkbox.UseVisualStyleBackColor = true;
+            this.scallopandprimo_checkbox.CheckedChanged += new System.EventHandler(this.scallopandprimo_checkbox_CheckedChanged);
+            // 
+            // spinachandglazed_checkbox
+            // 
+            this.spinachandglazed_checkbox.AutoSize = true;
+            this.spinachandglazed_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinachandglazed_checkbox.Location = new System.Drawing.Point(482, 671);
+            this.spinachandglazed_checkbox.Name = "spinachandglazed_checkbox";
+            this.spinachandglazed_checkbox.Size = new System.Drawing.Size(162, 21);
+            this.spinachandglazed_checkbox.TabIndex = 168;
+            this.spinachandglazed_checkbox.Text = "Spinach and Glazed";
+            this.spinachandglazed_checkbox.UseVisualStyleBackColor = true;
+            this.spinachandglazed_checkbox.CheckedChanged += new System.EventHandler(this.spinachandglazed_checkbox_CheckedChanged);
+            // 
+            // spinachandmushroom_checkbox
+            // 
+            this.spinachandmushroom_checkbox.AutoSize = true;
+            this.spinachandmushroom_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinachandmushroom_checkbox.Location = new System.Drawing.Point(251, 671);
+            this.spinachandmushroom_checkbox.Name = "spinachandmushroom_checkbox";
+            this.spinachandmushroom_checkbox.Size = new System.Drawing.Size(183, 21);
+            this.spinachandmushroom_checkbox.TabIndex = 167;
+            this.spinachandmushroom_checkbox.Text = "Spinach and Mushroom";
+            this.spinachandmushroom_checkbox.UseVisualStyleBackColor = true;
+            this.spinachandmushroom_checkbox.CheckedChanged += new System.EventHandler(this.spinachandmushroom_checkbox_CheckedChanged);
+            // 
+            // trufflegreens_checkbox
+            // 
+            this.trufflegreens_checkbox.AutoSize = true;
+            this.trufflegreens_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trufflegreens_checkbox.Location = new System.Drawing.Point(61, 671);
+            this.trufflegreens_checkbox.Name = "trufflegreens_checkbox";
+            this.trufflegreens_checkbox.Size = new System.Drawing.Size(126, 21);
+            this.trufflegreens_checkbox.TabIndex = 166;
+            this.trufflegreens_checkbox.Text = "Truffle Greens";
+            this.trufflegreens_checkbox.UseVisualStyleBackColor = true;
+            this.trufflegreens_checkbox.CheckedChanged += new System.EventHandler(this.trufflegreens_checkbox_CheckedChanged);
+            // 
+            // pepperoni_checkbox
+            // 
+            this.pepperoni_checkbox.AutoSize = true;
+            this.pepperoni_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pepperoni_checkbox.Location = new System.Drawing.Point(953, 451);
+            this.pepperoni_checkbox.Name = "pepperoni_checkbox";
+            this.pepperoni_checkbox.Size = new System.Drawing.Size(99, 21);
+            this.pepperoni_checkbox.TabIndex = 165;
+            this.pepperoni_checkbox.Text = "Pepperoni";
+            this.pepperoni_checkbox.UseVisualStyleBackColor = true;
+            this.pepperoni_checkbox.CheckedChanged += new System.EventHandler(this.pepperoni_checkbox_CheckedChanged);
+            // 
+            // trufflefourcheese_checkbox
+            // 
+            this.trufflefourcheese_checkbox.AutoSize = true;
+            this.trufflefourcheese_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trufflefourcheese_checkbox.Location = new System.Drawing.Point(703, 451);
+            this.trufflefourcheese_checkbox.Name = "trufflefourcheese_checkbox";
+            this.trufflefourcheese_checkbox.Size = new System.Drawing.Size(160, 21);
+            this.trufflefourcheese_checkbox.TabIndex = 164;
+            this.trufflefourcheese_checkbox.Text = "Truffle Four Cheese";
+            this.trufflefourcheese_checkbox.UseVisualStyleBackColor = true;
+            this.trufflefourcheese_checkbox.CheckedChanged += new System.EventHandler(this.trufflefourcheese_checkbox_CheckedChanged);
+            // 
+            // specialpizza_checkbox
+            // 
+            this.specialpizza_checkbox.AutoSize = true;
+            this.specialpizza_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.specialpizza_checkbox.Location = new System.Drawing.Point(503, 451);
+            this.specialpizza_checkbox.Name = "specialpizza_checkbox";
+            this.specialpizza_checkbox.Size = new System.Drawing.Size(118, 21);
+            this.specialpizza_checkbox.TabIndex = 163;
+            this.specialpizza_checkbox.Text = "Special Pizza";
+            this.specialpizza_checkbox.UseVisualStyleBackColor = true;
+            this.specialpizza_checkbox.CheckedChanged += new System.EventHandler(this.specialpizza_checkbox_CheckedChanged);
+            // 
+            // scallopandshrimp_checkbox
+            // 
+            this.scallopandshrimp_checkbox.AutoSize = true;
+            this.scallopandshrimp_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scallopandshrimp_checkbox.Location = new System.Drawing.Point(265, 451);
+            this.scallopandshrimp_checkbox.Name = "scallopandshrimp_checkbox";
+            this.scallopandshrimp_checkbox.Size = new System.Drawing.Size(156, 21);
+            this.scallopandshrimp_checkbox.TabIndex = 162;
+            this.scallopandshrimp_checkbox.Text = "Scallop and Shrimp";
+            this.scallopandshrimp_checkbox.UseVisualStyleBackColor = true;
+            this.scallopandshrimp_checkbox.CheckedChanged += new System.EventHandler(this.scallopandshrimp_checkbox_CheckedChanged);
+            // 
+            // pizzabianca_checkbox
+            // 
+            this.pizzabianca_checkbox.AutoSize = true;
+            this.pizzabianca_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pizzabianca_checkbox.Location = new System.Drawing.Point(70, 451);
+            this.pizzabianca_checkbox.Name = "pizzabianca_checkbox";
+            this.pizzabianca_checkbox.Size = new System.Drawing.Size(115, 21);
+            this.pizzabianca_checkbox.TabIndex = 161;
+            this.pizzabianca_checkbox.Text = "Pizza Bianca";
+            this.pizzabianca_checkbox.UseVisualStyleBackColor = true;
+            this.pizzabianca_checkbox.CheckedChanged += new System.EventHandler(this.pizzabianca_checkbox_CheckedChanged);
+            // 
+            // hawaiiandelight_checkbox
+            // 
+            this.hawaiiandelight_checkbox.AutoSize = true;
+            this.hawaiiandelight_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hawaiiandelight_checkbox.Location = new System.Drawing.Point(932, 231);
+            this.hawaiiandelight_checkbox.Name = "hawaiiandelight_checkbox";
+            this.hawaiiandelight_checkbox.Size = new System.Drawing.Size(139, 21);
+            this.hawaiiandelight_checkbox.TabIndex = 160;
+            this.hawaiiandelight_checkbox.Text = "Hawaiian Delight";
+            this.hawaiiandelight_checkbox.UseVisualStyleBackColor = true;
+            this.hawaiiandelight_checkbox.CheckedChanged += new System.EventHandler(this.hawaiiandelight_checkbox_CheckedChanged);
+            // 
+            // baconglazed_checkbox
+            // 
+            this.baconglazed_checkbox.AutoSize = true;
+            this.baconglazed_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.baconglazed_checkbox.Location = new System.Drawing.Point(720, 231);
+            this.baconglazed_checkbox.Name = "baconglazed_checkbox";
+            this.baconglazed_checkbox.Size = new System.Drawing.Size(123, 21);
+            this.baconglazed_checkbox.TabIndex = 159;
+            this.baconglazed_checkbox.Text = "Bacon Glazed";
+            this.baconglazed_checkbox.UseVisualStyleBackColor = true;
+            this.baconglazed_checkbox.CheckedChanged += new System.EventHandler(this.baconglazed_checkbox_CheckedChanged);
+            // 
+            // creamyspinachamericana_checkbox
+            // 
+            this.creamyspinachamericana_checkbox.AutoSize = true;
+            this.creamyspinachamericana_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creamyspinachamericana_checkbox.Location = new System.Drawing.Point(459, 231);
+            this.creamyspinachamericana_checkbox.Name = "creamyspinachamericana_checkbox";
+            this.creamyspinachamericana_checkbox.Size = new System.Drawing.Size(208, 21);
+            this.creamyspinachamericana_checkbox.TabIndex = 158;
+            this.creamyspinachamericana_checkbox.Text = "Creamy Spinach Americana";
+            this.creamyspinachamericana_checkbox.UseVisualStyleBackColor = true;
+            this.creamyspinachamericana_checkbox.CheckedChanged += new System.EventHandler(this.creamyspinachamericana_checkbox_CheckedChanged);
+            // 
+            // creamyspinach_checkbox
+            // 
+            this.creamyspinach_checkbox.AutoSize = true;
+            this.creamyspinach_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creamyspinach_checkbox.Location = new System.Drawing.Point(276, 231);
+            this.creamyspinach_checkbox.Name = "creamyspinach_checkbox";
+            this.creamyspinach_checkbox.Size = new System.Drawing.Size(137, 21);
+            this.creamyspinach_checkbox.TabIndex = 157;
+            this.creamyspinach_checkbox.Text = "Creamy Spinach";
+            this.creamyspinach_checkbox.UseVisualStyleBackColor = true;
+            this.creamyspinach_checkbox.CheckedChanged += new System.EventHandler(this.creamyspinach_checkbox_CheckedChanged);
+            // 
+            // angusbeefshawarma_checkbox
+            // 
+            this.angusbeefshawarma_checkbox.AutoSize = true;
+            this.angusbeefshawarma_checkbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.angusbeefshawarma_checkbox.Location = new System.Drawing.Point(34, 231);
+            this.angusbeefshawarma_checkbox.Name = "angusbeefshawarma_checkbox";
+            this.angusbeefshawarma_checkbox.Size = new System.Drawing.Size(177, 21);
+            this.angusbeefshawarma_checkbox.TabIndex = 156;
+            this.angusbeefshawarma_checkbox.Text = "Angus Beef Shawarma";
+            this.angusbeefshawarma_checkbox.UseVisualStyleBackColor = true;
+            this.angusbeefshawarma_checkbox.CheckedChanged += new System.EventHandler(this.angusbeefshawarma_checkbox_CheckedChanged);
+            // 
+            // managerschoice_picbox
+            // 
+            this.managerschoice_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.managerschoice_picbox.Image = global::Lesson_3.Properties.Resources.manager_choice;
+            this.managerschoice_picbox.Location = new System.Drawing.Point(913, 700);
+            this.managerschoice_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.managerschoice_picbox.Name = "managerschoice_picbox";
+            this.managerschoice_picbox.Size = new System.Drawing.Size(179, 184);
+            this.managerschoice_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.managerschoice_picbox.TabIndex = 137;
+            this.managerschoice_picbox.TabStop = false;
+            // 
+            // classicbeefandonion_picbox
+            // 
+            this.classicbeefandonion_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.classicbeefandonion_picbox.Image = global::Lesson_3.Properties.Resources.classic_beef_and_onion;
+            this.classicbeefandonion_picbox.Location = new System.Drawing.Point(693, 700);
+            this.classicbeefandonion_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.classicbeefandonion_picbox.Name = "classicbeefandonion_picbox";
+            this.classicbeefandonion_picbox.Size = new System.Drawing.Size(179, 184);
+            this.classicbeefandonion_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.classicbeefandonion_picbox.TabIndex = 136;
+            this.classicbeefandonion_picbox.TabStop = false;
+            // 
+            // bellybuster_picbox
+            // 
+            this.bellybuster_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bellybuster_picbox.Image = global::Lesson_3.Properties.Resources.belly_buster;
+            this.bellybuster_picbox.Location = new System.Drawing.Point(473, 700);
+            this.bellybuster_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bellybuster_picbox.Name = "bellybuster_picbox";
+            this.bellybuster_picbox.Size = new System.Drawing.Size(179, 184);
+            this.bellybuster_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bellybuster_picbox.TabIndex = 135;
+            this.bellybuster_picbox.TabStop = false;
+            // 
+            // classiccheese_picbox
+            // 
+            this.classiccheese_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.classiccheese_picbox.Image = global::Lesson_3.Properties.Resources.classic_cheese;
+            this.classiccheese_picbox.Location = new System.Drawing.Point(253, 700);
+            this.classiccheese_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.classiccheese_picbox.Name = "classiccheese_picbox";
+            this.classiccheese_picbox.Size = new System.Drawing.Size(179, 184);
+            this.classiccheese_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.classiccheese_picbox.TabIndex = 134;
+            this.classiccheese_picbox.TabStop = false;
+            // 
+            // garlicandcheese_picbox
+            // 
+            this.garlicandcheese_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.garlicandcheese_picbox.Image = global::Lesson_3.Properties.Resources.garlic_and_cheese;
+            this.garlicandcheese_picbox.Location = new System.Drawing.Point(33, 700);
+            this.garlicandcheese_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.garlicandcheese_picbox.Name = "garlicandcheese_picbox";
+            this.garlicandcheese_picbox.Size = new System.Drawing.Size(179, 184);
+            this.garlicandcheese_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.garlicandcheese_picbox.TabIndex = 133;
+            this.garlicandcheese_picbox.TabStop = false;
+            // 
+            // hiprotein_picbox
+            // 
+            this.hiprotein_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hiprotein_picbox.Image = global::Lesson_3.Properties.Resources.hi_protein;
+            this.hiprotein_picbox.Location = new System.Drawing.Point(913, 480);
+            this.hiprotein_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.hiprotein_picbox.Name = "hiprotein_picbox";
+            this.hiprotein_picbox.Size = new System.Drawing.Size(179, 184);
+            this.hiprotein_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.hiprotein_picbox.TabIndex = 132;
+            this.hiprotein_picbox.TabStop = false;
+            // 
+            // scallopandprimo_picbox
+            // 
+            this.scallopandprimo_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.scallopandprimo_picbox.Image = global::Lesson_3.Properties.Resources.scallop_primo;
+            this.scallopandprimo_picbox.Location = new System.Drawing.Point(693, 480);
+            this.scallopandprimo_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.scallopandprimo_picbox.Name = "scallopandprimo_picbox";
+            this.scallopandprimo_picbox.Size = new System.Drawing.Size(179, 184);
+            this.scallopandprimo_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.scallopandprimo_picbox.TabIndex = 131;
+            this.scallopandprimo_picbox.TabStop = false;
+            // 
+            // spinachandglazed_picbox
+            // 
+            this.spinachandglazed_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spinachandglazed_picbox.Image = global::Lesson_3.Properties.Resources.spinach_and_glazed;
+            this.spinachandglazed_picbox.Location = new System.Drawing.Point(473, 480);
+            this.spinachandglazed_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.spinachandglazed_picbox.Name = "spinachandglazed_picbox";
+            this.spinachandglazed_picbox.Size = new System.Drawing.Size(179, 184);
+            this.spinachandglazed_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.spinachandglazed_picbox.TabIndex = 130;
+            this.spinachandglazed_picbox.TabStop = false;
+            // 
+            // spinachandmushroom_picbox
+            // 
+            this.spinachandmushroom_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spinachandmushroom_picbox.Image = global::Lesson_3.Properties.Resources.spinach_and_mushroom;
+            this.spinachandmushroom_picbox.Location = new System.Drawing.Point(253, 480);
+            this.spinachandmushroom_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.spinachandmushroom_picbox.Name = "spinachandmushroom_picbox";
+            this.spinachandmushroom_picbox.Size = new System.Drawing.Size(179, 184);
+            this.spinachandmushroom_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.spinachandmushroom_picbox.TabIndex = 129;
+            this.spinachandmushroom_picbox.TabStop = false;
+            // 
+            // trufflegreens_picbox
+            // 
+            this.trufflegreens_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.trufflegreens_picbox.Image = global::Lesson_3.Properties.Resources.truffle_greens;
+            this.trufflegreens_picbox.Location = new System.Drawing.Point(33, 480);
+            this.trufflegreens_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.trufflegreens_picbox.Name = "trufflegreens_picbox";
+            this.trufflegreens_picbox.Size = new System.Drawing.Size(179, 184);
+            this.trufflegreens_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.trufflegreens_picbox.TabIndex = 128;
+            this.trufflegreens_picbox.TabStop = false;
+            // 
+            // pepperoni_picbox
+            // 
+            this.pepperoni_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pepperoni_picbox.Image = global::Lesson_3.Properties.Resources.pepperoni;
+            this.pepperoni_picbox.Location = new System.Drawing.Point(913, 260);
+            this.pepperoni_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pepperoni_picbox.Name = "pepperoni_picbox";
+            this.pepperoni_picbox.Size = new System.Drawing.Size(179, 184);
+            this.pepperoni_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pepperoni_picbox.TabIndex = 127;
+            this.pepperoni_picbox.TabStop = false;
+            // 
+            // trufflefourcheese_picbox
+            // 
+            this.trufflefourcheese_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.trufflefourcheese_picbox.Image = global::Lesson_3.Properties.Resources.truffle_four_cheese;
+            this.trufflefourcheese_picbox.Location = new System.Drawing.Point(693, 260);
+            this.trufflefourcheese_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.trufflefourcheese_picbox.Name = "trufflefourcheese_picbox";
+            this.trufflefourcheese_picbox.Size = new System.Drawing.Size(179, 184);
+            this.trufflefourcheese_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.trufflefourcheese_picbox.TabIndex = 126;
+            this.trufflefourcheese_picbox.TabStop = false;
+            // 
+            // specialpizza_picbox
+            // 
+            this.specialpizza_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.specialpizza_picbox.Image = global::Lesson_3.Properties.Resources.special_pizza;
+            this.specialpizza_picbox.Location = new System.Drawing.Point(473, 260);
+            this.specialpizza_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.specialpizza_picbox.Name = "specialpizza_picbox";
+            this.specialpizza_picbox.Size = new System.Drawing.Size(179, 184);
+            this.specialpizza_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.specialpizza_picbox.TabIndex = 125;
+            this.specialpizza_picbox.TabStop = false;
+            // 
+            // scallopandshrimp_picbox
+            // 
+            this.scallopandshrimp_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.scallopandshrimp_picbox.Image = global::Lesson_3.Properties.Resources.scallop_and_shrimp;
+            this.scallopandshrimp_picbox.Location = new System.Drawing.Point(253, 260);
+            this.scallopandshrimp_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.scallopandshrimp_picbox.Name = "scallopandshrimp_picbox";
+            this.scallopandshrimp_picbox.Size = new System.Drawing.Size(179, 184);
+            this.scallopandshrimp_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.scallopandshrimp_picbox.TabIndex = 124;
+            this.scallopandshrimp_picbox.TabStop = false;
+            // 
+            // pizzabianca_picbox
+            // 
+            this.pizzabianca_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pizzabianca_picbox.Image = global::Lesson_3.Properties.Resources.pizza_bianca;
+            this.pizzabianca_picbox.Location = new System.Drawing.Point(33, 260);
+            this.pizzabianca_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pizzabianca_picbox.Name = "pizzabianca_picbox";
+            this.pizzabianca_picbox.Size = new System.Drawing.Size(179, 184);
+            this.pizzabianca_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pizzabianca_picbox.TabIndex = 123;
+            this.pizzabianca_picbox.TabStop = false;
+            // 
+            // hawaiiandelight_picbox
+            // 
+            this.hawaiiandelight_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hawaiiandelight_picbox.Image = global::Lesson_3.Properties.Resources.hawaiian_delight;
+            this.hawaiiandelight_picbox.Location = new System.Drawing.Point(913, 40);
+            this.hawaiiandelight_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.hawaiiandelight_picbox.Name = "hawaiiandelight_picbox";
+            this.hawaiiandelight_picbox.Size = new System.Drawing.Size(179, 184);
+            this.hawaiiandelight_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.hawaiiandelight_picbox.TabIndex = 89;
+            this.hawaiiandelight_picbox.TabStop = false;
+            // 
+            // baconglazed_picbox
+            // 
+            this.baconglazed_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.baconglazed_picbox.Image = global::Lesson_3.Properties.Resources.bacon_glazed;
+            this.baconglazed_picbox.Location = new System.Drawing.Point(693, 40);
+            this.baconglazed_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.baconglazed_picbox.Name = "baconglazed_picbox";
+            this.baconglazed_picbox.Size = new System.Drawing.Size(179, 184);
+            this.baconglazed_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.baconglazed_picbox.TabIndex = 88;
+            this.baconglazed_picbox.TabStop = false;
+            // 
+            // creamyspinachamericana_picbox
+            // 
+            this.creamyspinachamericana_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.creamyspinachamericana_picbox.Image = global::Lesson_3.Properties.Resources.creamy_spinach_americana;
+            this.creamyspinachamericana_picbox.Location = new System.Drawing.Point(473, 40);
+            this.creamyspinachamericana_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.creamyspinachamericana_picbox.Name = "creamyspinachamericana_picbox";
+            this.creamyspinachamericana_picbox.Size = new System.Drawing.Size(179, 184);
+            this.creamyspinachamericana_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.creamyspinachamericana_picbox.TabIndex = 87;
+            this.creamyspinachamericana_picbox.TabStop = false;
+            // 
+            // creamyspinach_picbox
+            // 
+            this.creamyspinach_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.creamyspinach_picbox.Image = global::Lesson_3.Properties.Resources.creamy_spinach;
+            this.creamyspinach_picbox.Location = new System.Drawing.Point(253, 40);
+            this.creamyspinach_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.creamyspinach_picbox.Name = "creamyspinach_picbox";
+            this.creamyspinach_picbox.Size = new System.Drawing.Size(179, 184);
+            this.creamyspinach_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.creamyspinach_picbox.TabIndex = 86;
+            this.creamyspinach_picbox.TabStop = false;
+            // 
+            // angusbeefshawarma_picbox
+            // 
+            this.angusbeefshawarma_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.angusbeefshawarma_picbox.Image = global::Lesson_3.Properties.Resources.angus_beef_shawarma;
+            this.angusbeefshawarma_picbox.Location = new System.Drawing.Point(33, 40);
+            this.angusbeefshawarma_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.angusbeefshawarma_picbox.Name = "angusbeefshawarma_picbox";
+            this.angusbeefshawarma_picbox.Size = new System.Drawing.Size(179, 184);
+            this.angusbeefshawarma_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.angusbeefshawarma_picbox.TabIndex = 85;
+            this.angusbeefshawarma_picbox.TabStop = false;
+            // 
+            // calculatebills_btn
+            // 
+            this.calculatebills_btn.Location = new System.Drawing.Point(874, 1007);
+            this.calculatebills_btn.Name = "calculatebills_btn";
+            this.calculatebills_btn.Size = new System.Drawing.Size(226, 50);
+            this.calculatebills_btn.TabIndex = 149;
+            this.calculatebills_btn.Text = "CALCULATE BILLS";
+            this.calculatebills_btn.UseVisualStyleBackColor = true;
+            this.calculatebills_btn.Click += new System.EventHandler(this.calculatebills_btn_Click);
+            // 
+            // printtransaction_btn
+            // 
+            this.printtransaction_btn.Location = new System.Drawing.Point(1099, 1007);
+            this.printtransaction_btn.Name = "printtransaction_btn";
+            this.printtransaction_btn.Size = new System.Drawing.Size(226, 49);
+            this.printtransaction_btn.TabIndex = 150;
+            this.printtransaction_btn.Text = "PRINT TRANSACTION";
+            this.printtransaction_btn.UseVisualStyleBackColor = true;
+            this.printtransaction_btn.Click += new System.EventHandler(this.printtransaction_btn_Click);
+            // 
+            // removeorder_btn
+            // 
+            this.removeorder_btn.Location = new System.Drawing.Point(1324, 1007);
+            this.removeorder_btn.Name = "removeorder_btn";
+            this.removeorder_btn.Size = new System.Drawing.Size(226, 49);
+            this.removeorder_btn.TabIndex = 151;
+            this.removeorder_btn.Text = "REMOVE ORDER";
+            this.removeorder_btn.UseVisualStyleBackColor = true;
+            this.removeorder_btn.Click += new System.EventHandler(this.removeorder_btn_Click);
+            // 
+            // new_btn
+            // 
+            this.new_btn.Location = new System.Drawing.Point(1549, 1007);
+            this.new_btn.Name = "new_btn";
+            this.new_btn.Size = new System.Drawing.Size(226, 49);
+            this.new_btn.TabIndex = 152;
+            this.new_btn.Text = "NEW";
+            this.new_btn.UseVisualStyleBackColor = true;
+            this.new_btn.Click += new System.EventHandler(this.new_btn_Click);
+            // 
+            // exit_btn
+            // 
+            this.exit_btn.Location = new System.Drawing.Point(1774, 1007);
+            this.exit_btn.Name = "exit_btn";
+            this.exit_btn.Size = new System.Drawing.Size(226, 49);
+            this.exit_btn.TabIndex = 153;
+            this.exit_btn.Text = "EXIT";
+            this.exit_btn.UseVisualStyleBackColor = true;
+            this.exit_btn.Click += new System.EventHandler(this.exit_btn_Click);
+            // 
             // display_picbox
             // 
             this.display_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -491,527 +1076,11 @@
             this.display_picbox.TabIndex = 146;
             this.display_picbox.TabStop = false;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.label27);
-            this.groupBox1.Controls.Add(this.label28);
-            this.groupBox1.Controls.Add(this.label29);
-            this.groupBox1.Controls.Add(this.label30);
-            this.groupBox1.Controls.Add(this.label31);
-            this.groupBox1.Controls.Add(this.label22);
-            this.groupBox1.Controls.Add(this.label23);
-            this.groupBox1.Controls.Add(this.label24);
-            this.groupBox1.Controls.Add(this.label25);
-            this.groupBox1.Controls.Add(this.label26);
-            this.groupBox1.Controls.Add(this.label17);
-            this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.label21);
-            this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.Zinger_Burger_picbox);
-            this.groupBox1.Controls.Add(this.Chicken_Spaghetti_Meal_picbox);
-            this.groupBox1.Controls.Add(this.Zinger_Steak_Meal_picbox);
-            this.groupBox1.Controls.Add(this.Rice_Bowl_Meal_picbox);
-            this.groupBox1.Controls.Add(this.Pasta_Meal_A_picbox);
-            this.groupBox1.Controls.Add(this.Pancake_Value_Meal_A_picbox);
-            this.groupBox1.Controls.Add(this.Lunch_Value_Meal_B_picbox);
-            this.groupBox1.Controls.Add(this.Lunch_Value_Meal_A_picbox);
-            this.groupBox1.Controls.Add(this.Jolly_Meal_Savers_picbox);
-            this.groupBox1.Controls.Add(this.Family_Combo_Meal_B);
-            this.groupBox1.Controls.Add(this.Family_Combo_Meal_A_picbox);
-            this.groupBox1.Controls.Add(this.Double_Value_Meal_B_picbox);
-            this.groupBox1.Controls.Add(this.Double_Value_Meal_A_picbox);
-            this.groupBox1.Controls.Add(this.Double_Pasta_Meal_picbox);
-            this.groupBox1.Controls.Add(this.Chicken_Meal_B_picbox);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.Chicken_Meal_A_picbox);
-            this.groupBox1.Controls.Add(this.Breakfast_Meal_D_picbox);
-            this.groupBox1.Controls.Add(this.Breakfast_Meal_C_picbox);
-            this.groupBox1.Controls.Add(this.Breakfast_Meal_B_picbox);
-            this.groupBox1.Controls.Add(this.Breakfast_Meal_A_picbox);
-            this.groupBox1.Location = new System.Drawing.Point(874, 80);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(997, 924);
-            this.groupBox1.TabIndex = 148;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "     ";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(826, 891);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(106, 20);
-            this.label27.TabIndex = 155;
-            this.label27.Text = "Zinger Burger";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(602, 891);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(177, 20);
-            this.label28.TabIndex = 154;
-            this.label28.Text = "Chicken Spaghetti Meal";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(430, 891);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(138, 20);
-            this.label29.TabIndex = 153;
-            this.label29.Text = "Zinger Steak Meal";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(255, 891);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(117, 20);
-            this.label30.TabIndex = 152;
-            this.label30.Text = "Rice Bowl Meal";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(68, 891);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(103, 20);
-            this.label31.TabIndex = 151;
-            this.label31.Text = "Pasta Meal A";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(796, 671);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(169, 20);
-            this.label22.TabIndex = 150;
-            this.label22.Text = "Pancake Value Meal A";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(615, 671);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(151, 20);
-            this.label23.TabIndex = 149;
-            this.label23.Text = "Lunch Value Meal B";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(424, 671);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(151, 20);
-            this.label24.TabIndex = 148;
-            this.label24.Text = "Lunch Value Meal A";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(244, 671);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(130, 20);
-            this.label25.TabIndex = 147;
-            this.label25.Text = "Jolly Meal Savers";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(39, 671);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(162, 20);
-            this.label26.TabIndex = 146;
-            this.label26.Text = "Family Combo Meal B";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(801, 451);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(162, 20);
-            this.label17.TabIndex = 145;
-            this.label17.Text = "Family Combo Meal A";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(611, 451);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(158, 20);
-            this.label18.TabIndex = 144;
-            this.label18.Text = "Double Value Meal B";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(423, 451);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(158, 20);
-            this.label19.TabIndex = 143;
-            this.label19.Text = "Double Value Meal A";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(239, 451);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(143, 20);
-            this.label20.TabIndex = 142;
-            this.label20.Text = "Double Pasta Meal";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(56, 451);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(119, 20);
-            this.label21.TabIndex = 141;
-            this.label21.Text = "Chicken Meal B";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(814, 231);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(119, 20);
-            this.label16.TabIndex = 140;
-            this.label16.Text = "Chicken Meal A";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(626, 231);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(132, 20);
-            this.label15.TabIndex = 139;
-            this.label15.Text = "Breakfast Meal D";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(435, 231);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(131, 20);
-            this.label14.TabIndex = 138;
-            this.label14.Text = "Breakfast Meal C";
-            // 
-            // Zinger_Burger_picbox
-            // 
-            this.Zinger_Burger_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Zinger_Burger_picbox.Image = global::Lesson_3.Properties.Resources.Zinger_Burger;
-            this.Zinger_Burger_picbox.Location = new System.Drawing.Point(790, 700);
-            this.Zinger_Burger_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Zinger_Burger_picbox.Name = "Zinger_Burger_picbox";
-            this.Zinger_Burger_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Zinger_Burger_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Zinger_Burger_picbox.TabIndex = 137;
-            this.Zinger_Burger_picbox.TabStop = false;
-            // 
-            // Chicken_Spaghetti_Meal_picbox
-            // 
-            this.Chicken_Spaghetti_Meal_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Chicken_Spaghetti_Meal_picbox.Image = global::Lesson_3.Properties.Resources.Chicken_Spaghetti_Meal;
-            this.Chicken_Spaghetti_Meal_picbox.Location = new System.Drawing.Point(600, 700);
-            this.Chicken_Spaghetti_Meal_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Chicken_Spaghetti_Meal_picbox.Name = "Chicken_Spaghetti_Meal_picbox";
-            this.Chicken_Spaghetti_Meal_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Chicken_Spaghetti_Meal_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Chicken_Spaghetti_Meal_picbox.TabIndex = 136;
-            this.Chicken_Spaghetti_Meal_picbox.TabStop = false;
-            // 
-            // Zinger_Steak_Meal_picbox
-            // 
-            this.Zinger_Steak_Meal_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Zinger_Steak_Meal_picbox.Image = global::Lesson_3.Properties.Resources.Ala_King_Zinger_Steak_Meal;
-            this.Zinger_Steak_Meal_picbox.Location = new System.Drawing.Point(410, 700);
-            this.Zinger_Steak_Meal_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Zinger_Steak_Meal_picbox.Name = "Zinger_Steak_Meal_picbox";
-            this.Zinger_Steak_Meal_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Zinger_Steak_Meal_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Zinger_Steak_Meal_picbox.TabIndex = 135;
-            this.Zinger_Steak_Meal_picbox.TabStop = false;
-            // 
-            // Rice_Bowl_Meal_picbox
-            // 
-            this.Rice_Bowl_Meal_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Rice_Bowl_Meal_picbox.Image = global::Lesson_3.Properties.Resources.Ala_King_Rice_Bowl_Meal;
-            this.Rice_Bowl_Meal_picbox.Location = new System.Drawing.Point(220, 700);
-            this.Rice_Bowl_Meal_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Rice_Bowl_Meal_picbox.Name = "Rice_Bowl_Meal_picbox";
-            this.Rice_Bowl_Meal_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Rice_Bowl_Meal_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Rice_Bowl_Meal_picbox.TabIndex = 134;
-            this.Rice_Bowl_Meal_picbox.TabStop = false;
-            // 
-            // Pasta_Meal_A_picbox
-            // 
-            this.Pasta_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Pasta_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.pastameal101;
-            this.Pasta_Meal_A_picbox.Location = new System.Drawing.Point(30, 700);
-            this.Pasta_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Pasta_Meal_A_picbox.Name = "Pasta_Meal_A_picbox";
-            this.Pasta_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Pasta_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pasta_Meal_A_picbox.TabIndex = 133;
-            this.Pasta_Meal_A_picbox.TabStop = false;
-            // 
-            // Pancake_Value_Meal_A_picbox
-            // 
-            this.Pancake_Value_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Pancake_Value_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.pancakevaluemealA;
-            this.Pancake_Value_Meal_A_picbox.Location = new System.Drawing.Point(790, 480);
-            this.Pancake_Value_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Pancake_Value_Meal_A_picbox.Name = "Pancake_Value_Meal_A_picbox";
-            this.Pancake_Value_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Pancake_Value_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pancake_Value_Meal_A_picbox.TabIndex = 132;
-            this.Pancake_Value_Meal_A_picbox.TabStop = false;
-            // 
-            // Lunch_Value_Meal_B_picbox
-            // 
-            this.Lunch_Value_Meal_B_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Lunch_Value_Meal_B_picbox.Image = global::Lesson_3.Properties.Resources.lunchvaluemealB;
-            this.Lunch_Value_Meal_B_picbox.Location = new System.Drawing.Point(600, 480);
-            this.Lunch_Value_Meal_B_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Lunch_Value_Meal_B_picbox.Name = "Lunch_Value_Meal_B_picbox";
-            this.Lunch_Value_Meal_B_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Lunch_Value_Meal_B_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Lunch_Value_Meal_B_picbox.TabIndex = 131;
-            this.Lunch_Value_Meal_B_picbox.TabStop = false;
-            // 
-            // Lunch_Value_Meal_A_picbox
-            // 
-            this.Lunch_Value_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Lunch_Value_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.lunchvaluemeal1;
-            this.Lunch_Value_Meal_A_picbox.Location = new System.Drawing.Point(410, 480);
-            this.Lunch_Value_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Lunch_Value_Meal_A_picbox.Name = "Lunch_Value_Meal_A_picbox";
-            this.Lunch_Value_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Lunch_Value_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Lunch_Value_Meal_A_picbox.TabIndex = 130;
-            this.Lunch_Value_Meal_A_picbox.TabStop = false;
-            // 
-            // Jolly_Meal_Savers_picbox
-            // 
-            this.Jolly_Meal_Savers_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Jolly_Meal_Savers_picbox.Image = global::Lesson_3.Properties.Resources.friendmealA;
-            this.Jolly_Meal_Savers_picbox.Location = new System.Drawing.Point(220, 480);
-            this.Jolly_Meal_Savers_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Jolly_Meal_Savers_picbox.Name = "Jolly_Meal_Savers_picbox";
-            this.Jolly_Meal_Savers_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Jolly_Meal_Savers_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Jolly_Meal_Savers_picbox.TabIndex = 129;
-            this.Jolly_Meal_Savers_picbox.TabStop = false;
-            // 
-            // Family_Combo_Meal_B
-            // 
-            this.Family_Combo_Meal_B.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Family_Combo_Meal_B.Image = global::Lesson_3.Properties.Resources.familymealB;
-            this.Family_Combo_Meal_B.Location = new System.Drawing.Point(30, 480);
-            this.Family_Combo_Meal_B.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Family_Combo_Meal_B.Name = "Family_Combo_Meal_B";
-            this.Family_Combo_Meal_B.Size = new System.Drawing.Size(179, 184);
-            this.Family_Combo_Meal_B.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Family_Combo_Meal_B.TabIndex = 128;
-            this.Family_Combo_Meal_B.TabStop = false;
-            // 
-            // Family_Combo_Meal_A_picbox
-            // 
-            this.Family_Combo_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Family_Combo_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.familycombomealA;
-            this.Family_Combo_Meal_A_picbox.Location = new System.Drawing.Point(790, 260);
-            this.Family_Combo_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Family_Combo_Meal_A_picbox.Name = "Family_Combo_Meal_A_picbox";
-            this.Family_Combo_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Family_Combo_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Family_Combo_Meal_A_picbox.TabIndex = 127;
-            this.Family_Combo_Meal_A_picbox.TabStop = false;
-            // 
-            // Double_Value_Meal_B_picbox
-            // 
-            this.Double_Value_Meal_B_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Double_Value_Meal_B_picbox.Image = global::Lesson_3.Properties.Resources.doublevaluemealAA;
-            this.Double_Value_Meal_B_picbox.Location = new System.Drawing.Point(600, 260);
-            this.Double_Value_Meal_B_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Double_Value_Meal_B_picbox.Name = "Double_Value_Meal_B_picbox";
-            this.Double_Value_Meal_B_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Double_Value_Meal_B_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Double_Value_Meal_B_picbox.TabIndex = 126;
-            this.Double_Value_Meal_B_picbox.TabStop = false;
-            // 
-            // Double_Value_Meal_A_picbox
-            // 
-            this.Double_Value_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Double_Value_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.doublevaluemealA;
-            this.Double_Value_Meal_A_picbox.Location = new System.Drawing.Point(410, 260);
-            this.Double_Value_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Double_Value_Meal_A_picbox.Name = "Double_Value_Meal_A_picbox";
-            this.Double_Value_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Double_Value_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Double_Value_Meal_A_picbox.TabIndex = 125;
-            this.Double_Value_Meal_A_picbox.TabStop = false;
-            // 
-            // Double_Pasta_Meal_picbox
-            // 
-            this.Double_Pasta_Meal_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Double_Pasta_Meal_picbox.Image = global::Lesson_3.Properties.Resources.doublepalabocmeal;
-            this.Double_Pasta_Meal_picbox.Location = new System.Drawing.Point(220, 260);
-            this.Double_Pasta_Meal_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Double_Pasta_Meal_picbox.Name = "Double_Pasta_Meal_picbox";
-            this.Double_Pasta_Meal_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Double_Pasta_Meal_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Double_Pasta_Meal_picbox.TabIndex = 124;
-            this.Double_Pasta_Meal_picbox.TabStop = false;
-            // 
-            // Chicken_Meal_B_picbox
-            // 
-            this.Chicken_Meal_B_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Chicken_Meal_B_picbox.Image = global::Lesson_3.Properties.Resources.chickenmeal2;
-            this.Chicken_Meal_B_picbox.Location = new System.Drawing.Point(30, 260);
-            this.Chicken_Meal_B_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Chicken_Meal_B_picbox.Name = "Chicken_Meal_B_picbox";
-            this.Chicken_Meal_B_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Chicken_Meal_B_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Chicken_Meal_B_picbox.TabIndex = 123;
-            this.Chicken_Meal_B_picbox.TabStop = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(244, 231);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(131, 20);
-            this.label13.TabIndex = 122;
-            this.label13.Text = "Breakfast Meal B";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(56, 231);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(131, 20);
-            this.label12.TabIndex = 121;
-            this.label12.Text = "Breakfast Meal A\r\n";
-            // 
-            // Chicken_Meal_A_picbox
-            // 
-            this.Chicken_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Chicken_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.chickenmealA;
-            this.Chicken_Meal_A_picbox.Location = new System.Drawing.Point(790, 40);
-            this.Chicken_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Chicken_Meal_A_picbox.Name = "Chicken_Meal_A_picbox";
-            this.Chicken_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Chicken_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Chicken_Meal_A_picbox.TabIndex = 89;
-            this.Chicken_Meal_A_picbox.TabStop = false;
-            // 
-            // Breakfast_Meal_D_picbox
-            // 
-            this.Breakfast_Meal_D_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Breakfast_Meal_D_picbox.Image = global::Lesson_3.Properties.Resources.breakfastmealB_1_;
-            this.Breakfast_Meal_D_picbox.Location = new System.Drawing.Point(600, 40);
-            this.Breakfast_Meal_D_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Breakfast_Meal_D_picbox.Name = "Breakfast_Meal_D_picbox";
-            this.Breakfast_Meal_D_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Breakfast_Meal_D_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Breakfast_Meal_D_picbox.TabIndex = 88;
-            this.Breakfast_Meal_D_picbox.TabStop = false;
-            // 
-            // Breakfast_Meal_C_picbox
-            // 
-            this.Breakfast_Meal_C_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Breakfast_Meal_C_picbox.Image = global::Lesson_3.Properties.Resources.breakfastmealA__1_;
-            this.Breakfast_Meal_C_picbox.Location = new System.Drawing.Point(410, 40);
-            this.Breakfast_Meal_C_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Breakfast_Meal_C_picbox.Name = "Breakfast_Meal_C_picbox";
-            this.Breakfast_Meal_C_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Breakfast_Meal_C_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Breakfast_Meal_C_picbox.TabIndex = 87;
-            this.Breakfast_Meal_C_picbox.TabStop = false;
-            // 
-            // Breakfast_Meal_B_picbox
-            // 
-            this.Breakfast_Meal_B_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Breakfast_Meal_B_picbox.Image = global::Lesson_3.Properties.Resources.breakfastmealB;
-            this.Breakfast_Meal_B_picbox.Location = new System.Drawing.Point(220, 40);
-            this.Breakfast_Meal_B_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Breakfast_Meal_B_picbox.Name = "Breakfast_Meal_B_picbox";
-            this.Breakfast_Meal_B_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Breakfast_Meal_B_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Breakfast_Meal_B_picbox.TabIndex = 86;
-            this.Breakfast_Meal_B_picbox.TabStop = false;
-            // 
-            // Breakfast_Meal_A_picbox
-            // 
-            this.Breakfast_Meal_A_picbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Breakfast_Meal_A_picbox.Image = global::Lesson_3.Properties.Resources.breakfastmealA;
-            this.Breakfast_Meal_A_picbox.Location = new System.Drawing.Point(30, 40);
-            this.Breakfast_Meal_A_picbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Breakfast_Meal_A_picbox.Name = "Breakfast_Meal_A_picbox";
-            this.Breakfast_Meal_A_picbox.Size = new System.Drawing.Size(179, 184);
-            this.Breakfast_Meal_A_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Breakfast_Meal_A_picbox.TabIndex = 85;
-            this.Breakfast_Meal_A_picbox.TabStop = false;
-            // 
-            // calculatebills_btn
-            // 
-            this.calculatebills_btn.Location = new System.Drawing.Point(904, 1007);
-            this.calculatebills_btn.Name = "calculatebills_btn";
-            this.calculatebills_btn.Size = new System.Drawing.Size(179, 50);
-            this.calculatebills_btn.TabIndex = 149;
-            this.calculatebills_btn.Text = "CALCULATE BILLS";
-            this.calculatebills_btn.UseVisualStyleBackColor = true;
-            // 
-            // printtransaction_btn
-            // 
-            this.printtransaction_btn.Location = new System.Drawing.Point(1094, 1008);
-            this.printtransaction_btn.Name = "printtransaction_btn";
-            this.printtransaction_btn.Size = new System.Drawing.Size(179, 49);
-            this.printtransaction_btn.TabIndex = 150;
-            this.printtransaction_btn.Text = "PRINT TRANSACTION";
-            this.printtransaction_btn.UseVisualStyleBackColor = true;
-            // 
-            // removeorder_btn
-            // 
-            this.removeorder_btn.Location = new System.Drawing.Point(1284, 1008);
-            this.removeorder_btn.Name = "removeorder_btn";
-            this.removeorder_btn.Size = new System.Drawing.Size(179, 49);
-            this.removeorder_btn.TabIndex = 151;
-            this.removeorder_btn.Text = "REMOVE ORDER";
-            this.removeorder_btn.UseVisualStyleBackColor = true;
-            // 
-            // new_btn
-            // 
-            this.new_btn.Location = new System.Drawing.Point(1474, 1008);
-            this.new_btn.Name = "new_btn";
-            this.new_btn.Size = new System.Drawing.Size(179, 49);
-            this.new_btn.TabIndex = 152;
-            this.new_btn.Text = "NEW";
-            this.new_btn.UseVisualStyleBackColor = true;
-            // 
-            // exit_btn
-            // 
-            this.exit_btn.Location = new System.Drawing.Point(1664, 1008);
-            this.exit_btn.Name = "exit_btn";
-            this.exit_btn.Size = new System.Drawing.Size(179, 49);
-            this.exit_btn.TabIndex = 153;
-            this.exit_btn.Text = "EXIT";
-            this.exit_btn.UseVisualStyleBackColor = true;
-            // 
             // Example_3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1883, 1061);
+            this.ClientSize = new System.Drawing.Size(2019, 1066);
             this.Controls.Add(this.exit_btn);
             this.Controls.Add(this.new_btn);
             this.Controls.Add(this.removeorder_btn);
@@ -1037,29 +1106,29 @@
             this.foodbundlesb_grpbox.PerformLayout();
             this.orderdetails_grpbox.ResumeLayout(false);
             this.orderdetails_grpbox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.display_picbox)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Zinger_Burger_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Chicken_Spaghetti_Meal_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Zinger_Steak_Meal_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Rice_Bowl_Meal_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pasta_Meal_A_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pancake_Value_Meal_A_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Lunch_Value_Meal_B_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Lunch_Value_Meal_A_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jolly_Meal_Savers_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Family_Combo_Meal_B)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Family_Combo_Meal_A_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Double_Value_Meal_B_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Double_Value_Meal_A_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Double_Pasta_Meal_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Chicken_Meal_B_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Chicken_Meal_A_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Breakfast_Meal_D_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Breakfast_Meal_C_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Breakfast_Meal_B_picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Breakfast_Meal_A_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerschoice_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classicbeefandonion_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bellybuster_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classiccheese_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.garlicandcheese_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hiprotein_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scallopandprimo_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinachandglazed_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinachandmushroom_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trufflegreens_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pepperoni_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trufflefourcheese_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.specialpizza_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scallopandshrimp_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pizzabianca_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hawaiiandelight_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.baconglazed_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.creamyspinachamericana_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.creamyspinach_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.angusbeefshawarma_picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.display_picbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1104,50 +1173,50 @@
         private System.Windows.Forms.Label orderimage_lbl;
         private System.Windows.Forms.PictureBox display_picbox;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox Zinger_Burger_picbox;
-        private System.Windows.Forms.PictureBox Chicken_Spaghetti_Meal_picbox;
-        private System.Windows.Forms.PictureBox Zinger_Steak_Meal_picbox;
-        private System.Windows.Forms.PictureBox Rice_Bowl_Meal_picbox;
-        private System.Windows.Forms.PictureBox Pasta_Meal_A_picbox;
-        private System.Windows.Forms.PictureBox Pancake_Value_Meal_A_picbox;
-        private System.Windows.Forms.PictureBox Lunch_Value_Meal_B_picbox;
-        private System.Windows.Forms.PictureBox Lunch_Value_Meal_A_picbox;
-        private System.Windows.Forms.PictureBox Jolly_Meal_Savers_picbox;
-        private System.Windows.Forms.PictureBox Family_Combo_Meal_B;
-        private System.Windows.Forms.PictureBox Family_Combo_Meal_A_picbox;
-        private System.Windows.Forms.PictureBox Double_Value_Meal_B_picbox;
-        private System.Windows.Forms.PictureBox Double_Value_Meal_A_picbox;
-        private System.Windows.Forms.PictureBox Double_Pasta_Meal_picbox;
-        private System.Windows.Forms.PictureBox Chicken_Meal_B_picbox;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox Chicken_Meal_A_picbox;
-        private System.Windows.Forms.PictureBox Breakfast_Meal_D_picbox;
-        private System.Windows.Forms.PictureBox Breakfast_Meal_C_picbox;
-        private System.Windows.Forms.PictureBox Breakfast_Meal_B_picbox;
-        private System.Windows.Forms.PictureBox Breakfast_Meal_A_picbox;
+        private System.Windows.Forms.PictureBox managerschoice_picbox;
+        private System.Windows.Forms.PictureBox classicbeefandonion_picbox;
+        private System.Windows.Forms.PictureBox bellybuster_picbox;
+        private System.Windows.Forms.PictureBox classiccheese_picbox;
+        private System.Windows.Forms.PictureBox garlicandcheese_picbox;
+        private System.Windows.Forms.PictureBox hiprotein_picbox;
+        private System.Windows.Forms.PictureBox scallopandprimo_picbox;
+        private System.Windows.Forms.PictureBox spinachandglazed_picbox;
+        private System.Windows.Forms.PictureBox spinachandmushroom_picbox;
+        private System.Windows.Forms.PictureBox trufflegreens_picbox;
+        private System.Windows.Forms.PictureBox pepperoni_picbox;
+        private System.Windows.Forms.PictureBox trufflefourcheese_picbox;
+        private System.Windows.Forms.PictureBox specialpizza_picbox;
+        private System.Windows.Forms.PictureBox scallopandshrimp_picbox;
+        private System.Windows.Forms.PictureBox pizzabianca_picbox;
+        private System.Windows.Forms.PictureBox hawaiiandelight_picbox;
+        private System.Windows.Forms.PictureBox baconglazed_picbox;
+        private System.Windows.Forms.PictureBox creamyspinachamericana_picbox;
+        private System.Windows.Forms.PictureBox creamyspinach_picbox;
+        private System.Windows.Forms.PictureBox angusbeefshawarma_picbox;
         private System.Windows.Forms.Button calculatebills_btn;
         private System.Windows.Forms.Button printtransaction_btn;
         private System.Windows.Forms.Button removeorder_btn;
         private System.Windows.Forms.Button new_btn;
         private System.Windows.Forms.Button exit_btn;
+        private System.Windows.Forms.CheckBox angusbeefshawarma_checkbox;
+        private System.Windows.Forms.CheckBox creamyspinach_checkbox;
+        private System.Windows.Forms.CheckBox creamyspinachamericana_checkbox;
+        private System.Windows.Forms.CheckBox baconglazed_checkbox;
+        private System.Windows.Forms.CheckBox hawaiiandelight_checkbox;
+        private System.Windows.Forms.CheckBox pizzabianca_checkbox;
+        private System.Windows.Forms.CheckBox scallopandshrimp_checkbox;
+        private System.Windows.Forms.CheckBox specialpizza_checkbox;
+        private System.Windows.Forms.CheckBox trufflefourcheese_checkbox;
+        private System.Windows.Forms.CheckBox pepperoni_checkbox;
+        private System.Windows.Forms.CheckBox trufflegreens_checkbox;
+        private System.Windows.Forms.CheckBox spinachandmushroom_checkbox;
+        private System.Windows.Forms.CheckBox spinachandglazed_checkbox;
+        private System.Windows.Forms.CheckBox scallopandprimo_checkbox;
+        private System.Windows.Forms.CheckBox hiprotein_checkbox;
+        private System.Windows.Forms.CheckBox garlicandcheese_checkbox;
+        private System.Windows.Forms.CheckBox classiccheese_checkbox;
+        private System.Windows.Forms.CheckBox bellybuster_checkbox;
+        private System.Windows.Forms.CheckBox classicbeefandonion_checkbox;
+        private System.Windows.Forms.CheckBox managerschoice_checkbox;
     }
 }
