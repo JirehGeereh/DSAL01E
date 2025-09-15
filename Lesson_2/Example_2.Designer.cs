@@ -30,7 +30,7 @@
         {
             this.price_txtbox = new System.Windows.Forms.TextBox();
             this.price_label = new System.Windows.Forms.Label();
-            this.itemname_textbox = new System.Windows.Forms.TextBox();
+            this.itemname_txtbox = new System.Windows.Forms.TextBox();
             this.itemname_label = new System.Windows.Forms.Label();
             this.exit_btn = new System.Windows.Forms.Button();
             this.new_btn = new System.Windows.Forms.Button();
@@ -84,13 +84,13 @@
             this.price_label.TabIndex = 40;
             this.price_label.Text = "Price:";
             // 
-            // itemname_textbox
+            // itemname_txtbox
             // 
-            this.itemname_textbox.Location = new System.Drawing.Point(142, 803);
-            this.itemname_textbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.itemname_textbox.Name = "itemname_textbox";
-            this.itemname_textbox.Size = new System.Drawing.Size(361, 26);
-            this.itemname_textbox.TabIndex = 39;
+            this.itemname_txtbox.Location = new System.Drawing.Point(142, 803);
+            this.itemname_txtbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.itemname_txtbox.Name = "itemname_txtbox";
+            this.itemname_txtbox.Size = new System.Drawing.Size(361, 26);
+            this.itemname_txtbox.TabIndex = 39;
             // 
             // itemname_label
             // 
@@ -326,7 +326,7 @@
             this.ClientSize = new System.Drawing.Size(1290, 932);
             this.Controls.Add(this.price_txtbox);
             this.Controls.Add(this.price_label);
-            this.Controls.Add(this.itemname_textbox);
+            this.Controls.Add(this.itemname_txtbox);
             this.Controls.Add(this.itemname_label);
             this.Controls.Add(this.exit_btn);
             this.Controls.Add(this.new_btn);
@@ -371,7 +371,7 @@
 
         private System.Windows.Forms.TextBox price_txtbox;
         private System.Windows.Forms.Label price_label;
-        private System.Windows.Forms.TextBox itemname_textbox;
+        private System.Windows.Forms.TextBox itemname_txtbox;
         private System.Windows.Forms.Label itemname_label;
         private System.Windows.Forms.Button exit_btn;
         private System.Windows.Forms.Button new_btn;
