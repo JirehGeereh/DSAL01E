@@ -76,6 +76,12 @@
     <Compile Include="Example_3_Print_Form.Designer.cs">
       <DependentUpon>Example_3_Print_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Example_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example_4.Designer.cs">
+      <DependentUpon>Example_4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Example_1.resx">
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Example_3_Print_Form.resx">
       <DependentUpon>Example_3_Print_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example_4.resx">
+      <DependentUpon>Example_4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -247,6 +256,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\defaultimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfastmealA %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfastmealA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfastmealB%281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakfastmealB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenmeal21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenmealA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doublepalabocmeal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doublevaluemealA1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doublevaluemealAA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\familycombomealA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\familymealB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\friendmealA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lunchvaluemeal11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lunchvaluemealB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pancakevaluemealA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastameal1011.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

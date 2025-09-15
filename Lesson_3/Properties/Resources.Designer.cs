@@ -133,6 +133,26 @@ namespace Lesson_3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap breakfastmealA__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("breakfastmealA (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap breakfastmealA1 {
+            get {
+                object obj = ResourceManager.GetObject("breakfastmealA1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap breakfastmealB {
             get {
                 object obj = ResourceManager.GetObject("breakfastmealB", resourceCulture);
@@ -146,6 +166,26 @@ namespace Lesson_3.Properties {
         internal static System.Drawing.Bitmap breakfastmealB_1_ {
             get {
                 object obj = ResourceManager.GetObject("breakfastmealB(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap breakfastmealB_1_1 {
+            get {
+                object obj = ResourceManager.GetObject("breakfastmealB(1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap breakfastmealB1 {
+            get {
+                object obj = ResourceManager.GetObject("breakfastmealB1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +213,29 @@ namespace Lesson_3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chickenmeal21 {
+            get {
+                object obj = ResourceManager.GetObject("chickenmeal21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap chickenmealA {
             get {
                 object obj = ResourceManager.GetObject("chickenmealA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chickenmealA1 {
+            get {
+                object obj = ResourceManager.GetObject("chickenmealA1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +313,29 @@ namespace Lesson_3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doublepalabocmeal2 {
+            get {
+                object obj = ResourceManager.GetObject("doublepalabocmeal2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap doublevaluemealA {
             get {
                 object obj = ResourceManager.GetObject("doublevaluemealA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap doublevaluemealA1 {
+            get {
+                object obj = ResourceManager.GetObject("doublevaluemealA1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,6 +353,16 @@ namespace Lesson_3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doublevaluemealAA1 {
+            get {
+                object obj = ResourceManager.GetObject("doublevaluemealAA1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap familycombomealA {
             get {
                 object obj = ResourceManager.GetObject("familycombomealA", resourceCulture);
@@ -283,9 +373,29 @@ namespace Lesson_3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap familycombomealA1 {
+            get {
+                object obj = ResourceManager.GetObject("familycombomealA1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap familymealB {
             get {
                 object obj = ResourceManager.GetObject("familymealB", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap familymealB1 {
+            get {
+                object obj = ResourceManager.GetObject("familymealB1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -316,6 +426,16 @@ namespace Lesson_3.Properties {
         internal static System.Drawing.Bitmap friendmealA {
             get {
                 object obj = ResourceManager.GetObject("friendmealA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap friendmealA1 {
+            get {
+                object obj = ResourceManager.GetObject("friendmealA1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,9 +483,29 @@ namespace Lesson_3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lunchvaluemeal11 {
+            get {
+                object obj = ResourceManager.GetObject("lunchvaluemeal11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lunchvaluemealB {
             get {
                 object obj = ResourceManager.GetObject("lunchvaluemealB", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lunchvaluemealB1 {
+            get {
+                object obj = ResourceManager.GetObject("lunchvaluemealB1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -393,9 +533,29 @@ namespace Lesson_3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pancakevaluemealA1 {
+            get {
+                object obj = ResourceManager.GetObject("pancakevaluemealA1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pastameal101 {
             get {
                 object obj = ResourceManager.GetObject("pastameal101", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pastameal1011 {
+            get {
+                object obj = ResourceManager.GetObject("pastameal1011", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
