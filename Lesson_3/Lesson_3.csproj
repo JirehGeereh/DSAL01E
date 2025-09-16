@@ -82,11 +82,11 @@
     <Compile Include="Example_4.Designer.cs">
       <DependentUpon>Example_4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Example_5_Dum.cs">
+    <Compile Include="Example_5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_5_Dum.Designer.cs">
-      <DependentUpon>Example_5_Dum.cs</DependentUpon>
+    <Compile Include="Example_5.Designer.cs">
+      <DependentUpon>Example_5.cs</DependentUpon>
     </Compile>
     <Compile Include="Example_5_Print_Form.cs">
       <SubType>Form</SubType>
@@ -114,8 +114,8 @@
     <EmbeddedResource Include="Example_4.resx">
       <DependentUpon>Example_4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Example_5_Dum.resx">
-      <DependentUpon>Example_5_Dum.cs</DependentUpon>
+    <EmbeddedResource Include="Example_5.resx">
+      <DependentUpon>Example_5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Example_5_Print_Form.resx">
       <DependentUpon>Example_5_Print_Form.cs</DependentUpon>

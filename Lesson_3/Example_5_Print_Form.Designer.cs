@@ -34,18 +34,19 @@
             // printdisplay_listbox
             // 
             this.printdisplay_listbox.FormattingEnabled = true;
-            this.printdisplay_listbox.ItemHeight = 20;
-            this.printdisplay_listbox.Location = new System.Drawing.Point(12, 12);
+            this.printdisplay_listbox.Location = new System.Drawing.Point(8, 8);
+            this.printdisplay_listbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.printdisplay_listbox.Name = "printdisplay_listbox";
-            this.printdisplay_listbox.Size = new System.Drawing.Size(534, 1044);
+            this.printdisplay_listbox.Size = new System.Drawing.Size(357, 446);
             this.printdisplay_listbox.TabIndex = 0;
             // 
             // Example_5_Print_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(558, 1065);
+            this.ClientSize = new System.Drawing.Size(372, 461);
             this.Controls.Add(this.printdisplay_listbox);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Example_5_Print_Form";
             this.Text = "Example_5_Print_Form";
             this.ResumeLayout(false);

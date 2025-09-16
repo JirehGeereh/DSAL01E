@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Lesson_3
 {
-    public partial class Example_5_Dum : Form
+    public partial class Example_5 : Form
     {
         // Declaration of Global Variables
         private string picpath;
@@ -231,7 +231,7 @@ namespace Lesson_3
         }
 
 
-        public Example_5_Dum()
+        public Example_5()
         {
             InitializeComponent();
         }
