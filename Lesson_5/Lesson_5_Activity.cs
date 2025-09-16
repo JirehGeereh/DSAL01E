@@ -21,6 +21,38 @@ namespace Lesson_5
         other_netincome = 0.00,
         other_numhrs = 0.00,
         other_rate = 0.00;
+
+        private void new_btn_Click(object sender, EventArgs e)
+        {
+            // Clears all textboxes
+
+            employee_num_txtbox.Clear();
+            department_txtbox.Clear();
+            basic_rate_txtbox.Clear();
+            basic_numhrs_txtbox.Clear();
+
+            hono_rate_txtbox.Clear();
+            hono_numhrs_txtbox.Clear();
+
+            other_rate_txtbox.Clear();
+            other_numhrs_txtbox.Clear();
+
+            first_name_txtbox.Clear();
+            middle_name_txtbox.Clear();
+            surname_txtbox.Clear();
+            civil_status_txtbox.Clear();
+            num_dependepts_txtbox.Clear();
+            emp_status_txtbox.Clear();
+            designation_txtbox.Clear();
+
+            sss_loan_txtbox.Clear();
+            pagibig_loan_txtbox.Clear();
+            FSD_loan_txtbox.Clear();
+            FS_loan_txtbox.Clear();
+            sal_loan_txtbox.Clear();
+            other_loan_txtbox.Clear();
+        }
+
         private Double netincome = 0.00,
         gross_income = 0.00,
         sss_contrib = 0.00,
@@ -331,9 +363,48 @@ namespace Lesson_5
             {
                 sss_contrib = 4605.00;
             }
-
-
+            else if (gross_income >= 30750 && gross_income < 31250)
+            {
+                sss_contrib = 4680.00;
+            }
+            else if (gross_income >= 31250 && gross_income < 31750)
+            {
+                sss_contrib = 4755.00;
+            }
+            else if (gross_income >= 31750 && gross_income < 32250)
+            {
+                sss_contrib = 4830.00;
+            }
+            else if (gross_income >= 32250 && gross_income < 32750)
+            { 
+                sss_contrib = 4905.00; 
+            }
+            else if (gross_income >= 32750 && gross_income < 33250)
+            { 
+                sss_contrib = 4980.00; 
+            }
+            else if (gross_income >= 33250 && gross_income < 33750)
+            {
+                sss_contrib = 5055.00;
+            }
+            else if (gross_income >= 33750 && gross_income < 34250)
+            {
+                sss_contrib = 5130.00;
+            }
+            else if (gross_income >= 34250 && gross_income < 34750)
+            {
+                sss_contrib = 5205.00;
+            }
+            else
+            {
+                sss_contrib = 5280.00;
+            }
             pagibig_contrib_txtbox.Text = pagibig_contrib.ToString("n");
+            sss_contrib_txtbox.Text = sss_contrib.ToString("n");
+            philhealth_contrib_txtbox.Text = philhealth_contrib.ToString("n");
+            total_contrib = sss_contrib + pagibig_contrib + philhealth_contrib + tax_contrib;
+            total_deduction = total_contrib + total_loan;
+            total_deduc_txtbox.Text = total_deduction.ToString("n");
         }
 
         private void Lesson_5_Activity_Load(object sender, EventArgs e)

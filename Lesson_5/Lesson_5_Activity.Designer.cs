@@ -874,6 +874,7 @@
             this.new_btn.TabIndex = 177;
             this.new_btn.Text = "NEW";
             this.new_btn.UseVisualStyleBackColor = true;
+            this.new_btn.Click += new System.EventHandler(this.new_btn_Click);
             // 
             // Lesson_5_Activity
             // 
