@@ -183,6 +183,7 @@ namespace Lesson_5
                 tax_contrib = 2202500 + (gross_income - 8000000) * 0.35;
             }
             */
+            //
 
             if (gross_income <= 250000 / 24)
             {
