@@ -21,44 +21,12 @@ namespace Lesson_5
         other_netincome = 0.00,
         other_numhrs = 0.00,
         other_rate = 0.00;
-
-        private void new_btn_Click(object sender, EventArgs e)
-        {
-            // Clears all textboxes
-
-            employee_num_txtbox.Clear();
-            department_txtbox.Clear();
-            basic_rate_txtbox.Clear();
-            basic_numhrs_txtbox.Clear();
-
-            hono_rate_txtbox.Clear();
-            hono_numhrs_txtbox.Clear();
-
-            other_rate_txtbox.Clear();
-            other_numhrs_txtbox.Clear();
-
-            first_name_txtbox.Clear();
-            middle_name_txtbox.Clear();
-            surname_txtbox.Clear();
-            civil_status_txtbox.Clear();
-            num_dependepts_txtbox.Clear();
-            emp_status_txtbox.Clear();
-            designation_txtbox.Clear();
-
-            sss_loan_txtbox.Clear();
-            pagibig_loan_txtbox.Clear();
-            FSD_loan_txtbox.Clear();
-            FS_loan_txtbox.Clear();
-            sal_loan_txtbox.Clear();
-            other_loan_txtbox.Clear();
-        }
-
         private Double netincome = 0.00,
         gross_income = 0.00,
         sss_contrib = 0.00,
         pagibig_contrib = 200.00,
-        philhealth_contrib = 0.00,
-        tax_contrib = 0.00;
+        tax_contrib = 0.00,
+        philhealth_contrib = 0.00;
         private Double sss_loan = 0.00,
         pagibig_loan = 0.00,
         salary_loan = 0.00,
@@ -69,6 +37,79 @@ namespace Lesson_5
         total_contrib = 0.00,
         total_loan = 0.00;
 
+        private void save_btn_Click(object sender, EventArgs e)
+        {
+            // codes for calling the other form to the current form 
+            Lesson_5_Activity_Print_Form print = new Lesson_5_Activity_Print_Form();
+
+            // codes for displaying the contents of the listbox from other form to the current form
+            print.emp_code_txtbox.Text = this.employee_num_txtbox.Text;
+            print.emp_name_txtbox.Text = this.first_name_txtbox.Text + " " + this.middle_name_txtbox.Text + " " + this.surname_txtbox.Text;
+            print.department_txtbox.Text = this.department_txtbox.Text;
+            print.cutoff_txtbox.Text = pay_date_picker.Value.ToString("MMMM dd, yyyy");
+            print.payperiod_txtbox.Text = pay_date_picker.Value.ToString("MMMM dd, yyyy");
+
+            print.basicpay_txtbox.Text = this.basic_net_income_txtbox.Text;
+            print.overtime_txtbox.Text = this.other_net_income_txtbox.Text;
+            print.honorarium_txtbox.Text = this.hono_net_income_txtbox.Text;
+
+            print.withholdingtax_txtbox.Text = this.tax_contrib_txtbox.Text;
+            print.sss_contrib_txtbox.Text = this.sss_contrib_txtbox.Text;
+            print.hdmf_contrib_txtbox.Text = this.pagibig_contrib_txtbox.Text;
+            print.philhealth_contrib_txtbox.Text = this.philhealth_contrib_txtbox.Text;
+
+            print.earnings_txtbox.Text = this.gross_income_txtbox.Text;
+            print.deductions_txtbox.Text = this.total_deduc_txtbox.Text;
+
+            print.grossearnings_txtbox.Text = this.gross_income_txtbox.Text;
+            print.deductions1_txtbox.Text = this.total_deduc_txtbox.Text;
+            print.netpay_txtbox.Text = this.net_income_txtbox.Text;
+            // code for displaying the other form
+            print.Show();
+        }
+
+        private void new_btn_Click(object sender, EventArgs e)
+        {
+            // Clears all textboxes
+
+            employee_num_txtbox.Clear();
+            department_txtbox.Clear();
+            basic_rate_txtbox.Clear();
+            basic_numhrs_txtbox.Clear();
+            basic_net_income_txtbox.Clear();
+
+            hono_rate_txtbox.Clear();
+            hono_numhrs_txtbox.Clear();
+            hono_net_income_txtbox.Clear();
+
+            other_rate_txtbox.Clear();
+            other_numhrs_txtbox.Clear();
+            other_net_income_txtbox.Clear();
+
+            first_name_txtbox.Clear();
+            middle_name_txtbox.Clear();
+            surname_txtbox.Clear();
+            civil_status_txtbox.Clear();
+            num_dependepts_txtbox.Clear();
+            emp_status_txtbox.Clear();
+            designation_txtbox.Clear();
+
+            sss_contrib_txtbox.Clear();
+            pagibig_contrib_txtbox.Clear();
+            philhealth_contrib_txtbox.Clear();
+            tax_contrib_txtbox.Clear();
+            total_deduc_txtbox.Clear();
+
+            sss_loan_txtbox.Clear();
+            pagibig_loan_txtbox.Clear();
+            FSD_loan_txtbox.Clear();
+            FS_loan_txtbox.Clear();
+            sal_loan_txtbox.Clear();
+            other_loan_txtbox.Clear();
+
+            gross_income_txtbox.Clear();
+            net_income_txtbox.Clear();
+        }
         private void netincome_btn_Click(object sender, EventArgs e)
         {
             /* codes for converting input data from textboxes as string to numeric
@@ -91,6 +132,8 @@ namespace Lesson_5
         public Lesson_5_Activity()
         {
             InitializeComponent();
+            this.Size = new Size(721, 788);
+
         }
 
         private void grossincome_btn_Click(object sender, EventArgs e)
@@ -109,10 +152,12 @@ namespace Lesson_5
             other_rate = Convert.ToDouble(other_rate_txtbox.Text);
             other_netincome = other_numhrs * other_rate;
             other_net_income_txtbox.Text = other_netincome.ToString("n");
+
             gross_income = basic_netincome + hono_netincome + other_netincome;
             gross_income_txtbox.Text = gross_income.ToString("n");
 
             // Income Tax Contribution
+            /*
             if (gross_income <= 250000)
             {
                 tax_contrib = 0.00;
@@ -137,8 +182,32 @@ namespace Lesson_5
             {
                 tax_contrib = 2202500 + (gross_income - 8000000) * 0.35;
             }
+            */
 
-            tax_contrib_txtbox.Text = tax_contrib.ToString("n");
+            if (gross_income <= 250000 / 24)
+            {
+                tax_contrib = 0.00;
+            }
+            else if (gross_income > 10416.67 && gross_income <= 16666.67)
+            {
+                tax_contrib = (((gross_income * 24) - 250000) * 0.20) / 24;
+            }
+            else if (gross_income > 16666.67 && gross_income <= 33333.33)
+            {
+                tax_contrib = ((((gross_income * 24) - 400000) * 0.25) + 30000) / 24;
+            }
+            else if (gross_income > 33333.33 && gross_income <= 83333.33)
+            {
+                tax_contrib = ((((gross_income * 24) - 800000) * 0.30) + 130000) / 24;
+            }
+            else if (gross_income > 83333.33 && gross_income <= 333333.33)
+            {
+                tax_contrib = ((((gross_income * 24) - 2000000) * 0.32) + 490000) / 24;
+            }
+            else
+            {
+                tax_contrib = ((((gross_income * 24) - 8000000) * 0.35) + 2410000) / 24;
+            }
 
             // Philhealth Contribution
             if (gross_income <= 10000)
@@ -376,12 +445,12 @@ namespace Lesson_5
                 sss_contrib = 4830.00;
             }
             else if (gross_income >= 32250 && gross_income < 32750)
-            { 
-                sss_contrib = 4905.00; 
+            {
+                sss_contrib = 4905.00;
             }
             else if (gross_income >= 32750 && gross_income < 33250)
-            { 
-                sss_contrib = 4980.00; 
+            {
+                sss_contrib = 4980.00;
             }
             else if (gross_income >= 33250 && gross_income < 33750)
             {
@@ -399,6 +468,8 @@ namespace Lesson_5
             {
                 sss_contrib = 5280.00;
             }
+
+            tax_contrib_txtbox.Text = tax_contrib.ToString("n");
             pagibig_contrib_txtbox.Text = pagibig_contrib.ToString("n");
             sss_contrib_txtbox.Text = sss_contrib.ToString("n");
             philhealth_contrib_txtbox.Text = philhealth_contrib.ToString("n");
@@ -409,6 +480,8 @@ namespace Lesson_5
 
         private void Lesson_5_Activity_Load(object sender, EventArgs e)
         {
+
+
             basic_net_income_txtbox.Enabled = false;
             hono_net_income_txtbox.Enabled = false;
             other_net_income_txtbox.Enabled = false;

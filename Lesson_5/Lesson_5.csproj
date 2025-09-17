@@ -52,10 +52,19 @@
     <Compile Include="Lesson_5_Activity.Designer.cs">
       <DependentUpon>Lesson_5_Activity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lesson_5_Activity_Print_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson_5_Activity_Print_Form.Designer.cs">
+      <DependentUpon>Lesson_5_Activity_Print_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Lesson_5_Activity.resx">
       <DependentUpon>Lesson_5_Activity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson_5_Activity_Print_Form.resx">
+      <DependentUpon>Lesson_5_Activity_Print_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
