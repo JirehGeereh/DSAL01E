@@ -46,79 +46,79 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Example_1.cs">
+    <Compile Include="Lesson_3_Example_1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_1.Designer.cs">
-      <DependentUpon>Example_1.cs</DependentUpon>
+    <Compile Include="Lesson_3_Example_1.Designer.cs">
+      <DependentUpon>Lesson_3_Example_1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Example_2.cs">
+    <Compile Include="Lesson_3_Example_2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_2.Designer.cs">
-      <DependentUpon>Example_2.cs</DependentUpon>
+    <Compile Include="Lesson_3_Example_2.Designer.cs">
+      <DependentUpon>Lesson_3_Example_2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Example_3.cs">
+    <Compile Include="Lesson_5_Example_3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_3.Designer.cs">
-      <DependentUpon>Example_3.cs</DependentUpon>
+    <Compile Include="Lesson_5_Example_3.Designer.cs">
+      <DependentUpon>Lesson_5_Example_3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Example_2_Prelims_Exam.cs">
+    <Compile Include="Lesson_3_Example_2_Prelims_Exam.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_2_Prelims_Exam.Designer.cs">
-      <DependentUpon>Example_2_Prelims_Exam.cs</DependentUpon>
+    <Compile Include="Lesson_3_Example_2_Prelims_Exam.Designer.cs">
+      <DependentUpon>Lesson_3_Example_2_Prelims_Exam.cs</DependentUpon>
     </Compile>
-    <Compile Include="Example_3_Print_Form.cs">
+    <Compile Include="Lesson_3_Example_3_Print_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_3_Print_Form.Designer.cs">
-      <DependentUpon>Example_3_Print_Form.cs</DependentUpon>
+    <Compile Include="Lesson_3_Example_3_Print_Form.Designer.cs">
+      <DependentUpon>Lesson_3_Example_3_Print_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Example_4.cs">
+    <Compile Include="Lesson_3_Example_4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_4.Designer.cs">
-      <DependentUpon>Example_4.cs</DependentUpon>
+    <Compile Include="Lesson_3_Example_4.Designer.cs">
+      <DependentUpon>Lesson_3_Example_4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Example_5.cs">
+    <Compile Include="Lesson_3_Example_5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_5.Designer.cs">
-      <DependentUpon>Example_5.cs</DependentUpon>
+    <Compile Include="Lesson_3_Example_5.Designer.cs">
+      <DependentUpon>Lesson_3_Example_5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Example_5_Print_Form.cs">
+    <Compile Include="Lesson_3_Example_5_Print_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_5_Print_Form.Designer.cs">
-      <DependentUpon>Example_5_Print_Form.cs</DependentUpon>
+    <Compile Include="Lesson_3_Example_5_Print_Form.Designer.cs">
+      <DependentUpon>Lesson_3_Example_5_Print_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Example_1.resx">
-      <DependentUpon>Example_1.cs</DependentUpon>
+    <EmbeddedResource Include="Lesson_3_Example_1.resx">
+      <DependentUpon>Lesson_3_Example_1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Example_2.resx">
-      <DependentUpon>Example_2.cs</DependentUpon>
+    <EmbeddedResource Include="Lesson_3_Example_2.resx">
+      <DependentUpon>Lesson_3_Example_2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Example_3.resx">
-      <DependentUpon>Example_3.cs</DependentUpon>
+    <EmbeddedResource Include="Lesson_5_Example_3.resx">
+      <DependentUpon>Lesson_5_Example_3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Example_2_Prelims_Exam.resx">
-      <DependentUpon>Example_2_Prelims_Exam.cs</DependentUpon>
+    <EmbeddedResource Include="Lesson_3_Example_2_Prelims_Exam.resx">
+      <DependentUpon>Lesson_3_Example_2_Prelims_Exam.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Example_3_Print_Form.resx">
-      <DependentUpon>Example_3_Print_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Lesson_3_Example_3_Print_Form.resx">
+      <DependentUpon>Lesson_3_Example_3_Print_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Example_4.resx">
-      <DependentUpon>Example_4.cs</DependentUpon>
+    <EmbeddedResource Include="Lesson_3_Example_4.resx">
+      <DependentUpon>Lesson_3_Example_4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Example_5.resx">
-      <DependentUpon>Example_5.cs</DependentUpon>
+    <EmbeddedResource Include="Lesson_3_Example_5.resx">
+      <DependentUpon>Lesson_3_Example_5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Example_5_Print_Form.resx">
-      <DependentUpon>Example_5_Print_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Lesson_3_Example_5_Print_Form.resx">
+      <DependentUpon>Lesson_3_Example_5_Print_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

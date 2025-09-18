@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lesson_3
 {
-    public partial class Example_2 : Form
+    public partial class Lesson_3_Example_2 : Form
     {
-        public Example_2()
+        public Lesson_3_Example_2()
         {
             InitializeComponent();
         }
@@ -312,7 +312,7 @@ namespace Lesson_3
         private void enterbtn_Click(object sender, EventArgs e)
         {
             // Codes for calling the other form connected to the current form.
-            Example_2_Prelims_Exam print = new Example_2_Prelims_Exam();
+            Lesson_3_Example_2_Prelims_Exam print = new Lesson_3_Example_2_Prelims_Exam();
 
             // Codes for displaying the contents of the textbox from this form to the other form.
             print.itemname_txtbox.Text = this.itemname_txtbox.Text;

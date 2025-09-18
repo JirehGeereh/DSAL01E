@@ -1,6 +1,6 @@
 ﻿namespace Lesson_3
 {
-    partial class Example_5
+    partial class Lesson_3_Example_5
     {
         /// <summary>
         /// Required designer variable.

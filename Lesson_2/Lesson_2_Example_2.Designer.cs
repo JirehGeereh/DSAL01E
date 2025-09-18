@@ -1,6 +1,6 @@
-﻿namespace Lesson_3
+﻿namespace Lesson_2
 {
-    partial class Example_4
+    partial class Lesson_2_Example_2
     {
         /// <summary>
         /// Required designer variable.
@@ -49,15 +49,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.qty_txtbox = new System.Windows.Forms.TextBox();
-            this.qty_lbl = new System.Windows.Forms.Label();
-            this.amountpaid_txtbox = new System.Windows.Forms.TextBox();
-            this.amountpaid_lbl = new System.Windows.Forms.Label();
-            this.cashgiven_txtbox = new System.Windows.Forms.TextBox();
-            this.cashgiven_lbl = new System.Windows.Forms.Label();
-            this.change_txtbox = new System.Windows.Forms.TextBox();
-            this.change_lbl = new System.Windows.Forms.Label();
-            this.calculate_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
@@ -77,58 +68,58 @@
             // 
             // price_txtbox
             // 
-            this.price_txtbox.Location = new System.Drawing.Point(337, 733);
+            this.price_txtbox.Location = new System.Drawing.Point(589, 803);
             this.price_txtbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.price_txtbox.Name = "price_txtbox";
-            this.price_txtbox.Size = new System.Drawing.Size(127, 26);
-            this.price_txtbox.TabIndex = 62;
+            this.price_txtbox.Size = new System.Drawing.Size(148, 26);
+            this.price_txtbox.TabIndex = 41;
             // 
             // price_label
             // 
             this.price_label.AutoSize = true;
-            this.price_label.Location = new System.Drawing.Point(277, 737);
+            this.price_label.Location = new System.Drawing.Point(529, 807);
             this.price_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.price_label.Name = "price_label";
             this.price_label.Size = new System.Drawing.Size(48, 20);
-            this.price_label.TabIndex = 61;
+            this.price_label.TabIndex = 40;
             this.price_label.Text = "Price:";
             // 
             // itemname_txtbox
             // 
-            this.itemname_txtbox.Location = new System.Drawing.Point(106, 733);
+            this.itemname_txtbox.Location = new System.Drawing.Point(142, 803);
             this.itemname_txtbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.itemname_txtbox.Name = "itemname_txtbox";
-            this.itemname_txtbox.Size = new System.Drawing.Size(163, 26);
-            this.itemname_txtbox.TabIndex = 60;
+            this.itemname_txtbox.Size = new System.Drawing.Size(361, 26);
+            this.itemname_txtbox.TabIndex = 39;
             // 
             // itemname_label
             // 
             this.itemname_label.AutoSize = true;
-            this.itemname_label.Location = new System.Drawing.Point(5, 737);
+            this.itemname_label.Location = new System.Drawing.Point(41, 807);
             this.itemname_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.itemname_label.Name = "itemname_label";
             this.itemname_label.Size = new System.Drawing.Size(91, 20);
-            this.itemname_label.TabIndex = 59;
+            this.itemname_label.TabIndex = 38;
             this.itemname_label.Text = "Item Name:";
             // 
             // exit_btn
             // 
-            this.exit_btn.Location = new System.Drawing.Point(1041, 820);
+            this.exit_btn.Location = new System.Drawing.Point(1120, 849);
             this.exit_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.exit_btn.Name = "exit_btn";
             this.exit_btn.Size = new System.Drawing.Size(130, 49);
-            this.exit_btn.TabIndex = 58;
+            this.exit_btn.TabIndex = 37;
             this.exit_btn.Text = "Exit";
             this.exit_btn.UseVisualStyleBackColor = true;
             this.exit_btn.Click += new System.EventHandler(this.exit_btn_Click);
             // 
             // new_btn
             // 
-            this.new_btn.Location = new System.Drawing.Point(903, 820);
+            this.new_btn.Location = new System.Drawing.Point(982, 849);
             this.new_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.new_btn.Name = "new_btn";
             this.new_btn.Size = new System.Drawing.Size(130, 49);
-            this.new_btn.TabIndex = 57;
+            this.new_btn.TabIndex = 36;
             this.new_btn.Text = "New";
             this.new_btn.UseVisualStyleBackColor = true;
             this.new_btn.Click += new System.EventHandler(this.new_btn_Click);
@@ -136,298 +127,203 @@
             // pictureBox11
             // 
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox11.Image = global::Lesson_3.Properties.Resources.lunchvaluemealB;
-            this.pictureBox11.Location = new System.Drawing.Point(9, 489);
+            this.pictureBox11.Image = global::Lesson_2.Properties.Resources.lunchvaluemealB;
+            this.pictureBox11.Location = new System.Drawing.Point(46, 515);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(226, 231);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 56;
+            this.pictureBox11.TabIndex = 35;
             this.pictureBox11.TabStop = false;
             this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
             // pictureBox12
             // 
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox12.Image = global::Lesson_3.Properties.Resources.breakfastmealB_1_;
-            this.pictureBox12.Location = new System.Drawing.Point(243, 489);
+            this.pictureBox12.Image = global::Lesson_2.Properties.Resources.breakfastmealB_1_;
+            this.pictureBox12.Location = new System.Drawing.Point(280, 515);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(226, 231);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 55;
+            this.pictureBox12.TabIndex = 34;
             this.pictureBox12.TabStop = false;
             this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
             // pictureBox13
             // 
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox13.Image = global::Lesson_3.Properties.Resources.pancakevaluemealA;
-            this.pictureBox13.Location = new System.Drawing.Point(477, 489);
+            this.pictureBox13.Image = global::Lesson_2.Properties.Resources.pancakevaluemealA;
+            this.pictureBox13.Location = new System.Drawing.Point(514, 515);
             this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(226, 231);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 54;
+            this.pictureBox13.TabIndex = 33;
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
             // pictureBox14
             // 
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox14.Image = global::Lesson_3.Properties.Resources.chickenmeal2;
-            this.pictureBox14.Location = new System.Drawing.Point(711, 489);
+            this.pictureBox14.Image = global::Lesson_2.Properties.Resources.chickenmeal2;
+            this.pictureBox14.Location = new System.Drawing.Point(748, 515);
             this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(226, 231);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 53;
+            this.pictureBox14.TabIndex = 32;
             this.pictureBox14.TabStop = false;
             this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // pictureBox15
             // 
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox15.Image = global::Lesson_3.Properties.Resources.doublepalabocmeal1;
-            this.pictureBox15.Location = new System.Drawing.Point(945, 489);
+            this.pictureBox15.Image = global::Lesson_2.Properties.Resources.doublepalabocmeal1;
+            this.pictureBox15.Location = new System.Drawing.Point(982, 515);
             this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(226, 231);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 52;
+            this.pictureBox15.TabIndex = 31;
             this.pictureBox15.TabStop = false;
             this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
             // 
             // pictureBox6
             // 
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox6.Image = global::Lesson_3.Properties.Resources.lunchvaluemeal1;
-            this.pictureBox6.Location = new System.Drawing.Point(9, 248);
+            this.pictureBox6.Image = global::Lesson_2.Properties.Resources.lunchvaluemeal1;
+            this.pictureBox6.Location = new System.Drawing.Point(46, 274);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(226, 231);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 51;
+            this.pictureBox6.TabIndex = 30;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
             // 
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox7.Image = global::Lesson_3.Properties.Resources.chickenmealA;
-            this.pictureBox7.Location = new System.Drawing.Point(243, 248);
+            this.pictureBox7.Image = global::Lesson_2.Properties.Resources.chickenmealA;
+            this.pictureBox7.Location = new System.Drawing.Point(280, 274);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(226, 231);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 50;
+            this.pictureBox7.TabIndex = 29;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox8
             // 
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox8.Image = global::Lesson_3.Properties.Resources.familycombomealA;
-            this.pictureBox8.Location = new System.Drawing.Point(477, 248);
+            this.pictureBox8.Image = global::Lesson_2.Properties.Resources.familycombomealA;
+            this.pictureBox8.Location = new System.Drawing.Point(514, 274);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(226, 231);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 49;
+            this.pictureBox8.TabIndex = 28;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox9
             // 
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox9.Image = global::Lesson_3.Properties.Resources.pastameal101;
-            this.pictureBox9.Location = new System.Drawing.Point(711, 248);
+            this.pictureBox9.Image = global::Lesson_2.Properties.Resources.pastameal101;
+            this.pictureBox9.Location = new System.Drawing.Point(748, 274);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(226, 231);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 48;
+            this.pictureBox9.TabIndex = 27;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox10
             // 
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox10.Image = global::Lesson_3.Properties.Resources.breakfastmealA__1_;
-            this.pictureBox10.Location = new System.Drawing.Point(945, 248);
+            this.pictureBox10.Image = global::Lesson_2.Properties.Resources.breakfastmealA__1_;
+            this.pictureBox10.Location = new System.Drawing.Point(982, 274);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(226, 231);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 47;
+            this.pictureBox10.TabIndex = 26;
             this.pictureBox10.TabStop = false;
             this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Image = global::Lesson_3.Properties.Resources.breakfastmealA;
-            this.pictureBox5.Location = new System.Drawing.Point(945, 9);
+            this.pictureBox5.Image = global::Lesson_2.Properties.Resources.breakfastmealA;
+            this.pictureBox5.Location = new System.Drawing.Point(982, 35);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(226, 231);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 46;
+            this.pictureBox5.TabIndex = 25;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox4.Image = global::Lesson_3.Properties.Resources.familymealB;
-            this.pictureBox4.Location = new System.Drawing.Point(711, 9);
+            this.pictureBox4.Image = global::Lesson_2.Properties.Resources.familymealB;
+            this.pictureBox4.Location = new System.Drawing.Point(748, 35);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(226, 231);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 45;
+            this.pictureBox4.TabIndex = 24;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Image = global::Lesson_3.Properties.Resources.doublevaluemealAA;
-            this.pictureBox3.Location = new System.Drawing.Point(477, 9);
+            this.pictureBox3.Image = global::Lesson_2.Properties.Resources.doublevaluemealAA;
+            this.pictureBox3.Location = new System.Drawing.Point(514, 35);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(226, 231);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 44;
+            this.pictureBox3.TabIndex = 23;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Image = global::Lesson_3.Properties.Resources.friendmealA;
-            this.pictureBox2.Location = new System.Drawing.Point(243, 9);
+            this.pictureBox2.Image = global::Lesson_2.Properties.Resources.friendmealA;
+            this.pictureBox2.Location = new System.Drawing.Point(280, 35);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(226, 231);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 43;
+            this.pictureBox2.TabIndex = 22;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::Lesson_3.Properties.Resources.breakfastmealB;
-            this.pictureBox1.Location = new System.Drawing.Point(9, 9);
+            this.pictureBox1.Image = global::Lesson_2.Properties.Resources.breakfastmealB;
+            this.pictureBox1.Location = new System.Drawing.Point(46, 35);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(226, 231);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 42;
+            this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // qty_txtbox
-            // 
-            this.qty_txtbox.Location = new System.Drawing.Point(554, 733);
-            this.qty_txtbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.qty_txtbox.Name = "qty_txtbox";
-            this.qty_txtbox.Size = new System.Drawing.Size(80, 26);
-            this.qty_txtbox.TabIndex = 64;
-            this.qty_txtbox.TextChanged += new System.EventHandler(this.qty_txtbox_TextChanged);
-            // 
-            // qty_lbl
-            // 
-            this.qty_lbl.AutoSize = true;
-            this.qty_lbl.Location = new System.Drawing.Point(472, 737);
-            this.qty_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.qty_lbl.Name = "qty_lbl";
-            this.qty_lbl.Size = new System.Drawing.Size(72, 20);
-            this.qty_lbl.TabIndex = 63;
-            this.qty_lbl.Text = "Quantity:";
-            // 
-            // amountpaid_txtbox
-            // 
-            this.amountpaid_txtbox.Location = new System.Drawing.Point(754, 733);
-            this.amountpaid_txtbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.amountpaid_txtbox.Name = "amountpaid_txtbox";
-            this.amountpaid_txtbox.Size = new System.Drawing.Size(149, 26);
-            this.amountpaid_txtbox.TabIndex = 66;
-            // 
-            // amountpaid_lbl
-            // 
-            this.amountpaid_lbl.AutoSize = true;
-            this.amountpaid_lbl.Location = new System.Drawing.Point(642, 738);
-            this.amountpaid_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.amountpaid_lbl.Name = "amountpaid_lbl";
-            this.amountpaid_lbl.Size = new System.Drawing.Size(104, 20);
-            this.amountpaid_lbl.TabIndex = 65;
-            this.amountpaid_lbl.Text = "Amount Paid:";
-            // 
-            // cashgiven_txtbox
-            // 
-            this.cashgiven_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cashgiven_txtbox.Location = new System.Drawing.Point(1014, 728);
-            this.cashgiven_txtbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cashgiven_txtbox.Name = "cashgiven_txtbox";
-            this.cashgiven_txtbox.Size = new System.Drawing.Size(157, 35);
-            this.cashgiven_txtbox.TabIndex = 68;
-            // 
-            // cashgiven_lbl
-            // 
-            this.cashgiven_lbl.AutoSize = true;
-            this.cashgiven_lbl.Location = new System.Drawing.Point(911, 738);
-            this.cashgiven_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.cashgiven_lbl.Name = "cashgiven_lbl";
-            this.cashgiven_lbl.Size = new System.Drawing.Size(95, 20);
-            this.cashgiven_lbl.TabIndex = 67;
-            this.cashgiven_lbl.Text = "Cash Given:";
-            // 
-            // change_txtbox
-            // 
-            this.change_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.change_txtbox.Location = new System.Drawing.Point(1014, 773);
-            this.change_txtbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.change_txtbox.Name = "change_txtbox";
-            this.change_txtbox.Size = new System.Drawing.Size(157, 35);
-            this.change_txtbox.TabIndex = 70;
-            // 
-            // change_lbl
-            // 
-            this.change_lbl.AutoSize = true;
-            this.change_lbl.Location = new System.Drawing.Point(911, 783);
-            this.change_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.change_lbl.Name = "change_lbl";
-            this.change_lbl.Size = new System.Drawing.Size(69, 20);
-            this.change_lbl.TabIndex = 69;
-            this.change_lbl.Text = "Change:";
-            // 
-            // calculate_btn
-            // 
-            this.calculate_btn.Location = new System.Drawing.Point(765, 820);
-            this.calculate_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.calculate_btn.Name = "calculate_btn";
-            this.calculate_btn.Size = new System.Drawing.Size(130, 49);
-            this.calculate_btn.TabIndex = 71;
-            this.calculate_btn.Text = "Calculate";
-            this.calculate_btn.UseVisualStyleBackColor = true;
-            this.calculate_btn.Click += new System.EventHandler(this.calculate_btn_Click);
-            // 
-            // Example_4
+            // Example_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1180, 878);
-            this.Controls.Add(this.calculate_btn);
-            this.Controls.Add(this.change_txtbox);
-            this.Controls.Add(this.change_lbl);
-            this.Controls.Add(this.cashgiven_txtbox);
-            this.Controls.Add(this.cashgiven_lbl);
-            this.Controls.Add(this.amountpaid_txtbox);
-            this.Controls.Add(this.amountpaid_lbl);
-            this.Controls.Add(this.qty_txtbox);
-            this.Controls.Add(this.qty_lbl);
+            this.ClientSize = new System.Drawing.Size(1290, 932);
             this.Controls.Add(this.price_txtbox);
             this.Controls.Add(this.price_label);
             this.Controls.Add(this.itemname_txtbox);
@@ -449,9 +345,8 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Example_4";
-            this.Text = "Example_4";
-            this.Load += new System.EventHandler(this.Example_4_Load);
+            this.Name = "Example_2";
+            this.Text = "Example_2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
@@ -495,14 +390,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox qty_txtbox;
-        private System.Windows.Forms.Label qty_lbl;
-        private System.Windows.Forms.TextBox amountpaid_txtbox;
-        private System.Windows.Forms.Label amountpaid_lbl;
-        private System.Windows.Forms.TextBox cashgiven_txtbox;
-        private System.Windows.Forms.Label cashgiven_lbl;
-        private System.Windows.Forms.TextBox change_txtbox;
-        private System.Windows.Forms.Label change_lbl;
-        private System.Windows.Forms.Button calculate_btn;
     }
 }
+

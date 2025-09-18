@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Lesson_3
 {
-    public partial class Example_5 : Form
+    public partial class Lesson_3_Example_5 : Form
     {
         // Declaration of Global Variables
         private string picpath;
@@ -118,7 +118,7 @@ namespace Lesson_3
         private void print_payslip_button_Click(object sender, EventArgs e)
         {
             // codes for calling the other form to the current form 
-            Example_5_Print_Form print1 = new Example_5_Print_Form();
+            Lesson_3_Example_5_Print_Form print1 = new Lesson_3_Example_5_Print_Form();
 
             // codes for displaying the contents of the listbox from other form to the current form
             print1.printdisplay_listbox.Items.AddRange(this.payslip_view_listbox.Items);
@@ -231,7 +231,7 @@ namespace Lesson_3
         }
 
 
-        public Example_5()
+        public Lesson_3_Example_5()
         {
             InitializeComponent();
         }

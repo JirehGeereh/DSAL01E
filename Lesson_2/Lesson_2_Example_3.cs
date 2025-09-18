@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace Lesson_2
 {
-    public partial class Example_3 : Form
+    public partial class Lesson_2_Example_3 : Form
     {
-        public Example_3()
+        public Lesson_2_Example_3()
         {
             InitializeComponent();
         }

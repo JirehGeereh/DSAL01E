@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lesson_3
+namespace DSAL01E
 {
-    public partial class Example_5_Print_Form : Form
+    public partial class Form1 : Form
     {
-        public Example_5_Print_Form()
+        public Form1()
         {
             InitializeComponent();
         }

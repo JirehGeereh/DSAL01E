@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace Lesson_3
 {
-    public partial class Example_4 : Form
+    public partial class Lesson_3_Example_4 : Form
     {
         // Declaration of global variables
         private double amount_paid, price = 0.00, cash_given, change;
         private int quantity = 0;
-        public Example_4()
+        public Lesson_3_Example_4()
         {
             InitializeComponent();
         }

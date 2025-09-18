@@ -124,8 +124,10 @@ namespace Lesson_5
             // formula to compute the desired data to be computed
             total_loan = sss_loan + pagibig_loan + salary_loan + faculty_sav_loan + salary_savings + other_deduction;
             total_deduction = total_contrib + total_loan;
+
             // codes for converting numeric data to string and displayed it inside the textboxes
             total_deduc_txtbox.Text = total_deduction.ToString("n");
+
             netincome = gross_income - total_deduction;
             net_income_txtbox.Text = netincome.ToString("n");
         }

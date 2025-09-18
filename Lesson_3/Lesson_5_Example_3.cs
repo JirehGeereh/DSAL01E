@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace Lesson_3
 {
-    public partial class Example_3 : Form
+    public partial class Lesson_5_Example_3 : Form
     {
         // codes for declaring variables that is accessible to the whole form and can be access from one object to another.
         private double total_amount = 0;
         private int total_qty = 0;
-        public Example_3()
+        public Lesson_5_Example_3()
         {
             InitializeComponent();
         }
@@ -142,7 +142,7 @@ namespace Lesson_3
         private void printtransaction_btn_Click(object sender, EventArgs e)
         {
             // codes for calling the other form connected to the current form
-            Lesson_3.Example_3_Print_Form print = new Lesson_3.Example_3_Print_Form();
+            Lesson_3.Lesson_3_Example_3_Print_Form print = new Lesson_3.Lesson_3_Example_3_Print_Form();
             // codes for displaying the contents of the listbox from other form to the current form 
             print.printdisplay_listbox.Items.AddRange(this.display_listbox.Items);
             // codes for displaying the other form

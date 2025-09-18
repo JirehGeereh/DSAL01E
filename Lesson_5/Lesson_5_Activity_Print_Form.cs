@@ -15,6 +15,7 @@ namespace Lesson_5
         public Lesson_5_Activity_Print_Form()
         {
             InitializeComponent();
+            this.Size = new Size(1046, 475);
         }
 
         private void Lesson_5_Activity_Print_Form_Load(object sender, EventArgs e)
@@ -84,12 +85,6 @@ namespace Lesson_5
 
             netpay_txtbox.BorderStyle = BorderStyle.None;
             netpay_txtbox.BackColor = this.BackColor;
-        }
-
-        private void grossearnings_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-
         }
     }
 }
