@@ -124,9 +124,9 @@
             this.GeerehFoods_lbl.Location = new System.Drawing.Point(0, 0);
             this.GeerehFoods_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.GeerehFoods_lbl.Name = "GeerehFoods_lbl";
-            this.GeerehFoods_lbl.Size = new System.Drawing.Size(1292, 94);
+            this.GeerehFoods_lbl.Size = new System.Drawing.Size(1477, 94);
             this.GeerehFoods_lbl.TabIndex = 142;
-            this.GeerehFoods_lbl.Text = "SE-RI\'S CHOICE PAYROLL";
+            this.GeerehFoods_lbl.Text = "GEEREH\'S CHOICE PAYROLL";
             this.GeerehFoods_lbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -990,7 +990,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1477, 1585);
+            this.ClientSize = new System.Drawing.Size(1477, 1564);
             this.Controls.Add(this.new_btn);
             this.Controls.Add(this.update_btn);
             this.Controls.Add(this.save_btn);
@@ -1028,6 +1028,7 @@
             this.Controls.Add(this.GeerehFoods_lbl);
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "Lesson_5_Activity";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Prelim_Exam_Lesson_5_Activity";
             this.Load += new System.EventHandler(this.Lesson_5_Activity_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

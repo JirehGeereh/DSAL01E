@@ -15,13 +15,13 @@ namespace Lesson_5
         public Lesson_5_Activity_Print_Form()
         {
             InitializeComponent();
-            this.Size = new Size(1046, 475);
+            this.Size = new Size(1047, 480);
         }
 
-        private void Lesson_5_Activity_Print_Form_Load(object sender, EventArgs e)
+        private void Lesson_5_Activity_Print_Foorm_Load(object sender, EventArgs e)
         {
             company_txtbox.BorderStyle = BorderStyle.None;
-            company_txtbox.BackColor = this.BackColor; 
+            company_txtbox.BackColor = this.BackColor;
 
             emp_code_txtbox.BorderStyle = BorderStyle.None;
             emp_code_txtbox.BackColor = this.BackColor;
@@ -49,7 +49,7 @@ namespace Lesson_5
 
             honorariumadjustment_txtbox.BorderStyle = BorderStyle.None;
             honorariumadjustment_txtbox.BackColor = this.BackColor;
-            
+
             substitution_txtbox.BorderStyle = BorderStyle.None;
             substitution_txtbox.BackColor = this.BackColor;
 
