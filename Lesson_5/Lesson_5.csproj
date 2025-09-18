@@ -92,5 +92,8 @@
   <ItemGroup>
     <None Include="Resources\posa prfile sa steam.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blankimage.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

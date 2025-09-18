@@ -30,7 +30,6 @@
         {
             this.GeerehFoods_lbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.employee_num_txtbox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -107,7 +106,7 @@
             this.save_btn = new System.Windows.Forms.Button();
             this.update_btn = new System.Windows.Forms.Button();
             this.new_btn = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -115,6 +114,7 @@
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // GeerehFoods_lbl
@@ -139,18 +139,6 @@
             this.label1.Size = new System.Drawing.Size(265, 25);
             this.label1.TabIndex = 143;
             this.label1.Text = "EMPLOYEE BASIC INFO:";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::Lesson_5.Properties.Resources.posa_prfile_sa_steam;
-            this.pictureBox1.Location = new System.Drawing.Point(11, 138);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(268, 270);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 144;
-            this.pictureBox1.TabStop = false;
             // 
             // employee_num_txtbox
             // 
@@ -986,6 +974,18 @@
             this.new_btn.UseVisualStyleBackColor = true;
             this.new_btn.Click += new System.EventHandler(this.new_btn_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = global::Lesson_5.Properties.Resources.blankimage;
+            this.pictureBox1.Location = new System.Drawing.Point(11, 138);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(268, 270);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 144;
+            this.pictureBox1.TabStop = false;
+            // 
             // Lesson_5_Activity
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
@@ -1031,7 +1031,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Prelim_Exam_Lesson_5_Activity";
             this.Load += new System.EventHandler(this.Lesson_5_Activity_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -1046,6 +1045,7 @@
             this.groupBox6.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -478,6 +478,7 @@
             // 
             // company_txtbox
             // 
+            this.company_txtbox.Enabled = false;
             this.company_txtbox.Location = new System.Drawing.Point(517, 30);
             this.company_txtbox.Margin = new System.Windows.Forms.Padding(4);
             this.company_txtbox.Name = "company_txtbox";
@@ -775,6 +776,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1892, 800);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.netpay_txtbox);
